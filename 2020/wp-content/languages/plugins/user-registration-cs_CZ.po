@@ -1,0 +1,4101 @@
+# Translation of Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-01 12:00:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - User Registration &#8211; Custom Registration Form, Login Form And User Profile For WordPress - Stable (latest release)\n"
+
+#: includes/form/settings/class-ur-setting-user_login.php:45
+msgid "Limit Username Length"
+msgstr "Maximální délka uživatelského jména"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:45
+#: includes/form/settings/class-ur-setting-checkbox.php:52
+msgid "Choice Limit"
+msgstr "Limit výběru"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:94
+msgctxt "The action on users list page"
+msgid "Resend Verification"
+msgstr "Poslat znovu ověření"
+
+#: includes/class-ur-email-confirmation.php:90
+msgid "Verification Email Sent Successfully !! "
+msgstr "Ověřovací e-mail úspěšně odeslán."
+
+#: includes/form/settings/class-ur-setting-user_login.php:53
+msgid "Enter minimum number of length of username."
+msgstr "Zadejte minimální délku uživatelského jména."
+
+#: includes/form/settings/class-ur-setting-checkbox.php:53
+msgid "Enter minimum number choices that can be selected."
+msgstr "Vložte minimální počet možností, které musí být vybrány."
+
+#: includes/class-ur-email-confirmation.php:153
+msgid "Token Expired . Please request for new verification email."
+msgstr "Token vypršel. Zažádejte si o nový ověřovací e-mail."
+
+#: includes/functions-ur-core.php:1042
+msgid "Bottom"
+msgstr "Dole"
+
+#: includes/functions-ur-core.php:1041
+msgid "Top"
+msgstr "Nahoře"
+
+#: includes/functions-ur-core.php:1034
+msgid "Success message position"
+msgstr "Umístění zprávy o úspěchu"
+
+#: includes/functions-ur-core.php:1046
+msgid "Display success message either at the top or bottom after successful registration."
+msgstr "Zobrazit zprávu o úspěchu nahoře nebo dole po úšpěšném dokončení registrace."
+
+#: includes/admin/class-ur-admin-assets.php:384
+msgctxt "user registration admin"
+msgid "Are you sure want to delete this row?"
+msgstr "Opravdu chcete smazat tento řádek?"
+
+#: includes/admin/class-ur-admin-assets.php:387
+msgctxt "user registration admin"
+msgid "Cannot delete row"
+msgstr "Nelze smazat řádek"
+
+#: includes/admin/class-ur-admin-assets.php:378
+msgid "Delete"
+msgstr "Smazat"
+
+#: includes/admin/class-ur-admin-assets.php:285
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: includes/class-ur-frontend-scripts.php:373
+msgid "Please enter a multiple of %qty%."
+msgstr "Vložte násobek %qty%."
+
+#: includes/admin/class-ur-admin-assets.php:286
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: includes/class-ur-frontend-scripts.php:372
+msgid "Please enter a value greater than or equal to %qty%."
+msgstr "Prosím, zadejte hodnotu větší než nebo rovno %qty%."
+
+#: includes/class-ur-frontend-scripts.php:371
+msgid "Please enter a value less than or equal to %qty%."
+msgstr "Prosím, zadejte hodnotu menší než nebo rovno %qty%."
+
+#: includes/admin/class-ur-admin-assets.php:386
+msgctxt "user registration admin"
+msgid "At least one row is required to create a registration form."
+msgstr "K vytvoření registračního formuláře je potřeba aspoň jeden řádek."
+
+#: includes/admin/class-ur-admin-assets.php:273
+#: includes/admin/views/html-admin-page-import-export-forms.php:50
+msgid "No file selected."
+msgstr "Nebyl vybrán žádný soubor."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:384
+msgid "All UR Forms"
+msgstr "Všechyn UR formuláře"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:382
+msgid "All Forms"
+msgstr "Všechny formuláře"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:147
+msgid "Copy Shortcode ! "
+msgstr "Zkopírovat Shortcode !"
+
+#: includes/admin/settings/class-ur-settings-general.php:599
+msgid "Username Required"
+msgstr "Uživatelské jméno je povinné"
+
+#: includes/admin/settings/class-ur-settings-general.php:512
+msgid "Labels"
+msgstr "Popisky"
+
+#: includes/admin/settings/class-ur-settings-general.php:451
+msgid "Hide"
+msgstr "Skrýt"
+
+#: includes/admin/settings/class-ur-settings-general.php:450
+msgid "Hide Field Labels"
+msgstr "Skrýt popisky polí"
+
+#: includes/admin/settings/class-ur-settings-general.php:641
+msgid "Pending Approval"
+msgstr "Ověřujeme"
+
+#: includes/admin/settings/class-ur-settings-general.php:620
+msgid "Invalid/Unknown Username"
+msgstr "Špatné/Neznámé uživatelské jméno"
+
+#: includes/admin/settings/class-ur-settings-general.php:594
+msgid "Messages"
+msgstr "Zpráva"
+
+#: includes/admin/settings/class-ur-settings-general.php:454
+msgid "Check to hide field labels."
+msgstr "Zaškrtněte pro skrytí popisku polí."
+
+#: includes/form/settings/class-ur-setting-number.php:50
+msgid "Maximum allowed number."
+msgstr "Maximální povolené číslo."
+
+#: includes/form/settings/class-ur-setting-number.php:39
+msgid "Minimum allowed number."
+msgstr "Minimální povolené číslo."
+
+#: includes/functions-ur-core.php:1079
+msgid "Choose form template to use."
+msgstr "Vyberte si šablonu formuláře."
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:147
+msgid "Copied ! "
+msgstr "Zkopírováno"
+
+#: includes/form/settings/class-ur-setting-text.php:39
+msgid "Allowed maximum number of characters."
+msgstr "Maximální povolené množství znaků."
+
+#: includes/admin/settings/class-ur-settings-general.php:652
+msgid "Denied Account"
+msgstr "Zamítnutý účet"
+
+#: includes/admin/settings/class-ur-settings-general.php:609
+msgid "Empty Password"
+msgstr "Heslo nevyplněno"
+
+#: includes/admin/settings/class-ur-settings-general.php:149
+msgid "Disable logout confirmation"
+msgstr "Vypnout potvrzení odhlášení"
+
+#: includes/form/settings/class-ur-setting-date.php:131
+msgid "Enable date range feature."
+msgstr "Povolit funkci rozsah datumů."
+
+#: includes/form/settings/class-ur-setting-date.php:101
+msgid "Enter max date."
+msgstr "Vložte max. datum."
+
+#: includes/form/settings/class-ur-setting-date.php:90
+msgid "Enter min date."
+msgstr "Vložte min. datum."
+
+#: includes/class-ur-ajax.php:584 includes/class-ur-ajax.php:587
+#: includes/class-ur-ajax.php:593 includes/class-ur-ajax.php:596
+#: includes/class-ur-form-handler.php:471
+#: includes/class-ur-form-handler.php:474
+#: includes/class-ur-form-handler.php:480
+#: includes/class-ur-form-handler.php:483
+msgid "ERROR"
+msgstr "CHYBA"
+
+#: includes/admin/settings/class-ur-settings-general.php:631
+msgid "Unknown Email"
+msgstr "Neznámý e-mail"
+
+#: includes/admin/settings/class-ur-settings-general.php:150
+msgid "Check to disable logout confirmation."
+msgstr "Zaškrtněte pro vypnutí potvrzení odhlášení."
+
+#: includes/form/settings/class-ur-setting-country.php:65
+#: includes/form/settings/class-ur-setting-text.php:50
+#: includes/form/settings/class-ur-setting-textarea.php:41
+msgid "Default value for this field."
+msgstr "Výchozí hodnota tohoto pole."
+
+#: includes/form/settings/class-ur-setting-password.php:39
+msgid "Maximum allowed length of password."
+msgstr "Maximální povolená délka hesla."
+
+#: includes/functions-ur-core.php:1030
+msgid "Set label for the submit button."
+msgstr "Nastavit popisek tlačítka odeslat."
+
+#: includes/functions-ur-core.php:995
+msgid "Set minimum required password strength."
+msgstr "Nastavit minimální sílu hesla."
+
+#: includes/functions-ur-core.php:965
+msgid "Default role for the users registered through this form."
+msgstr "Výchozí role uživatele registrovaného skrz tento formulář."
+
+#: includes/functions-ur-core.php:762
+msgid "Enter placeholder for the field."
+msgstr "Vložte zástupný text pro toto pole."
+
+#: includes/admin/settings/class-ur-settings-general.php:573
+msgid "Username or Email Field"
+msgstr "Pole uživatelské jméno nebo e-mail"
+
+#: includes/admin/settings/class-ur-settings-general.php:517
+#: includes/functions-ur-core.php:1128
+msgid "Username or Email"
+msgstr "Uživatelské jméno nebo e-mail"
+
+#: includes/admin/settings/class-ur-settings-general.php:653
+msgid "Show this message when an account is has been denied."
+msgstr "Zobrazí tuto zprávu, když byl účet zamítnut."
+
+#: includes/admin/settings/class-ur-settings-general.php:642
+msgid "Show this message when an account is pending approval."
+msgstr "Zobrazí tuto zprávu, když účet čeká na schválení."
+
+#: includes/admin/settings/class-ur-settings-general.php:621
+msgid "Show this message when username is unknown or invalid."
+msgstr "Zobrazí tuto zprávu, pokud je uživatelské jméno neznámé nebo chybné."
+
+#: includes/admin/settings/class-ur-settings-general.php:610
+msgid "Show this message when password is empty."
+msgstr "Zobrazí tuto zprávu, když je prázdné heslo."
+
+#: includes/admin/settings/class-ur-settings-general.php:600
+msgid "Show this message when username is empty."
+msgstr "Zobrazí tuto zprávu, když je prázdné uživatelské jméno."
+
+#: includes/admin/settings/class-ur-settings-general.php:568
+msgid "Placeholders"
+msgstr "Zástupné texty"
+
+#: includes/admin/settings/class-ur-settings-general.php:558
+msgid "This option lets you edit the \"Lost your password?\" option label."
+msgstr "Tady si můžete upravit popisek volby \"Ztratili jste heslo?\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:548
+msgid "This option lets you edit the \"Login\" button label."
+msgstr "Tady si můžete upravit popisek tlačítka \"Přihlásit\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:538
+msgid "This option lets you edit the \"Remember me\" option label."
+msgstr "Tady si můžete upravit popisek přepínače \"Zapamatuj si mě\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:528
+msgid "This option lets you edit the \"Password\" field label."
+msgstr "Tady si můžete upravit popisek pole \"Heslo\"."
+
+#: includes/form/settings/class-ur-setting-number.php:61
+msgid "Amount to increment or decrement at one step."
+msgstr "O kolik se zvýší nebo sníží hodnota v jednom kroku."
+
+#: includes/form/settings/class-ur-setting-date.php:116
+msgid "Set current as default."
+msgstr "Nastavit aktuální jako výchozí."
+
+#: includes/functions-ur-core.php:1091
+msgid "Custom css class to embed in the registration form. You can enter multiple classes seperated with space."
+msgstr "Vlastní css třída pro vložení do registračního formuláře. Můžete vložit několik tříd oddělených mezerou."
+
+#: includes/functions-ur-core.php:1018
+msgid "Custom css class to embed in the submit button. You can enter multiple classes seperated with space."
+msgstr "Vlastní css třída vložená do tlačítka pro odeslání. Můžete vložit několik tříd oddělených mezerou."
+
+#: includes/functions-ur-core.php:788
+msgid "Check this option to hide the label of this field."
+msgstr "Zaškrtněte pro skrytí popisku pole."
+
+#: includes/functions-ur-core.php:775
+msgid "Check this option to mark the field required. A form will not submit unless all required fields are provided."
+msgstr "Zaškrtněte pro označení pole jako povinné. Formulář se neodešle dokud všechna povinné pole nebudou vyplněna."
+
+#: includes/functions-ur-core.php:743
+msgid "Enter text for the form field description."
+msgstr "Vložte popis pole ve formuláři."
+
+#: includes/functions-ur-core.php:734
+msgid "Enter text for the form field label. This is recommended and can be hidden in the Advanced Settings."
+msgstr "Vložte text popisku pole formuláře. Je to doporučené a může být skryt přes Pokročilá nastavení. "
+
+#: includes/form/settings/class-ur-setting-date.php:79
+msgid "Enable min/max date."
+msgstr "Povolit min/max datum."
+
+#: includes/form/settings/class-ur-setting-checkbox.php:42
+#: includes/form/settings/class-ur-setting-country.php:42
+#: includes/form/settings/class-ur-setting-date.php:47
+#: includes/form/settings/class-ur-setting-description.php:42
+#: includes/form/settings/class-ur-setting-display_name.php:42
+#: includes/form/settings/class-ur-setting-email.php:39
+#: includes/form/settings/class-ur-setting-first_name.php:42
+#: includes/form/settings/class-ur-setting-last_name.php:42
+#: includes/form/settings/class-ur-setting-nickname.php:42
+#: includes/form/settings/class-ur-setting-number.php:72
+#: includes/form/settings/class-ur-setting-radio.php:37
+#: includes/form/settings/class-ur-setting-select.php:40
+#: includes/form/settings/class-ur-setting-text.php:61
+#: includes/form/settings/class-ur-setting-textarea.php:53
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:43
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:42
+#: includes/form/settings/class-ur-setting-user_email.php:42
+#: includes/form/settings/class-ur-setting-user_login.php:42
+#: includes/form/settings/class-ur-setting-user_pass.php:42
+#: includes/form/settings/class-ur-setting-user_url.php:42
+msgid "Class name to embed in this field."
+msgstr "Název třidy, která se má vložit do pole."
+
+#: includes/functions-ur-core.php:752
+msgid "Unique key for the field."
+msgstr "Unikátní klíč tohoto pole"
+
+#: includes/admin/settings/class-ur-settings-general.php:574
+#: includes/admin/settings/class-ur-settings-general.php:584
+msgid "This option lets you set placeholder for the \"Username or Email\" field."
+msgstr "Tady si můžete nastavit zástupný text u pole \"Uživatelské jméno nebo e-mail\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:632
+msgid "Show this message when email is unknown."
+msgstr "Zobrazit tuto zprávu, když e-mail není znám."
+
+#: includes/admin/settings/class-ur-settings-general.php:518
+msgid "This option lets you edit the \"Username or Email\" field label."
+msgstr "Tady si můžete upravit popisek pole \"Uživatelské jméno nebo e-mail\"."
+
+#: includes/form/settings/class-ur-setting-date.php:64
+msgid "Which format do you want to use to show date."
+msgstr "V jakém formátu chcete zobrazit datum."
+
+#: includes/functions-ur-core.php:1006
+msgid "URL to redirect to after registration."
+msgstr "Adresa, na kterou dojde k přesměrování po registraci."
+
+#: includes/functions-ur-core.php:977
+msgid "Make strong password compulsary."
+msgstr "Nastavte silné heslo jako povinné."
+
+#: includes/functions-ur-core.php:952
+msgid "Login method that should be used by the users registered through this form."
+msgstr "Metoda přihlašování, kterou budou registrovaní uživatelé používat."
+
+#: includes/form/settings/class-ur-setting-country.php:54
+msgid "Select countries to give as options."
+msgstr "Vyberte země, které chcete uvést jako možnosti."
+
+#: includes/functions-ur-core.php:1060
+msgid "Enable Captcha for strong security from spams and bots."
+msgstr "Povolit Captchu jako účinnou ochranu před spamem a boty."
+
+#: includes/functions-ur-core.php:703
+msgid "Text"
+msgstr "Text"
+
+#: includes/functions-ur-core.php:696
+msgid "User Login"
+msgstr "Přihlášení uživatele"
+
+#: includes/functions-ur-core.php:693
+msgid "User Confirm Email"
+msgstr "E-mail s potvrzením pro uživatele"
+
+#: includes/class-ur-form-handler.php:196
+msgid "Email already exists"
+msgstr "E-mail již existuje"
+
+#: templates/myaccount/form-edit-profile.php:90
+msgid "Upload Picture"
+msgstr "Nahrát obrázek"
+
+#: includes/functions-ur-core.php:700
+msgid "User URL"
+msgstr "URL adresa uživatele"
+
+#: includes/class-ur-frontend-scripts.php:361
+msgid "Uploading..."
+msgstr "Nahrávání..."
+
+#: includes/admin/settings/class-ur-settings-general.php:132
+msgid "Check to enable ajax form submission on edit profile"
+msgstr "Zaškrtnutím povolíte ajax pro odesílání formulářů při úpravě profilu "
+
+#: includes/admin/settings/class-ur-settings-general.php:131
+msgid "Ajax submission on edit profile"
+msgstr "Použít AJAX odesílání při úpravách profilu"
+
+#: includes/functions-ur-core.php:694
+msgid "User Pass"
+msgstr "Heslo uživatele"
+
+#: includes/functions-ur-core.php:695
+msgid "User Confirm Password"
+msgstr "Potvrzení hesla"
+
+#: includes/admin/class-ur-admin-assets.php:393
+msgid "Confirm Deletion"
+msgstr "Potvrzení smazání"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:273
+msgid "Registered At"
+msgstr "Registrován v"
+
+#: includes/functions-ur-core.php:1010
+msgid "Form Submit Button Custom Class"
+msgstr "Vlastní třída pro tlačítko Odeslat"
+
+#: includes/admin/settings/class-ur-settings-general.php:500
+msgid "Redirect to Login Page"
+msgstr "Přesměrovat na přihlašovací stránku"
+
+#: includes/admin/settings/class-ur-settings-general.php:431
+#: includes/admin/settings/class-ur-settings-general.php:441
+#: includes/admin/settings/class-ur-settings-general.php:461
+msgid "Enable"
+msgstr "Povolit"
+
+#: includes/admin/settings/class-ur-settings-general.php:496
+msgid "Please make sure that you have created a login or my-account page which has a login form before enabling this option. Learn how to create a login form <a href=\"https://docs.wpeverest.com/docs/user-registration/registration-form-and-login-form/how-to-show-login-form/\" target=\"_blank\">here</a>."
+msgstr "Než povolíte tuto možnost, ujistěte se, že jste vytvořili přihlašovací stránku nebo stránku Můj účet, která má přihlašovací formulář. Jak vytvořit přihlašovací formulář zjistíte <a href=\"https://docs.wpeverest.com/docs/user-registration/registration-form-and-login-form/how-to-show-login-form/\" target=\"_blank\">zde</a>."
+
+#: includes/admin/settings/class-ur-settings-general.php:490
+msgid "Enable Prevent Core Login"
+msgstr "Povolit omezení základního přihlášení"
+
+#: includes/admin/settings/class-ur-settings-general.php:501
+msgid "Select the login page where you wants to redirect."
+msgstr "Přihlašovací stránka, na kterou chcete přesměrovat."
+
+#: includes/admin/class-ur-admin-assets.php:403
+msgctxt "user registration admin"
+msgid "Please select at least one country."
+msgstr "Prosím zvolte aspoň jednu zemi."
+
+#: includes/form/settings/class-ur-setting-date.php:94
+msgid "Max Date"
+msgstr "Maximální datum"
+
+#: includes/form/settings/class-ur-setting-date.php:83
+msgid "Min Date"
+msgstr "Minimální datum"
+
+#: includes/form/settings/class-ur-setting-date.php:53
+msgid "Date Format"
+msgstr "Formát datumu"
+
+#: includes/admin/views/html-admin-page-forms.php:136
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: includes/admin/views/html-admin-page-forms.php:135
+msgid "Create Login Form"
+msgstr "Vytvořit přihlašovací formulář"
+
+#: includes/admin/views/html-admin-page-forms.php:134
+msgid "Get Support"
+msgstr "Získat podporu"
+
+#: includes/form/settings/class-ur-setting-date.php:122
+msgid "Enable Date Range"
+msgstr "Povolit rozsah datumů"
+
+#: includes/form/settings/class-ur-setting-date.php:70
+msgid "Enable Min-Max Date"
+msgstr "Povolit Min-Max datum"
+
+#: includes/form/settings/class-ur-setting-country.php:45
+msgid "Selected Countries"
+msgstr "Vybrat země"
+
+#: includes/form/settings/class-ur-setting-date.php:107
+msgid "Set Current Date as Default Date"
+msgstr "Nastavit aktuální datum jako výchozí."
+
+#: includes/class-ur-frontend-scripts.php:368
+msgid "Please enter a valid phone number."
+msgstr "Prosím, vložte validní telefonní číslo."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:272
+msgid "Source"
+msgstr "Zdroj"
+
+#: includes/admin/settings/class-ur-settings-general.php:97
+msgid "Check to enable hide/show password icon."
+msgstr "Zaškrtněte pokud chcete zobrazit ikonu přepínače skrýt/zobrazit heslo."
+
+#: includes/admin/settings/class-ur-settings-general.php:122
+msgid "Select the page which contains your login form: [%s]"
+msgstr "Vyberte si stránku, která obsahuje přihlašovací formulář: [%s]"
+
+#: includes/class-ur-frontend-scripts.php:381
+msgid "Password strength is not strong enough"
+msgstr "Heslo není dostatečně silné"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:507
+msgid "Password should not match with Username or Email address."
+msgstr "Heslo se nemůže shodovat s uživatelským jménem nebo e-mailem."
+
+#: includes/admin/class-ur-admin-import-export-forms.php:181
+msgid "Imported Successfully."
+msgstr "Úspěšně importováno."
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:57
+msgid "Import Forms"
+msgstr "Importovat formuláře"
+
+#: includes/admin/settings/class-ur-settings-import-export.php:43
+#: includes/admin/views/html-admin-page-import-export-forms.php:13
+msgid "Import/Export Forms"
+msgstr "Import/Export formuláře"
+
+#: includes/admin/settings/class-ur-settings-import-export.php:27
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#. translators: 1: Newly registered user count 2: User
+#: includes/admin/class-ur-admin.php:334
+msgid "%1$d new %2$s registered."
+msgstr "%1$d nově %2$s registrovaných."
+
+#: includes/admin/views/html-admin-page-import-export-forms.php:35
+msgid "Export Forms"
+msgstr "Exportovat formuláře"
+
+#: includes/admin/class-ur-admin-menus.php:641
+#: includes/admin/views/html-admin-page-forms.php:122
+msgid "Untitled"
+msgstr "Bez názvu"
+
+#: includes/admin/class-ur-admin-import-export-forms.php:210
+msgid "Please select json file to import form data."
+msgstr "Vyberte soubor JSON s daty pro import."
+
+#: includes/admin/class-ur-admin-import-export-forms.php:203
+msgid "Invalid file format. Only Json File Allowed."
+msgstr "Špatný formát souboru. Povolený je pouze JSON."
+
+#: includes/admin/class-ur-admin-import-export-forms.php:189
+#: includes/admin/class-ur-admin-import-export-forms.php:196
+msgid "Invalid file content. Please export file from user registration plugin."
+msgstr "Neplatný obsah souboru. Exportujte soubor z pluginu User Registration."
+
+#: includes/admin/views/html-admin-page-forms.php:44
+msgid "Fullscreen"
+msgstr "Celá obrazovka"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:42
+msgid "Profile Details Changed Email"
+msgstr "E-mail ke změně detailů profilu"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:49
+msgid "Enable this email sent to the admin when a user changed profile information."
+msgstr "Povolit odeslání tohoto e-mailu administrátorovi po úpravě profilu uživatele."
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:26
+msgid "Email sent to the admin when a user changed profile information"
+msgstr "E-mail odeslaný administrátorovi, když uživatel změní informace ve svém profilu"
+
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:70
+#: includes/class-ur-emailer.php:494
+msgid "Profile Details Changed Email: {{blog_info}}"
+msgstr "E-mail ke změně detailů profilu: {{blog_info}}"
+
+#: includes/class-ur-ajax.php:453 includes/class-ur-form-handler.php:114
+msgid "File size exceed, please check your file size."
+msgstr "Max. velikost souboru překročena, prosím zkontrolujte ji."
+
+#: includes/class-ur-ajax.php:460 includes/class-ur-form-handler.php:117
+msgid "Something went wrong while uploading, please contact your site administrator."
+msgstr "Při nahrávání se něco pokazilo, kontaktujte administrátora webu."
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:221
+msgid "No profile details found."
+msgstr "Nebyly nalezeny žádné údaje o profilu."
+
+#: includes/admin/settings/class-ur-settings-general.php:96
+msgid "Enable hide/show password"
+msgstr "Povolit skrytí/zobrazení hesla"
+
+#: includes/class-ur-preview.php:60
+msgid "Edit Form"
+msgstr "Upravit formulář"
+
+#: includes/functions-ur-core.php:550
+msgid "Passowrd can not be changed."
+msgstr "Heslo nelze změnit."
+
+#: includes/functions-ur-core.php:554
+msgid "Confirm password can not be changed."
+msgstr "Kontrolní heslo nelze změnit."
+
+#: includes/functions-ur-core.php:546
+msgid "Username can not be changed."
+msgstr "Uživatelské jméno nelze změnit."
+
+#: includes/form/settings/class-ur-setting-number.php:53
+msgid "Step"
+msgstr "Krok"
+
+#: includes/form/settings/class-ur-setting-number.php:42
+msgid "Maximum Value"
+msgstr "Maximální hodnota"
+
+#: includes/form/settings/class-ur-setting-number.php:31
+msgid "Minimum Value"
+msgstr "Minimální hodnota"
+
+#: templates/myaccount/form-edit-profile.php:64
+msgid "Upload your new profile image."
+msgstr "Nahrajte svůj profilový obrázek."
+
+#: templates/myaccount/form-edit-profile.php:61
+msgid "Max size: "
+msgstr "Maximální velikost:"
+
+#: templates/myaccount/form-login.php:102
+msgid "Show password"
+msgstr "Zobrazit heslo"
+
+#: templates/myaccount/dashboard.php:92
+msgid "Not %1$s? <a href=\"%2$s\">Sign out</a>"
+msgstr "Ne %1$s? <a href=\"%2$s\">Odhlásit</a>"
+
+#: templates/myaccount/dashboard.php:69
+msgid "@%1$s"
+msgstr "@%1$s"
+
+#: includes/class-ur-plugin-updater.php:446
+#: includes/class-ur-plugin-updater.php:452
+#: includes/class-ur-plugin-updater.php:583
+#: templates/myaccount/dashboard.php:61
+msgid "%1$s"
+msgstr "%1$s"
+
+#: templates/myaccount/dashboard.php:29
+msgid "Welcome, %1$s"
+msgstr "Vítejte, %1$s"
+
+#: includes/class-ur-frontend-scripts.php:380
+#: templates/myaccount/form-edit-password.php:44
+#: templates/myaccount/form-edit-password.php:56
+#: templates/myaccount/form-edit-password.php:67
+#: templates/myaccount/form-reset-password.php:37
+#: templates/myaccount/form-reset-password.php:48
+msgid "Show Password"
+msgstr "Zobrazit heslo"
+
+#: includes/class-ur-frontend-scripts.php:379
+msgid "Hide Password"
+msgstr "Skrýt heslo"
+
+#: includes/admin/views/html-admin-page-forms.php:46
+msgid "Preview Form"
+msgstr "Náhled formuláře"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:126
+#: includes/admin/views/html-admin-page-forms.php:46
+msgid "Preview"
+msgstr "Náhled"
+
+#. translators: %s - Form name.
+#: includes/class-ur-preview.php:115 includes/class-ur-preview.php:162
+msgid "%s &ndash; Preview"
+msgstr "%s &ndash; Náhled"
+
+#: includes/admin/settings/class-ur-settings-general.php:331
+#: includes/form/class-ur-form-field-user-confirm-email.php:54
+msgid "Confirm Email"
+msgstr "Potvrzovací e-mail"
+
+#: includes/form/class-ur-form-field-user-confirm-email.php:49
+msgid "Confirm Email "
+msgstr "Potvrďte e-mail "
+
+#: includes/form/settings/class-ur-setting-number.php:49
+msgid "Max Value"
+msgstr "Max. hodnota"
+
+#: includes/form/settings/class-ur-setting-number.php:38
+#: includes/form/settings/class-ur-setting-user_login.php:52
+msgid "Min Value"
+msgstr "Minimální hodnota"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:447
+msgid "Email and confirm email not matched"
+msgstr "E-mail a kontrolní e-mail se neshodují."
+
+#: includes/frontend/class-ur-frontend-form-handler.php:445
+msgid "Empty confirm email"
+msgstr "Ověřovací e-mail nevyplněn"
+
+#: includes/class-ur-ajax.php:87
+msgid "You are already logged in."
+msgstr "Už jste přihlášen(a)."
+
+#: templates/myaccount/form-edit-profile.php:30
+msgid "Profile Detail"
+msgstr "Detail profilu"
+
+#: includes/admin/settings/class-ur-settings-general.php:332
+msgid "Enter the error message in form submission on Confim Email."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při chybě v potvrzovacím e-mailu."
+
+#: includes/form/settings/class-ur-setting-number.php:60
+msgid "Legal Number Intervals"
+msgstr "Intervaly zákonných čísel"
+
+#: includes/functions-ur-core.php:557
+msgid "Confirm email can not be changed."
+msgstr "Kontrolní e-mail nelze změnit."
+
+#: includes/admin/settings/class-ur-settings-general.php:337
+#: includes/class-ur-frontend-scripts.php:370
+msgid "Email and confirm email not matched."
+msgstr "E-mail a kontrolní e-mail se neshodují."
+
+#: includes/admin/settings/class-ur-settings-general.php:493
+msgid "Check to disable WordPress default login or registration page."
+msgstr "Zaškrtněte pro vypnutí výchozí stránky WordPressu pro přihlášení nebo registraci."
+
+#: includes/admin/settings/class-ur-settings-general.php:489
+msgid "Prevent Core Login"
+msgstr "Omezení základního přihlášení"
+
+#: includes/class-ur-form-handler.php:314
+msgid "Please enter your new password."
+msgstr "Prosím, vložte své nové heslo."
+
+#: includes/admin/class-ur-admin.php:212 includes/admin/class-ur-admin.php:283
+msgid "Never show again"
+msgstr "Příště nezobrazovat"
+
+#: includes/admin/class-ur-admin.php:208 includes/admin/class-ur-admin.php:279
+msgid "I already did!"
+msgstr "Už jsem to udělal!"
+
+#: includes/admin/class-ur-admin.php:207 includes/admin/class-ur-admin.php:278
+msgid "Sure, I'd love to!"
+msgstr "Jistě, rád(a) bych!"
+
+#: includes/admin/functions-ur-admin.php:44
+msgid "loading..."
+msgstr "načítání..."
+
+#: includes/admin/functions-ur-admin.php:28
+msgid "User Registration Activity"
+msgstr "Aktivita registrace uživatele"
+
+#: includes/admin/settings/class-ur-settings-general.php:106
+msgid "<strong>Heads Up!</strong> Check this if you would like to remove ALL User Registration data upon plugin deletion."
+msgstr "Zaškrtněte toto políčko, pokud chcete odstranit všechny údaje o registraci uživatelů po vymazání pluginu."
+
+#: templates/myaccount/form-edit-profile.php:86
+msgid "Remove"
+msgstr "Odstranit"
+
+#: templates/dashboard-widget.php:58
+msgid "Total"
+msgstr "Celkem"
+
+#: templates/dashboard-widget.php:52
+msgid "Last Month"
+msgstr "Poslední měsíc"
+
+#: templates/dashboard-widget.php:46
+msgid "Last Week"
+msgstr "Poslední týden"
+
+#: templates/dashboard-widget.php:40
+msgid "Today"
+msgstr "Dnes"
+
+#: templates/dashboard-widget.php:28
+msgid "User registration"
+msgstr "Registrace uživatele"
+
+#: templates/dashboard-widget.php:29
+msgid "Current Version:"
+msgstr "Současná verze:"
+
+#: includes/admin/class-ur-admin-assets.php:192
+msgid "Select Image"
+msgstr "Vybrat obrázek"
+
+#: includes/admin/class-ur-admin-assets.php:191
+msgid "Upload Profile Picture"
+msgstr "Nahrát profilový obrázek"
+
+#: includes/admin/settings/class-ur-settings-general.php:105
+msgid "Uninstall Option"
+msgstr "Smazat data při odinstalování"
+
+#: templates/myaccount/form-edit-profile.php:105
+msgid "You can change your profile picture on"
+msgstr "Můžete změnit svoji profilovou fotografii na"
+
+#: includes/class-ur-form-handler.php:609
+msgid "Invalid Key"
+msgstr "Neplatný klíč"
+
+#: includes/form/class-ur-form-field-checkbox.php:45
+#: includes/form/class-ur-form-field-radio.php:48
+#: includes/form/class-ur-form-field-select.php:45
+#: includes/functions-ur-core.php:822
+msgid "Third Choice"
+msgstr "Třetí možnost"
+
+#: includes/form/class-ur-form-field-checkbox.php:44
+#: includes/form/class-ur-form-field-radio.php:47
+#: includes/form/class-ur-form-field-select.php:44
+#: includes/functions-ur-core.php:821
+msgid "Second Choice"
+msgstr "Druhá možnost"
+
+#: includes/form/class-ur-form-field-checkbox.php:43
+#: includes/form/class-ur-form-field-radio.php:46
+#: includes/form/class-ur-form-field-select.php:43
+#: includes/functions-ur-core.php:820
+msgid "First Choice"
+msgstr "První možnost"
+
+#: includes/class-ur-form-handler.php:624
+msgid "Thanks for confirming your export request."
+msgstr "Děkujeme za potvrzení vaší žádosti o export."
+
+#: includes/class-ur-form-handler.php:626
+msgid "Thanks for confirming your erasure request."
+msgstr "Děkujeme za potvrzení žádosti o smazání."
+
+#: includes/class-ur-cache-helper.php:86
+msgid "In order for <strong>database caching</strong> to work with User Registration you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
+msgstr "Aby vám fungoval <strong>caching databáze</strong> s User Registration, musíte přidat %1$s do \"Ignored Query Strings\" v nastavení <a href=\"%2$s\">W3 Total Cache</a>."
+
+#: includes/class-ur-user-approval.php:362
+msgid "Your account is still awaiting admin approval. Reset Password is not allowed."
+msgstr "Váš účet stále čeká na schválení od administrátora. Změna hesla není povolena."
+
+#: includes/class-ur-ajax.php:750
+msgid "Could not save form, "
+msgstr "Formulář nelze uložit,"
+
+#: includes/class-ur-form-block.php:57
+msgid "Form"
+msgstr "Formulář"
+
+#: includes/class-ur-form-block.php:56
+msgid "Form Settings"
+msgstr "Nastavení formuláře"
+
+#: includes/class-ur-form-block.php:55
+msgid "Select a Form"
+msgstr "Vyberte formulář"
+
+#: includes/class-ur-form-block.php:54
+msgid "Select &#38; display one of your form."
+msgstr "Vyberte možnost &#38; zobrazit jeden z formulářů.."
+
+#: templates/form-registration.php:155
+msgid "Form not found, form id :"
+msgstr "Formulář nenalezen. ID formuláře:"
+
+#: includes/admin/class-ur-admin-assets.php:401
+msgctxt "user registration admin"
+msgid "field is required."
+msgstr "pole je povinné."
+
+#: includes/admin/class-ur-admin-assets.php:381
+msgctxt "user-registration admin"
+msgid "User Password"
+msgstr "Uživatelské heslo"
+
+#: includes/admin/class-ur-admin-assets.php:380
+msgctxt "user-registration admin"
+msgid "User Email"
+msgstr "Uživatelský e-mail"
+
+#: includes/class-ur-ajax.php:139 includes/class-ur-ajax.php:552
+#: includes/class-ur-form-handler.php:417
+msgid "Error on google reCaptcha. Contact your site administrator."
+msgstr "Nastala chyba u Google reCaptcha. Kontaktujte administrátora webu."
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:49
+msgid "Enable this email sent to the user notifying the registration is pending."
+msgstr "Povolit odeslání tohoto e-mailu uživateli, že se jeho registrace zpracovává."
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:49
+msgid "Enable this email sent to the user notifying the registration is denied by the admin."
+msgstr "Povolit odeslání tohoto e-mailu uživateli, že jeho registrace byla zamítnuta."
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:25
+msgid "Email sent to the user with a verification link when email confirmation to register option is choosen"
+msgstr "E-mail odeslaný uživateli s odkazem pro ověření, pokud je e-mailové potvrzení po registraci vyžadováno"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:49
+msgid "Enable this email sent to the user notifying the registration is approved by site admin."
+msgstr "Povolit odeslání tohoto e-mailu uživateli, že jeho registrace byla schválena."
+
+#: includes/functions-ur-core.php:981
+msgid "Minimum Password Strength"
+msgstr "Minimální síla hesla"
+
+#: includes/class-ur-privacy.php:92
+msgid "Please see the <a href=\"https://mailchimp.com/legal/privacy/\">MailChimp Privacy Policy</a> for more details."
+msgstr "Podívejte se na <a href=\"https://mailchimp.com/legal/privacy/\">Ochranu osobních údajů v MailChimp</a> (anglicky)."
+
+#: includes/class-ur-privacy.php:89
+msgid "In this subsection you should list which third party modules you’re using to increase functionality on your site since these may handle customer data. We’ve included MailChimp as an example, but you should remove this if you’re not using MailChimp."
+msgstr "V této podsekci byste měli uvést, které moduly třetích stran používáte ke zvýšení funkčnosti svého webu, protože mohou zpracovávat údaje o zákaznících. Jako příklad jsme uvedli MailChimp, ale pokud ho nepoužíváte, měli byste ho odstranit."
+
+#: includes/class-ur-privacy.php:91
+msgid "We send beautiful email through MailChimp. When processing emails, some of your data will be passed to MailChimp, including information required to process or support the email marketing services, such as the name, email address and any other information that you intend to pass or collect including all collected information through subscription."
+msgstr "Zasíláme krásný e-mail prostřednictvím služby MailChimp. Při zpracování e-mailů budou některé vaše údaje předány společnosti MailChimp, včetně informací požadovaných ke zpracování nebo podpoře služeb e-mailového marketingu, jako je jméno, e-mailová adresa a jakékoli další informace, které chcete předat nebo shromáždit, včetně všech informací získaných prostřednictvím předplatného."
+
+#. translators: 1: Link tag open 2:: Link content 3:: Link tag close
+#: includes/functions-ur-core.php:1052
+msgid "Enable %1$s %2$s Captcha %3$s Support"
+msgstr "Povolit %1$s %2$s Captcha %3$s Support"
+
+#: includes/class-ur-privacy.php:87
+msgid "Available Modules"
+msgstr "Dostupné moduly"
+
+#: includes/class-ur-privacy.php:86
+msgid "Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\">PayPal Privacy Policy</a> for more details."
+msgstr "Více informací <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\">o ochraně osobních údajů</a> u PayPal."
+
+#: includes/class-ur-privacy.php:85
+msgid "We accept payments through PayPal. When processing payments, some of your data will be passed to PayPal, including information required to process or support the payment, such as the purchase total and billing information."
+msgstr "Přijímáme platby přes PayPal. Při zpracování plateb budou některé vaše údaje předány společnosti PayPal, včetně informací požadovaných ke zpracování nebo podpoře platby, jakými jsou celková částka nákupu a fakturační údaje."
+
+#: includes/class-ur-privacy.php:83
+msgid "In this subsection you should list which third party payment processors you’re using to take payments on your site since these may handle customer data. We’ve included PayPal as an example, but you should remove this if you’re not using PayPal."
+msgstr "V této podsekci byste měli uvést, které platební procesory třetích stran používáte k přijímání plateb na vašem webu, protože mohou zpracovávat údaje o zákaznících. Jako příklad jsme uvedli PayPal, ale pokud ho nepoužíváte, měli byste ho odstranit."
+
+#: includes/class-ur-privacy.php:81
+msgid "Payments"
+msgstr "Platby"
+
+#: includes/class-ur-privacy.php:76
+msgid "What we share with others"
+msgstr "Co sdílíme s ostatními"
+
+#: includes/class-ur-privacy.php:72
+msgid "Form submission information and other details related to it"
+msgstr "Informace o odeslání formuláře a další související údaje"
+
+#: includes/class-ur-privacy.php:73
+msgid "Customer information like your name, email and address information."
+msgstr "Informace o zákazníkovi např. jméno, e-mail a adresa."
+
+#: includes/class-ur-privacy.php:69
+msgid "Who on our team has access"
+msgstr "Kdo z týmu má přístup"
+
+#: includes/class-ur-privacy.php:80
+msgid "We share information with third parties who help us provide our orders and store services to you; for example --"
+msgstr "Sdílíme informace s třetími stranami, které nám pomáhají poskytovat vám naše objednávky a poskytují skladovací služby; například --"
+
+#: includes/class-ur-privacy.php:78
+msgid "In this section you should list who you’re sharing data with, and for what purpose. This could include, but may not be limited to, analytics, marketing, payment gateways, shipping providers, and third party embeds."
+msgstr "V této části byste měli uvést, s kým a za jakým účelem sdílíte data. Může obsahovat analytiku, marketing, platební brány, poskytovatele dopravy, přidružené třetí strany a nejen to."
+
+#: includes/class-ur-privacy.php:75
+msgid "Our team members have access to this information to help fulfill entries and support you."
+msgstr "Členové našeho týmu mají přístup k těmto informacím, aby pomohli zpracovávat objednávky a poskytnout vám podporu."
+
+#: includes/class-ur-privacy.php:70
+msgid "Members of our team have access to the information you provide us. For example, both Administrators and Editors can access:"
+msgstr "Členové našeho týmu mají přístup k informacím, které nám poskytnete. Například administrátoři a redaktoři mají přístup k:"
+
+#: includes/class-ur-privacy.php:68
+msgid "We generally store information about you for as long as we need the information for the purposes for which we collect and use it, and we are not legally required to continue to keep it. For example, we will store form submission information for XXX years for geolocating and marketting purposes. This includes your name, address, email, phone number."
+msgstr "Obecně o vás uchováváme informace tak dlouho, jak je potřebujeme pro účely, pro které je shromažďujeme a používáme a není zákonně vyžadováno, abychom je nadále uchovávali. Například budeme ukládat informace o odeslání formuláře po dobu XXX let pro účely geolokace a marketingu. To zahrnuje vaše jméno, adresu, e-mail, telefonní číslo."
+
+#: includes/class-ur-privacy.php:62
+msgid "Comply with any legal obligations we have, such as calculating taxes"
+msgstr "Dodržujte veškeré zákonné povinnosti, které máme, například výpočet daní"
+
+#: includes/class-ur-privacy.php:67
+msgid "If you create an account, we will store your name, address, email and phone number, which will be used to populate the form fields for future submissions."
+msgstr "Pokud vytvoříte účet, uložíme si vaše jméno, adresu, e-mail a telefonní číslo a budou využity pro vložení do daných polí při budoucím použití formuláře."
+
+#: includes/class-ur-privacy.php:63
+msgid "Improve our form offerings"
+msgstr "Vylepšete naši nabídku formulářů"
+
+#: includes/class-ur-privacy.php:64
+msgid "Send you marketing messages, if you choose to receive them"
+msgstr "Budeme vám zasílat marketingové zprávy, pokud nám k tomu dáte souhlas"
+
+#: includes/class-ur-privacy.php:56
+msgid "When you fill up a form, we’ll ask you to provide information including your name, address, email, phone number, payment details and optional account information like username and password and any other form fields available in the registration form. We’ll use this information for purposes, such as, to:"
+msgstr "Při vyplňování formuláře vás můžeme požádat o poskytnutí informací jakými jsou jméno, adresa, e-mail, telefonního číslo, platební údaje, také volitelné údaje k účtu, jako je uživatelské jméno a heslo a jakékoli další, pro nichž existují pole v registračním formuláři. Tyto informace použijeme například pro:"
+
+#: includes/class-ur-privacy.php:58
+msgid "Send you information about your account and order"
+msgstr "Zaslání informací ohledně vašeho účtu nebo objednávky"
+
+#: includes/class-ur-privacy.php:59
+msgid "Respond to your requests, including transaction details and complaints"
+msgstr "Odpovědi na vaše požadavky zahrnující detaily o transakci a stížnosti"
+
+#: includes/class-ur-privacy.php:60
+msgid "Process payments and prevent fraud"
+msgstr "Zpracování plateb a předcházení podvodům"
+
+#: includes/class-ur-privacy.php:61
+msgid "Set up your account for our site"
+msgstr "Nastavení vašeho účtu na naší stránce"
+
+#: includes/class-ur-privacy.php:65
+msgid "Or any other service the built form was created to comply with and it’s necessary information"
+msgstr "Nebo jiná služba, pro níž byl formulář vytvořen a jeho požadované podklady"
+
+#: includes/class-ur-privacy.php:49
+msgid "What we collect and store"
+msgstr "Co sbíráme a ukládáme"
+
+#: includes/class-ur-privacy.php:53
+msgid "Location, IP address and browser type: we’ll use this for purposes like geolocating users and reducing fraudulent activities."
+msgstr "Lokace, IP adresa a typ prohlížeče: použijeme je pro geolokaci uživatelů a snížení podvodných aktivit."
+
+#: includes/class-ur-privacy.php:52
+msgid "Form Fields Data: Forms Fields data includes the available field types when creating a form. We’ll use this to, for example, collect informations like Name, Email and other available fields."
+msgstr "Data polí formuláře: Data polí formulářů zahrnují dostupné typy polí při vytváření formuláře. Vyžijeme to například při shromažďování informací, jako je jméno, e-mail a další dostupná pole."
+
+#: includes/class-ur-privacy.php:50
+msgid "While you visit our site, we’ll track:"
+msgstr "Když naši stránku navštívíte, budeme sledovat:"
+
+#: includes/class-ur-privacy.php:54
+msgid "Transaction Details: we’ll ask you to enter this so we can, for instance, provide subscription packs, and keep track of your payment details for subscription packs!"
+msgstr "Podrobnosti o transakci: požádáme vás o zadání této položky, abychom mohli například poskytnout balíčky předplatného a následně tyto balíčky sledovat podle vašich platebních údajů!"
+
+#: includes/class-ur-privacy.php:48
+msgid "We collect information about the user during the user registration form submission process on our site."
+msgstr "Informace o uživateli shromažďujeme během procesu odesílání registračního formuláře na našem webu."
+
+#: includes/class-ur-privacy.php:45
+msgid "This sample policy includes the basics around what personal data you may be collecting, storing and sharing, as well as who may have access to that data. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your form will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr "Tyto ukázkové zásady obsahují základní informace o tom, jaké osobní údaje můžete shromažďovat, ukládat a sdílet a také o tom, kdo k nim může mít přístup. Konkrétní informace sdílené vaším formulářem se budou lišit v závislosti na tom, jaké nastavení je povoleno a jaké další doplňky se používají. Při rozhodování, jaké informace zveřejnit ve vašich zásadách ochrany osobních údajů, doporučujeme konzultovat s právníkem."
+
+#: includes/class-ur-frontend-scripts.php:392
+#: includes/functions-ur-core.php:989
+msgid "Weak"
+msgstr "Slabé"
+
+#: includes/class-ur-frontend-scripts.php:391
+#: includes/functions-ur-core.php:988
+msgid "Very Weak"
+msgstr "Příliš slabé"
+
+#: includes/class-ur-frontend-scripts.php:389
+msgid "Please enter a stronger password."
+msgstr "Zadejte silnější heslo."
+
+#: includes/class-ur-frontend-scripts.php:393
+#: includes/functions-ur-core.php:990
+msgid "Medium"
+msgstr "Střední"
+
+#: includes/admin/class-ur-admin-export-users.php:67
+msgid "No users found with this form id."
+msgstr "Žádný uživatel s tímto id formuláře nenalezen."
+
+#: includes/admin/settings/class-ur-settings-import-export.php:42
+#: includes/admin/views/html-admin-page-export-users.php:13
+#: includes/admin/views/html-admin-page-export-users.php:35
+msgid "Export Users"
+msgstr "Exportovat uživatele"
+
+#: includes/class-ur-frontend-scripts.php:394
+#: includes/functions-ur-core.php:991
+msgid "Strong"
+msgstr "Silné"
+
+#: includes/admin/class-ur-admin-export-users.php:131
+msgid "User ID"
+msgstr "ID uživatele"
+
+#: includes/admin/class-ur-admin-export-users.php:124
+msgid "User Registered"
+msgstr "Uživatele zaregistrován"
+
+#: includes/class-ur-frontend-scripts.php:398
+msgid "Hint: To make password stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )."
+msgstr "Nápověda: Silnější heslo vytvoříte použitím velkých a malých písmen, čísel a speciálních symbolů jako ! \" ? $ % ^ & )."
+
+#: includes/admin/class-ur-admin-export-users.php:122
+msgid "User Role"
+msgstr "Uživatelská úroveň uživatele"
+
+#: includes/admin/class-ur-admin-export-users.php:125
+msgid "User Registered GMT"
+msgstr "Časové pásmo uživatele"
+
+#: includes/admin/settings/class-ur-settings-general.php:385
+#: includes/functions-ur-core.php:1064
+msgid "Form Template"
+msgstr "Šablona formuláře"
+
+#: includes/admin/settings/class-ur-settings-general.php:386
+msgid "Choose the login form template."
+msgstr "Vyberte si šablonu přihlašovacího formuláře."
+
+#: includes/admin/settings/class-ur-settings-general.php:43
+#: includes/admin/settings/class-ur-settings-general.php:377
+msgid "Login Options"
+msgstr "Možnosti přihlášení"
+
+#: includes/admin/settings/class-ur-settings-general.php:440
+msgid "Enable lost password"
+msgstr "Povolit obnovení hesla."
+
+#: includes/admin/settings/class-ur-settings-general.php:430
+msgid "Enable remember me"
+msgstr "Povolit \"zapamatovat si mě\""
+
+#: includes/admin/settings/class-ur-settings-general.php:444
+msgid "Check to enable/disable lost password."
+msgstr "Zaškrtnutím povolíte možnost obnovy hesla."
+
+#: includes/admin/settings/class-ur-settings-general.php:434
+msgid "Check to enable/disable remember me."
+msgstr "Zaškrtnutím povolíte zaškrtávací políčko \"Zapamatuj si mě\"."
+
+#: includes/admin/views/html-admin-page-forms.php:35
+msgid "Copy Shortcode!"
+msgstr "Zkopírovat Shortcode!"
+
+#: includes/admin/views/html-admin-page-forms.php:35
+msgid "Copied!"
+msgstr "Zkopírováno"
+
+#: includes/admin/views/html-notice-deactivation.php:23
+msgid "Before we deactivate User Registration, would you care to <a href=\"%1$s\" target=\"_blank\">let us know why</a> so we can improve it for you? <a href=\"%2$s\">No, deactivate now</a>."
+msgstr "Než deaktivujeme registraci uživatelů, informujte nás prosím <a href=\"%1$s\" target=\"_blank\">informujte nás prosím o důvodu</a>, ať se můžeme zlepšit? <a href=\"%2$s\">Zrušit deaktivaci</a>."
+
+#: includes/class-ur-form-handler.php:347
+msgid "Password changed successfully."
+msgstr "Heslo úspěšně změněno."
+
+#: includes/admin/class-ur-admin-assets.php:389
+msgctxt "user registration admin"
+msgid "Could not clone this field."
+msgstr "Toto pole nelze duplikovat."
+
+#: includes/functions-ur-account.php:56
+msgid "Invalid username. %1s"
+msgstr "Špatné uživatelské jméno. %1s"
+
+#: includes/admin/settings/class-ur-settings-general.php:187
+#: includes/class-ur-query.php:72 includes/functions-ur-account.php:110
+#: templates/myaccount/form-edit-password.php:35
+msgid "Change Password"
+msgstr "Změnit heslo"
+
+#: includes/admin/settings/class-ur-settings-general.php:167
+msgid "Horizontal"
+msgstr "Horizontální"
+
+#: includes/admin/settings/class-ur-settings-general.php:116
+msgid "My account Section"
+msgstr "Sekce Můj účet"
+
+#: includes/admin/class-ur-admin-assets.php:388
+msgctxt "user registration admin"
+msgid "This field is one time draggable."
+msgstr "Toto pole můžete použít jen jednou."
+
+#: templates/myaccount/form-edit-password.php:39
+msgid "Current password"
+msgstr "Současné heslo"
+
+#: templates/myaccount/form-edit-profile.php:105
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: includes/admin/settings/class-ur-settings-general.php:188
+msgid "Endpoint for the \"My account &rarr; Change Password\" page."
+msgstr "Koncový bod pro stránku \"Můj účet &rarr; Změna hesla\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:176
+msgid "Endpoints: "
+msgstr "Koncové body:"
+
+#: includes/admin/settings/class-ur-settings-general.php:168
+msgid "Vertical"
+msgstr "Vertikální"
+
+#: templates/myaccount/dashboard.php:81
+msgid "From your account dashboard you can edit your <a href=\"%1$s\"> profile details</a> and <a href=\"%2$s\">edit your password</a>."
+msgstr "Z vaší uživatelské nástěnky můžete upravit vaše <a href=\"%1$s\"> podrobnosti o profilu</a> a <a href=\"%2$s\">heslo</a>."
+
+#: includes/admin/settings/class-ur-settings-general.php:159
+msgid "This option lets you choose layout for user registration my account tab."
+msgstr "Tady si vyberte vzhled registrace uživatele na kartě můj účet."
+
+#: includes/admin/settings/class-ur-settings-general.php:158
+msgid "Layout"
+msgstr "Rozvržení"
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:187 includes/class-ur-shortcodes.php:191
+msgid "You are currently logged in as %1$1s. %2$2s"
+msgstr "Jste přihlášen(a) jako %1$1s. %2$2s"
+
+#: includes/functions-ur-account.php:53 includes/functions-ur-account.php:56
+msgid "Lost Your Password?"
+msgstr "Zapoměl(a) jste heslo?"
+
+#. translators: %s - Resend Verification Link.
+#: includes/class-ur-email-confirmation.php:372
+#: includes/class-ur-user-approval.php:230
+#: includes/class-ur-user-approval.php:256
+msgid "Resend Verification Link"
+msgstr "Odeslat znovu ověřovací odkaz"
+
+#: includes/functions-ur-account.php:53
+msgid "The password you entered for username %1$1s is incorrect. %2$2s"
+msgstr "Zadané heslo pro uživatele %1$1s není správné. %2$2s"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:82
+msgid ""
+"Hi {{username}}, <br/>\n"
+"\n"
+"You have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Please click on this verification link {{home_url}}/{{ur_login}}?ur_token={{email_token}} to confirm registration. <br/>\n"
+"\n"
+"Thank You!"
+msgstr ""
+"Ahoj {{username}}, <br/>\n"
+"\n"
+"Zaregistroval(a) jste se na webu <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\n"
+"\n"
+"Pro potvrzení registrace klikněte na ověřovací odkaz {{home_url}}/{{ur_login}}?ur_token={{email_token}}. <br/>\n"
+"\n"
+"Děkujeme!"
+
+#: includes/functions-ur-core.php:1083
+msgid "Custom CSS class"
+msgstr "Vlastní CSS třída"
+
+#: includes/admin/settings/class-ur-settings-general.php:289
+#: includes/class-ur-frontend-scripts.php:363
+msgid "This field is required."
+msgstr "Pole je povinné."
+
+#: includes/admin/settings/class-ur-settings-general.php:232
+msgid "Success Messages"
+msgstr "Zprávy o úspěchu"
+
+#: includes/admin/settings/class-ur-settings-general.php:347
+#: includes/class-ur-frontend-scripts.php:367
+msgid "Password and confirm password not matched."
+msgstr "Heslo s potvrzujícím se neshodují"
+
+#: includes/admin/settings/class-ur-settings-general.php:317
+#: includes/class-ur-frontend-scripts.php:365
+msgid "Please enter a valid URL."
+msgstr "Prosím, vložte validní URL."
+
+#: includes/admin/settings/class-ur-settings-general.php:278
+msgid "Error Messages"
+msgstr "Chybové hlášky"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:55
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:56
+msgid "Email Receipents"
+msgstr "Příjemci e-mailu"
+
+#: includes/admin/settings/class-ur-settings-general.php:307
+#: includes/class-ur-frontend-scripts.php:364
+msgid "Please enter a valid email address."
+msgstr "Zadejte prosím platnou e-mailovou adresu."
+
+#: includes/frontend/class-ur-frontend-form-handler.php:138
+msgid "Something went wrong! please try again"
+msgstr "Něco se nepovedlo! Zkuste to znovu."
+
+#: includes/admin/settings/class-ur-settings-general.php:342
+msgid "Enter the error message in form submission on Confim Password."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při chybě v potvrzovacím hesle."
+
+#: includes/admin/settings/class-ur-settings-general.php:327
+#: includes/class-ur-frontend-scripts.php:366
+msgid "Please enter a valid number."
+msgstr "Prosím zadejte platné číslo."
+
+#: includes/admin/settings/class-ur-settings-general.php:312
+msgid "Enter the error message in form submission on website/URL."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při chybě ve webové stránce/URL."
+
+#: includes/admin/settings/class-ur-settings-general.php:322
+msgid "Enter the error message in form submission on Number."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při chybě v čísle."
+
+#: includes/admin/settings/class-ur-settings-general.php:311
+msgid "Website URL"
+msgstr "URL adresa webu"
+
+#: includes/admin/settings/class-ur-settings-general.php:284
+msgid "Enter the error message in form submission on required fields."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při nevyplněném povinném poli."
+
+#: includes/admin/settings/class-ur-settings-general.php:302
+msgid "Enter the error message in form submission on Email."
+msgstr "Zadejte chybovou hlášku po odeslání formuláře při chybě v e-mailu."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:57
+msgid "Use comma to send emails to multiple receipents."
+msgstr "Více adresátů oddělte čárkou."
+
+#: includes/admin/settings/class-ur-settings-general.php:352
+msgid "Enter the error message in form submission on recaptcha."
+msgstr "Vložte chybovou hlášku po odeslání formuláře při chybě v Google Captcha."
+
+#: includes/admin/functions-ur-admin.php:150
+#: includes/admin/functions-ur-admin.php:213
+msgid "User Extra Information"
+msgstr "Extra informace o uživateli"
+
+#: includes/admin/functions-ur-admin.php:233
+msgid "WordPress User Extra Information"
+msgstr "Doplňující informace uživatele WordPressu"
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:59
+#: includes/class-ur-emailer.php:444
+msgid "Password Reset Email: {{blog_info}}"
+msgstr "E-mail pro resetování hesla: {{blog_info}}"
+
+#: includes/class-ur-email-confirmation.php:396
+msgid "Email not verified! Verify your email by clicking on the link sent to your email."
+msgstr "E-mail není ověřen! Ověřte svůj e-mail kliknutím na odkaz v e-mailu, který jsme vám zaslali."
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:48
+msgid "Enable this email sent to the user when a user requests for reset password."
+msgstr "Povolit odeslání tohoto e-mailu uživateli, když si zažádá o reset hesla."
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:25
+msgid "Email sent to the user when a user requests for reset password"
+msgstr "E-mail odeslaný uživateli, když si zažádá o reset hesla"
+
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:24
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:41
+msgid "Reset Password Email"
+msgstr "Reset hesla e-mailem"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:371
+msgid "The email could not be sent. Contact your site administrator. "
+msgstr "E-mail nemohl být odeslán. Kontaktujte administrátora stránky."
+
+#: includes/class-ur-email-confirmation.php:167
+msgid "User does not exist!"
+msgstr "Uživatel neexistuje!"
+
+#: includes/class-ur-email-confirmation.php:160
+msgid "Verification Email Sent!"
+msgstr "Ověřovací e-mail odeslán!"
+
+#: includes/functions-ur-core.php:780
+msgid "Hide Label"
+msgstr "Skrýt popisek"
+
+#: includes/functions-ur-core.php:702 includes/functions-ur-core.php:739
+#: includes/functions-ur-core.php:741
+msgid "Description"
+msgstr "Popis"
+
+#: includes/admin/settings/class-ur-settings-general.php:44
+#: includes/admin/settings/class-ur-settings-general.php:229
+msgid "Frontend Messages"
+msgstr "Zprávy na frontendu"
+
+#: includes/admin/settings/class-ur-settings-general.php:268
+msgid "Enter the text message after successful form submission on admin approval after registration."
+msgstr "Zadejte textovou zprávu, která se zobrazí po úspěšném odeslání formuláře o schválení registrace administrátorem."
+
+#: includes/admin/settings/class-ur-settings-general.php:238
+msgid "Enter the text message after successful form submission on manual login after registration."
+msgstr "Zadejte textovou zprávu, která se zobrazí po úspěšném odeslání formuláře v manuálním přihlášení po registraci."
+
+#: includes/admin/settings/class-ur-settings-general.php:248
+msgid "Enter the text message after successful form submission on email confirmation to login."
+msgstr "Vložte textovou zprávu, která se zobrazí po úspěšném odeslání formuláře z e-mailu o úspěšném přihlášení."
+
+#: includes/class-ur-emailer.php:607 includes/functions-ur-core.php:2080
+msgid "Chosen Password"
+msgstr "Zvolené heslo"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:212
+msgid "pending approval."
+msgstr "ověřujeme."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:212
+msgid "User Registration:"
+msgstr "Registrace uživatele:"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:212
+msgid "Users"
+msgstr "Uživatelé"
+
+#. translators: 1: Newly registered user count 2: User
+#: includes/admin/class-ur-admin-user-list-manager.php:212
+#: includes/admin/class-ur-admin.php:334
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "Uživatel"
+msgstr[1] "Uživatelé"
+msgstr[2] "Uživatelů"
+
+#: includes/class-ur-install.php:655
+msgid "Visit free customer support"
+msgstr "Navštívit zákaznickou podporu zdarma "
+
+#. translators: %s - Link to logout.
+#: includes/shortcodes/class-ur-shortcode-login.php:64
+msgid "You are already logged in. <a href=\"%s\">Log out?</a>"
+msgstr "Už jste přihlášen(a). <a href=\"%s\">Chcete se odhlásit?</a>"
+
+#: includes/admin/settings/class-ur-settings-email.php:180
+#: includes/admin/settings/class-ur-settings-general.php:301
+#: includes/functions-ur-core.php:1130
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/admin/settings/class-ur-settings-email.php:34
+#: includes/admin/settings/class-ur-settings-email.php:70
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:38
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:38
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:39
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:38
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:39
+msgid "Emails"
+msgstr "E-maily"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:24
+msgid "Email Confirmation"
+msgstr "E-mailové potvrzení"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:47
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:48
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:48
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:48
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:48
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:48
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:47
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:48
+msgid "Enable this email"
+msgstr "Povolit tento e-mail"
+
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:51
+#: includes/class-ur-emailer.php:266
+msgid "Please confirm your registration on {{blog_info}}"
+msgstr "Prosím, potvrďte svou registraci na {{blog_info}}"
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:60
+#: includes/class-ur-emailer.php:305
+msgid "Congratulations! Registration Complete on {{blog_info}}"
+msgstr "Gratulujeme! Registrace na {{blog_info}} je dokončena"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:60
+#: includes/class-ur-emailer.php:412
+msgid "Congratulations! Registration approved on {{blog_info}}"
+msgstr "Gratulujeme! Registrace na {{blog_info}} byla schválena"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:25
+msgid "Awaiting Admin Approval"
+msgstr "Čeká na schválení administrátorem"
+
+#: includes/admin/settings/class-ur-settings-email.php:101
+msgid "\"From\" address"
+msgstr "Adresa odesílate"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:24
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:41
+msgid "Admin Email"
+msgstr "Administrační e-mail"
+
+#: includes/admin/settings/class-ur-settings-email.php:90
+msgid "\"From\" name"
+msgstr "Jméno odesílatele"
+
+#: includes/admin/settings/class-ur-settings-email.php:73
+msgid "Email notifications"
+msgstr "Upozornění e-mailem"
+
+#: includes/admin/settings/class-ur-settings-email.php:85
+msgid "Email Sender Options"
+msgstr "Nastavení odesílatele e-mailu"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:42
+msgid "Awaiting Admin Approval Email"
+msgstr "Čeká na e-mail o schválení administrátorem"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:74
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:57
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:75
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:67
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:64
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:65
+msgid "Email Content"
+msgstr "Obsah e-mailu"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:47
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:57
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:55
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:56
+msgid "Email Subject"
+msgstr "Předmět e-mailu"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:60
+#: includes/class-ur-emailer.php:279
+msgid "Thank you for registration on {{blog_info}}"
+msgstr "Děkujeme za registraci na {{blog_info}}"
+
+#: includes/admin/settings/class-ur-settings-email.php:181
+#: includes/admin/settings/class-ur-settings-email.php:200
+msgid "Configure"
+msgstr "Nastavit"
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:42
+msgid "Successfully Registered Email"
+msgstr "E-mail o úspěšné registraci"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:42
+msgid "Registration Denied Email"
+msgstr "E-mail o zamítnutí registrace"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:61
+#: includes/class-ur-emailer.php:386
+msgid "Sorry! Registration changed to pending on {{blog_info}}"
+msgstr "Registrace byla přesunuto do stavu Čeká se... na webu {{blog_info}}"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:42
+msgid "Registration Pending Email"
+msgstr "E-mail o zpracovávání registrace"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:60
+#: includes/class-ur-emailer.php:292 includes/class-ur-emailer.php:399
+msgid "Sorry! Registration denied on {{blog_info}}"
+msgstr "Registrace na {{blog_info}} byla zamítnuta"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:25
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:42
+msgid "Registration Approved Email"
+msgstr "E-mail o schválení registrace"
+
+#: includes/admin/settings/class-ur-settings-email.php:253
+msgid "Smart Tags Used"
+msgstr "Použité chytré štítky"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:44
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:44
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:45
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:44
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:45
+msgid "Return to emails"
+msgstr "Zpět k e-mailům"
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:25
+msgid "Email sent to the admin when a new user registers"
+msgstr "E-mail odeslaný administrátorovi po nové registraci."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:48
+msgid "Enable this email sent to admin after successful user registration."
+msgstr "Povolit odeslání tohoto e-mailu administrátorovi po úspěšné registraci uživatele."
+
+#: includes/admin/settings/class-ur-settings-email.php:75
+msgid "Email notifications sent from user registration are listed below. Click on an email to configure it."
+msgstr "E-mailové notifikace odesílané při registraci uživatele jsou uvedeny níže. Kliknutím na e-mail jej můžete nastavit."
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:26
+msgid "Email sent to the user after successful registration"
+msgstr "E-mail odeslaný uživateli po úspěšné registraci"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:26
+msgid "Email sent to the user notifying the registration is pending"
+msgstr "E-mail odeslaný uživateli oznamující, že jeho registrace se vyřizuje"
+
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:26
+msgid "Email sent to the user notifying the registration is denied by the admin"
+msgstr "E-mail odeslaný uživateli oznamující, že jeho registrace je zamítnuta administrátorem"
+
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:49
+msgid "Enable this email sent to the user after successful user registration."
+msgstr "Povolit odeslání tohoto e-mailu uživateli po úspěšné registraci."
+
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:26
+msgid "Email sent to the user notifying the registration is approved by site admin"
+msgstr "E-mail odeslaný uživateli po schválení registrace administrátorem"
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:49
+msgid "Enable this email sent to user notifying the registration is awaiting admin approval."
+msgstr "Povolit odeslání tohoto e-mailu uživateli, že jeho registrace čeká na schválení administrátorem."
+
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:26
+msgid "Email sent to the user notifying the registration is awaiting admin approval"
+msgstr "E-mail odeslaný uživateli oznamující, že jeho registrace čeká na schválení administrátorem"
+
+#: includes/admin/settings/class-ur-settings-email.php:102
+msgid "How the sender email appears in outgoing user registration emails."
+msgstr "Jak se zobrazí e-mail odesílatele v odchozích e-mailech registrace uživatele."
+
+#: includes/admin/settings/class-ur-settings-email.php:91
+msgid "How the sender name appears in outgoing user registration emails."
+msgstr "Jak se zobrazí jméno odesílatele v odchozích e-mailech registrace uživatele."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:75
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:58
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:76
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:68
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:65
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:66
+msgid "The email content you want to customize."
+msgstr "Obsah e-mailu, který chcete upravit."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:66
+#: includes/admin/settings/emails/class-ur-settings-awaiting-admin-approval-email.php:57
+#: includes/admin/settings/emails/class-ur-settings-email-confirmation.php:48
+#: includes/admin/settings/emails/class-ur-settings-profile-details-changed-email.php:67
+#: includes/admin/settings/emails/class-ur-settings-registration-approved-email.php:57
+#: includes/admin/settings/emails/class-ur-settings-registration-denied-email.php:57
+#: includes/admin/settings/emails/class-ur-settings-registration-pending-email.php:58
+#: includes/admin/settings/emails/class-ur-settings-reset-password-email.php:56
+#: includes/admin/settings/emails/class-ur-settings-successfully-registered-email.php:57
+msgid "The email subject you want to customize."
+msgstr "Předmět e-mailu, který chcete upravit."
+
+#: includes/form/class-ur-form-field-radio.php:38
+#: includes/form/class-ur-form-field-radio.php:43
+#: includes/functions-ur-core.php:713
+msgid "Radio"
+msgstr "Přepínač"
+
+#: includes/form/class-ur-form-field-privacy-policy.php:35
+#: includes/form/class-ur-form-field-privacy-policy.php:40
+#: includes/functions-ur-core.php:712
+msgid "Privacy Policy"
+msgstr "Ochrana osobních údajů"
+
+#: includes/form/class-ur-form-field-checkbox.php:35
+#: includes/form/class-ur-form-field-checkbox.php:40
+#: includes/functions-ur-core.php:711
+msgid "Checkbox"
+msgstr "Zaškrtávací políčko"
+
+#: includes/admin/settings/class-ur-settings-general.php:247
+#: includes/functions-ur-core.php:1112
+msgid "Email confirmation to login"
+msgstr "E-mailové potvrzení pro přihlášení"
+
+#: includes/admin/settings/class-ur-settings-general.php:263
+#: includes/class-ur-email-confirmation.php:128
+msgid "User successfully registered. Login to continue."
+msgstr "Uživatel úspěšně zaregistrován. Pro pokračování se přihlaste."
+
+#: includes/admin/class-ur-admin.php:124
+msgid "Thank You!"
+msgstr "Děkujeme!"
+
+#: includes/admin/settings/class-ur-settings-general.php:273
+#: includes/class-ur-frontend-scripts.php:376
+msgid "User registered. Wait until admin approves your registration."
+msgstr "Uživatel zaregistrován. Vyčkejte schválení registrace administrátorem."
+
+#: includes/functions-ur-core.php:1428
+msgid "Disable all emails sent after registration."
+msgstr "Zakázat všechny e-maily odeslané po registraci."
+
+#: includes/admin/settings/class-ur-settings-general.php:253
+#: includes/class-ur-frontend-scripts.php:377
+msgid "User registered. Verify your email by clicking on the link sent to your email."
+msgstr "Uživatel zaregistrován. Ověřte e-mail kliknutím na odkaz zaslaný na váš e-mail."
+
+#. translators: %s - Resend Verification Link.
+#: includes/class-ur-email-confirmation.php:372
+#: includes/class-ur-user-approval.php:230
+#: includes/class-ur-user-approval.php:256
+msgid "Your account is still pending approval. Verify your email by clicking on the link sent to your email. %s"
+msgstr "Účet stále čeká na schválení. Ověřte e-mail kliknutím na odkaz odeslaný na váš e-mail. %s"
+
+#: includes/class-ur-email-confirmation.php:146
+msgid "Token Mismatch!"
+msgstr "Token se neshoduje!"
+
+#: includes/functions-ur-core.php:1427
+msgid "Disable emails"
+msgstr "Zakázat e-maily"
+
+#: includes/admin/class-ur-admin-assets.php:379
+#: includes/admin/class-ur-admin-form-modal.php:93
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: includes/admin/settings/class-ur-settings-general.php:485
+#: templates/myaccount/form-login.php:173
+msgid "Not a member yet? Register now."
+msgstr "Nejste členem? Zaregistrujte se."
+
+#: includes/admin/class-ur-admin-form-modal.php:67
+msgid "Insert Form"
+msgstr "Vložit formulář"
+
+#: includes/admin/class-ur-admin-form-modal.php:49
+msgid "Add User Registration Form"
+msgstr "Přidat formulář pro registraci uživatele"
+
+#: includes/admin/class-ur-admin-form-modal.php:97
+msgid "Add Form"
+msgstr "Přidat formulář"
+
+#: includes/admin/class-ur-admin-form-modal.php:68
+msgid "Close"
+msgstr "Zavřít"
+
+#: includes/admin/class-ur-admin-form-modal.php:51
+msgid "Add Registration Form"
+msgstr "Přidat registrační formulář"
+
+#: includes/admin/settings/class-ur-settings-general.php:397
+#: includes/functions-ur-core.php:1075
+msgid "Rounded Edge"
+msgstr "Zaoblená hrana"
+
+#: includes/admin/settings/class-ur-settings-general.php:396
+#: includes/functions-ur-core.php:1074
+msgid "Rounded"
+msgstr "Zaoblený"
+
+#: includes/admin/settings/class-ur-settings-general.php:470
+msgid "Registration URL"
+msgstr "URL registrace"
+
+#: includes/admin/class-ur-admin.php:136
+msgid "Thank you for using User Registration."
+msgstr "Děkujeme za použití User Registration."
+
+#: includes/admin/class-ur-admin-form-modal.php:76
+msgid "Select a form below to insert"
+msgstr "Vložte formuláře z nabídky níže"
+
+#: includes/admin/settings/class-ur-settings-general.php:480
+msgid "This option lets you enter the label to registration url in login form."
+msgstr "Tady si můžete nastavit popisek k registrační URL v přihlašovacím formuláři."
+
+#: includes/admin/settings/class-ur-settings-general.php:479
+msgid "Registration URL label"
+msgstr "Popisek k registrační URL"
+
+#: includes/admin/settings/class-ur-settings-general.php:471
+msgid "This option lets you enter the registration page url in login form."
+msgstr "Tady si můžete vložit URL registrační stránky do přihlašovacího formuláře."
+
+#. translators: 1: User Registration 2:: five stars
+#: includes/admin/class-ur-admin.php:122
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Pokud chcete %1$s ohodnoťte nás prosím %2$s. Moc vám za to děkujeme!"
+
+#: includes/admin/class-ur-admin-menus.php:436
+msgid "Extensions"
+msgstr "Rozšíření"
+
+#: includes/admin/settings/class-ur-settings-general.php:393
+#: includes/functions-ur-core.php:1071
+#: assets/js/wp-color-picker/wp-color-picker-alpha.js:149
+msgid "Default"
+msgstr "Základní"
+
+#: includes/admin/settings/class-ur-settings-general.php:321
+#: includes/form/class-ur-form-field-number.php:37
+#: includes/form/class-ur-form-field-number.php:42
+#: includes/functions-ur-core.php:709
+msgid "Number"
+msgstr "Číslo"
+
+#: includes/admin/views/html-admin-page-status-logs.php:23
+msgid "Delete log"
+msgstr "Smazat log"
+
+#: includes/functions-ur-core.php:1001
+msgid "This option lets you enter redirect path after successful user registration."
+msgstr "Tady si můžete nastavit přesměrování po úspěšné registraci uživatele."
+
+#: includes/functions-ur-core.php:999
+msgid "Redirect URL"
+msgstr "Přesměrování na URL"
+
+#: includes/admin/views/html-notice-key-unvalidated.php:14
+msgid "Hide notice"
+msgstr "Schovat oznámení"
+
+#: includes/admin/views/html-license-form.php:20
+msgid "License:"
+msgstr "Licence:"
+
+#: includes/admin/views/html-admin-page-status.php:14
+msgid "Logs"
+msgstr "Logy"
+
+#: includes/admin/views/html-admin-page-addons.php:16
+msgid "User Registration Extensions"
+msgstr "Rozšíření pro User Registration"
+
+#: includes/admin/class-ur-admin-menus.php:435
+msgid "User Registration extensions"
+msgstr "Rozšíření pro User Registration"
+
+#: includes/admin/class-ur-admin-menus.php:401
+msgid "User Registration Status"
+msgstr "Stav User Registration"
+
+#: includes/admin/settings/class-ur-settings-general.php:394
+#: includes/functions-ur-core.php:1072
+msgid "Bordered"
+msgstr "Ohraničený"
+
+#. translators: %1$s: Activation error message
+#: includes/class-ur-plugin-updater.php:366 includes/functions-ur-core.php:2366
+#: includes/functions-ur-core.php:2385 includes/functions-ur-core.php:2408
+#: includes/functions-ur-core.php:2426 includes/functions-ur-core.php:2432
+#: includes/functions-ur-core.php:2437 includes/functions-ur-core.php:2450
+msgid "<strong>Activation error:</strong> %1$s"
+msgstr "<strong>Chyba aktivace:</strong> %1$s"
+
+#: includes/admin/settings/class-ur-settings-license.php:84
+#: includes/admin/settings/class-ur-settings-license.php:92
+#: includes/class-ur-plugin-updater.php:296
+msgid "Deactivate License"
+msgstr "Deaktivovat licenci"
+
+#: includes/class-ur-plugin-updater.php:296
+msgid "Deactivate License Key"
+msgstr "Deaktivovat licenční klíč"
+
+#: includes/admin/settings/class-ur-settings-general.php:395
+#: includes/functions-ur-core.php:1073
+msgid "Flat"
+msgstr "Plochý"
+
+#: includes/admin/updater/class-ur-addon-updater.php:468
+msgid "Error"
+msgstr "Chyba"
+
+#: includes/admin/views/html-license-form.php:22
+msgid "Enter your license key and hit return. A valid key is required for updates."
+msgstr "Vložte svůj licenční klíč a zmáčkněte zpět. Validní klíč je potřebný pro aktualizace."
+
+#: includes/admin/views/html-admin-page-status-logs.php:51
+msgid "There are currently no logs to view."
+msgstr "Žádný log nenalezen."
+
+#: includes/admin/views/html-admin-page-status-logs.php:38
+msgid "View"
+msgstr "Zobrazit"
+
+#: includes/class-ur-plugin-updater.php:336
+msgid "The provided license key has been disabled. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr "Poskytnutý licenční klíč byl zablokován. Prosím <a href=\"%s\" target=\"_blank\">kontaktujte podporu</a> pro více informací."
+
+#. translators: %s: Class
+#: includes/functions-ur-core.php:1326
+msgid "The class <code>%s</code> provided by user_registration_logging_class filter must implement <code>UR_Logger_Interface</code>."
+msgstr "Třída <code>%s</code> zadaná user_registration_logging_class filtrem musí implementovat <code>UR_Logger_Interface</code>."
+
+#: includes/log-handlers/class-ur-log-handler-file.php:353
+msgid "This method should not be called before plugins_loaded."
+msgstr "Tuto metodu nelze zavolat před plugins_loaded."
+
+#: includes/class-ur-plugin-updater.php:362
+msgid "The provided license key could not be found. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr "Zadaný licenční klíč nenalezen. <a href=\"%s\" target=\"_blank\">Kontaktujte podporu</a> pro více informací."
+
+#: includes/admin/updater/class-ur-addon-updater.php:468
+msgid "You do not have permission to install plugin updates"
+msgstr "Nemáte oprávnění k instalaci aktualizací pluginu."
+
+#: includes/admin/updater/class-ur-addon-updater.php:269
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Nalezena nová verze %1$s. %2$sZobrazit %3$s podrobnosti%4$s nebo %5$srovnou aktualizovat%6$s."
+
+#: includes/admin/updater/class-ur-addon-updater.php:261
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "K dispozici je nová verze %1$s. %2$sZobrazit podrobnosti%4$s verze %3$s."
+
+#: includes/admin/class-ur-admin-menus.php:402
+#: includes/class-ur-email-confirmation.php:105
+msgid "Status"
+msgstr "Stav"
+
+#: includes/class-ur-ajax.php:168 includes/class-ur-shortcodes.php:176
+msgid "Only administrators can add new users."
+msgstr "Pouze administrátor může přidat nového uživatele."
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:187 includes/class-ur-shortcodes.php:191
+msgid "Log out of this account."
+msgstr "Odhlásit se."
+
+#: includes/admin/class-ur-admin-user-manager.php:383
+msgid "pending"
+msgstr "zpracovává se"
+
+#: includes/admin/class-ur-admin-user-manager.php:387
+msgid "denied"
+msgstr "zamítnuto"
+
+#: includes/admin/class-ur-admin-user-manager.php:379
+msgid "approved"
+msgstr "schváleno"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:600
+msgid "Approval Status"
+msgstr "Stav schválení"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:522
+#: includes/admin/class-ur-admin-user-list-manager.php:523
+msgid "Approve"
+msgstr "Schválit"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:370
+msgid "All statuses"
+msgstr "Všechny stavy"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:95
+msgctxt "The action on users list page"
+msgid "Approve"
+msgstr "Schválit"
+
+#. translators: %s - Resend Verification Link.
+#: includes/class-ur-email-confirmation.php:372
+#: includes/class-ur-form-handler.php:401
+#: includes/class-ur-form-handler.php:417
+#: includes/class-ur-form-handler.php:421
+#: includes/class-ur-form-handler.php:426
+#: includes/class-ur-form-handler.php:430
+#: includes/class-ur-form-handler.php:439
+#: includes/class-ur-user-approval.php:196
+#: includes/class-ur-user-approval.php:201
+#: includes/class-ur-user-approval.php:217
+#: includes/class-ur-user-approval.php:230
+#: includes/class-ur-user-approval.php:235
+#: includes/class-ur-user-approval.php:256
+#: includes/class-ur-user-approval.php:270 includes/functions-ur-account.php:53
+#: includes/functions-ur-account.php:56
+msgid "ERROR:"
+msgstr "CHYBA:"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:525
+#: includes/admin/class-ur-admin-user-list-manager.php:526
+msgid "Deny"
+msgstr "Zamítnout"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:396
+msgid "Filter"
+msgstr "Filtr"
+
+#: includes/admin/class-ur-admin-user-list-manager.php:96
+msgctxt "The action on users list page"
+msgid "Deny"
+msgstr "Zamítnout"
+
+#: includes/class-ur-user-approval.php:201
+#: includes/class-ur-user-approval.php:235
+msgid "Your account has been denied."
+msgstr "Váš účet byl zamítnut."
+
+#: includes/class-ur-user-approval.php:196
+#: includes/class-ur-user-approval.php:217
+msgid "Your account is still pending approval."
+msgstr "Váš účet čeká na schválení."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:615
+msgid "If user has access to sign in or not."
+msgstr "Pokud má uživatel přístup k přihlášení nebo ne."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:372
+msgid "All approval statuses"
+msgstr "Všechny stavy schválení "
+
+#: includes/admin/class-ur-admin-user-list-manager.php:244
+msgid "User denied."
+msgid_plural "%s users denied."
+msgstr[0] "Zamítnutý uživatel"
+msgstr[1] "%s uživatelé zamítnuti."
+msgstr[2] "%s uživatelů zamítnuto."
+
+#: includes/admin/class-ur-admin-user-list-manager.php:242
+msgid "User approved."
+msgid_plural "%s users approved."
+msgstr[0] "Uživatel schválen."
+msgstr[1] "%s uživatelé schváleni."
+msgstr[2] "%s uživatelů schváleno."
+
+#: includes/admin/settings/class-ur-settings-general.php:267
+#: includes/functions-ur-core.php:1114
+msgid "Admin approval after registration"
+msgstr "Schválení administrátorem po registraci"
+
+#: includes/admin/settings/class-ur-settings-general.php:237
+#: includes/functions-ur-core.php:1111
+msgid "Manual login after registration"
+msgstr "Manuální přihlášení po registraci"
+
+#: includes/admin/settings/class-ur-settings-general.php:74
+#: includes/functions-ur-core.php:942
+msgid "User login option"
+msgstr "Volby pro přihlášení uživatele"
+
+#: includes/functions-ur-core.php:1113
+msgid "Auto login after registration"
+msgstr "Automatické přihlášení po registraci"
+
+#: includes/abstracts/abstract-ur-list-table.php:312
+msgid "Copy of "
+msgstr "Kopie"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:130
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+#: includes/admin/settings/class-ur-settings-general.php:75
+#: includes/admin/settings/class-ur-settings-general.php:402
+#: includes/functions-ur-core.php:943
+msgid "This option lets you choose login option after user registration."
+msgstr "Tato volba vám umožní vybrat variantu přihlášení po registraci uživatele."
+
+#: includes/admin/settings/emails/class-ur-settings-admin-email.php:69
+#: includes/class-ur-emailer.php:341
+msgid "A New User Registered"
+msgstr "Zaregistrován nový uživatel"
+
+#: includes/admin/class-ur-admin-assets.php:236
+msgid "Could not install."
+msgstr "Nelze nainstalovat."
+
+#: includes/admin/settings/class-ur-settings-general.php:243
+#: includes/class-ur-frontend-scripts.php:375
+msgid "User successfully registered."
+msgstr "Uživatel úspěšně zaregistrován."
+
+#. Description of the plugin
+msgid "Drag and Drop user registration form and login form builder."
+msgstr "Drag and Drop tvůrce formuláře pro registraci uživatele a jeho přihlášení."
+
+#: includes/admin/views/html-admin-page-forms.php:68
+msgid "Form Setting"
+msgstr "Nastavení formuláře"
+
+#: includes/admin/settings/class-ur-settings-integration.php:27
+#: includes/admin/settings/class-ur-settings-integration.php:45
+msgid "Integration"
+msgstr "Integrace"
+
+#: includes/admin/settings/class-ur-settings-general.php:357
+#: includes/class-ur-ajax.php:147 includes/class-ur-ajax.php:560
+#: includes/class-ur-form-handler.php:421
+#: includes/class-ur-frontend-scripts.php:378
+msgid "Captcha code error, please try again."
+msgstr "Chyba kódu Captcha, zkuste to prosím znovu."
+
+#. translators: %1$s - Google reCAPTCHA docs url
+#: includes/admin/settings/class-ur-settings-integration.php:82
+#: includes/admin/settings/class-ur-settings-integration.php:107
+#: includes/admin/settings/class-ur-settings-integration.php:143
+msgid "Get secret key from google %1$s reCaptcha %2$s."
+msgstr "Získat skrytý klíč od Google %1$s reCaptcha %2$s."
+
+#. translators: %1$s - Google reCAPTCHA docs url
+#: includes/admin/settings/class-ur-settings-integration.php:69
+#: includes/admin/settings/class-ur-settings-integration.php:94
+#: includes/admin/settings/class-ur-settings-integration.php:130
+msgid "Get site key from google %1$s reCaptcha %2$s."
+msgstr "Získat webový klíč od Google %1$s reCaptcha %2$s."
+
+#: includes/admin/settings/class-ur-settings-general.php:464
+msgid "Enable %1$s %2$s Captcha %3$s support"
+msgstr "Povolit %1$s %2$s Captcha %3$s podporu"
+
+#: includes/form/class-ur-form-field-user-login.php:57
+msgid "Username already exists."
+msgstr "Uživatelské jméno již existuje."
+
+#: includes/form/class-ur-form-field-user-login.php:68
+msgid "Invalid username ! "
+msgstr "Chybné uživatelské jméno !"
+
+#: includes/form/class-ur-form-field-user-login.php:35
+#: includes/form/class-ur-form-field-user-login.php:40
+#: includes/functions-ur-core.php:1129
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: includes/form/class-ur-form-field-user-pass.php:40
+msgid "User Password"
+msgstr "Heslo uživatele"
+
+#: includes/form/class-ur-form-field-user-pass.php:35
+msgid "Password "
+msgstr "Heslo"
+
+#: includes/form/class-ur-form-field-nickname.php:35
+#: includes/form/class-ur-form-field-nickname.php:40
+#: includes/functions-ur-core.php:697
+msgid "Nickname"
+msgstr "Přezdívka"
+
+#: includes/admin/settings/class-ur-settings-general.php:341
+#: includes/form/class-ur-form-field-user-confirm-password.php:40
+msgid "Confirm Password"
+msgstr "Potvrdit heslo"
+
+#: includes/form/class-ur-form-field-user-confirm-password.php:35
+msgid "Confirm Password "
+msgstr "Potvrdit heslo"
+
+#: includes/admin/settings/class-ur-settings-general.php:583
+#: includes/form/class-ur-form-field-password.php:35
+#: includes/form/class-ur-form-field-password.php:40
+msgid "Password Field"
+msgstr "Pole s heslem"
+
+#: includes/class-ur-post-types.php:58
+msgid "Search registrations"
+msgstr "Prohledat registrace"
+
+#: includes/class-ur-install.php:317
+msgctxt "Page title"
+msgid "Registration"
+msgstr "Registrace"
+
+#: includes/class-ur-install.php:308
+msgctxt "Page title"
+msgid "My Account"
+msgstr "Můj účet"
+
+#: includes/class-ur-ajax.php:489 includes/class-ur-form-handler.php:365
+msgid "Username is required."
+msgstr "Uživatelské jméno je vyžadováno."
+
+#: includes/admin/views/html-admin-page-forms.php:87
+msgid "Extra Fields"
+msgstr "Extra pole"
+
+#: includes/admin/views/html-admin-page-forms.php:84
+msgid "Default User Fields"
+msgstr "Základní uživatelské pole"
+
+#: includes/admin/views/html-admin-page-forms.php:60
+msgid "Field Options"
+msgstr "Nastavení pole"
+
+#: includes/admin/views/html-admin-page-forms.php:58
+msgid "Fields"
+msgstr "Pole"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:168
+msgid "Search Registration"
+msgstr "Najít registraci"
+
+#: includes/admin/class-ur-admin-menus.php:418
+#: includes/admin/class-ur-admin-menus.php:419
+#: includes/admin/class-ur-admin-menus.php:756
+#: includes/admin/class-ur-admin-registrations-table-list.php:162
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:54
+#: includes/form/class-ur-form-field-date.php:37
+#: includes/form/class-ur-form-field-date.php:42
+#: includes/functions-ur-core.php:710
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:53
+msgid "Author"
+msgstr "Autor"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:52
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:51
+msgid "Title"
+msgstr "Název"
+
+#: includes/admin/class-ur-admin-menus.php:385
+#: includes/class-ur-install.php:638
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/admin/class-ur-admin-assets.php:224
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Vyhledávám&hellip;"
+
+#: includes/abstracts/abstract-ur-form-field.php:654
+msgid "Advance Settings"
+msgstr "Pokročilé pole"
+
+#: includes/functions-ur-template.php:198
+msgid "required"
+msgstr "povinné"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:64
+#: includes/form/settings/class-ur-setting-user_login.php:64
+#: includes/functions-ur-core.php:773 includes/functions-ur-core.php:786
+msgid "Yes"
+msgstr "Ano"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:63
+#: includes/form/settings/class-ur-setting-user_login.php:63
+#: includes/functions-ur-core.php:772 includes/functions-ur-core.php:785
+msgid "No"
+msgstr "Ne"
+
+#: includes/admin/settings/class-ur-settings-general.php:283
+#: includes/functions-ur-core.php:767
+msgid "Required"
+msgstr "Povinné"
+
+#: includes/functions-ur-core.php:748 includes/functions-ur-core.php:750
+msgid "Field Name"
+msgstr "Název pole"
+
+#: includes/functions-ur-core.php:730 includes/functions-ur-core.php:732
+msgid "Label"
+msgstr "Popisek"
+
+#: includes/form/settings/class-ur-setting-country.php:57
+#: includes/form/settings/class-ur-setting-text.php:42
+#: includes/form/settings/class-ur-setting-text.php:49
+#: includes/form/settings/class-ur-setting-textarea.php:33
+#: includes/form/settings/class-ur-setting-textarea.php:40
+msgid "Default Value"
+msgstr "Přednastavená hodnota"
+
+#: includes/form/settings/class-ur-setting-text.php:31
+#: includes/form/settings/class-ur-setting-text.php:38
+msgid "Size"
+msgstr "Velikost"
+
+#: includes/form/settings/class-ur-setting-password.php:31
+#: includes/form/settings/class-ur-setting-password.php:38
+msgid "Password Size"
+msgstr "Velikost hesla"
+
+#: includes/form/settings/class-ur-setting-checkbox.php:34
+#: includes/form/settings/class-ur-setting-checkbox.php:41
+#: includes/form/settings/class-ur-setting-country.php:34
+#: includes/form/settings/class-ur-setting-country.php:41
+#: includes/form/settings/class-ur-setting-date.php:39
+#: includes/form/settings/class-ur-setting-date.php:46
+#: includes/form/settings/class-ur-setting-description.php:34
+#: includes/form/settings/class-ur-setting-description.php:41
+#: includes/form/settings/class-ur-setting-display_name.php:34
+#: includes/form/settings/class-ur-setting-display_name.php:41
+#: includes/form/settings/class-ur-setting-email.php:31
+#: includes/form/settings/class-ur-setting-email.php:38
+#: includes/form/settings/class-ur-setting-first_name.php:34
+#: includes/form/settings/class-ur-setting-first_name.php:41
+#: includes/form/settings/class-ur-setting-last_name.php:34
+#: includes/form/settings/class-ur-setting-last_name.php:41
+#: includes/form/settings/class-ur-setting-nickname.php:34
+#: includes/form/settings/class-ur-setting-nickname.php:41
+#: includes/form/settings/class-ur-setting-number.php:64
+#: includes/form/settings/class-ur-setting-number.php:71
+#: includes/form/settings/class-ur-setting-radio.php:29
+#: includes/form/settings/class-ur-setting-radio.php:36
+#: includes/form/settings/class-ur-setting-select.php:32
+#: includes/form/settings/class-ur-setting-select.php:39
+#: includes/form/settings/class-ur-setting-text.php:53
+#: includes/form/settings/class-ur-setting-text.php:60
+#: includes/form/settings/class-ur-setting-textarea.php:45
+#: includes/form/settings/class-ur-setting-textarea.php:52
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:35
+#: includes/form/settings/class-ur-setting-user_confirm_email.php:42
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:34
+#: includes/form/settings/class-ur-setting-user_confirm_password.php:41
+#: includes/form/settings/class-ur-setting-user_email.php:34
+#: includes/form/settings/class-ur-setting-user_email.php:41
+#: includes/form/settings/class-ur-setting-user_login.php:34
+#: includes/form/settings/class-ur-setting-user_login.php:41
+#: includes/form/settings/class-ur-setting-user_pass.php:34
+#: includes/form/settings/class-ur-setting-user_pass.php:41
+#: includes/form/settings/class-ur-setting-user_url.php:34
+#: includes/form/settings/class-ur-setting-user_url.php:41
+msgid "Custom Class"
+msgstr "Vlastní třída"
+
+#: includes/form/class-ur-form-field-user-url.php:35
+#: includes/form/class-ur-form-field-user-url.php:40
+msgid "Website"
+msgstr "WWW stránka"
+
+#: includes/form/class-ur-form-field-last-name.php:40
+#: includes/functions-ur-core.php:699
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: includes/form/class-ur-form-field-last-name.php:35
+msgid "Last Name "
+msgstr "Příjmení"
+
+#: includes/form/class-ur-form-field-first-name.php:35
+#: includes/form/class-ur-form-field-first-name.php:40
+#: includes/functions-ur-core.php:698
+msgid "First Name"
+msgstr "Jméno"
+
+#: includes/form/class-ur-form-field-display-name.php:35
+#: includes/form/class-ur-form-field-display-name.php:40
+#: includes/functions-ur-core.php:701
+msgid "Display Name"
+msgstr "Zobrazené jméno"
+
+#: includes/form/class-ur-form-field-textarea.php:35
+#: includes/form/class-ur-form-field-textarea.php:40
+#: includes/functions-ur-core.php:708
+msgid "Textarea"
+msgstr "Textové pole"
+
+#: includes/form/class-ur-form-field-text.php:35
+#: includes/form/class-ur-form-field-text.php:40
+msgid "Input Field"
+msgstr "Input pole"
+
+#: includes/form/class-ur-form-field-country.php:347
+#: includes/form/class-ur-form-field-country.php:352
+#: includes/functions-ur-core.php:707
+msgid "Country"
+msgstr "Stát"
+
+#: includes/class-ur-post-types.php:60
+msgid "No registrations found in trash"
+msgstr "Nenalezeny žádné registrace"
+
+#: includes/class-ur-post-types.php:52
+msgid "Add new registration"
+msgstr "Přidat novou registraci"
+
+#: includes/class-ur-install.php:368
+msgid "Default form"
+msgstr "Základní formulář"
+
+#: includes/functions-ur-core.php:1022
+msgid "Form Submit Button Label"
+msgstr "Popisek tlačítka Odeslat"
+
+#: includes/functions-ur-core.php:969
+msgid "Enable Strong Password"
+msgstr "Povolit silné heslo"
+
+#: includes/functions-ur-core.php:956
+msgid "Default User Role"
+msgstr "Přednastavená role uživatele"
+
+#: includes/admin/settings/class-ur-settings-general.php:42
+#: includes/admin/settings/class-ur-settings-general.php:66
+msgid "General Options"
+msgstr "Obecné volby"
+
+#: includes/admin/functions-ur-admin.php:426
+#: includes/admin/settings/class-ur-settings-general.php:27
+#: includes/admin/settings/class-ur-settings-general.php:69
+#: includes/admin/settings/class-ur-settings-general.php:380
+msgid "General"
+msgstr "Obecné"
+
+#: includes/abstracts/abstract-ur-list-table.php:445
+msgid "Empty trash"
+msgstr "Vysypat koš"
+
+#: includes/abstracts/abstract-ur-list-table.php:109
+msgid "Move to trash"
+msgstr "Přesunout do koše"
+
+#: includes/abstracts/abstract-ur-list-table.php:105
+#: includes/admin/class-ur-admin-registrations-table-list.php:110
+msgid "Delete permanently"
+msgstr "Smazat navždy"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:110
+msgid "Delete this item permanently"
+msgstr "Smazat tuto položku navždy"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:107
+msgid "Move this item to the Trash"
+msgstr "Přesunout tuto položku do koše"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:105
+msgid "Restore this item from the Trash"
+msgstr "Obnovit tuto položku"
+
+#: includes/admin/class-ur-admin-profile.php:139
+#: includes/admin/class-ur-admin-profile.php:151
+#: includes/form/class-ur-form-field-select.php:35
+#: includes/form/class-ur-form-field-select.php:40
+#: includes/functions-ur-core.php:706
+msgid "Select"
+msgstr "Výběrové pole"
+
+#: includes/admin/class-ur-admin-menus.php:584
+msgid "Select all"
+msgstr "Vybrat vše"
+
+#: includes/admin/class-ur-admin-menus.php:478
+msgid "Update form"
+msgstr "Aktualizovat formulář"
+
+#: includes/admin/class-ur-admin-assets.php:391
+msgctxt "user registration admin"
+msgid "Success"
+msgstr "Povedlo se"
+
+#: includes/admin/class-ur-admin-assets.php:390
+msgctxt "user registration admin"
+msgid "Form successfully saved."
+msgstr "Formulář úspěšně uložen."
+
+#: includes/admin/class-ur-admin-assets.php:385
+msgctxt "user registration admin"
+msgid "Are you sure want to delete this field?"
+msgstr "Opravdu chcete smazat toto pole?"
+
+#: includes/admin/class-ur-admin-assets.php:356
+#: includes/admin/class-ur-admin-registrations-table-list.php:107
+msgid "Trash"
+msgstr "Smazat"
+
+#: includes/admin/class-ur-admin-assets.php:220
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Prosím smažte %qty% znaků"
+
+#: includes/admin/class-ur-admin-assets.php:219
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Prosím smažte 1 znak"
+
+#: includes/abstracts/abstract-ur-form-field.php:644
+msgid "General Settings"
+msgstr "Obecné nastavení"
+
+#: includes/form/class-ur-form-field-user-email.php:40
+#: includes/functions-ur-core.php:692
+msgid "User Email"
+msgstr "E-mail uživatele"
+
+#: includes/form/class-ur-form-field-user-email.php:35
+msgid "Email "
+msgstr "E-mail"
+
+#: includes/form/class-ur-form-field-email.php:40
+#: includes/functions-ur-core.php:705
+msgid "Secondary Email"
+msgstr "Druhý e-mail"
+
+#: includes/form/class-ur-form-field-email.php:35
+msgid "Secondary Email "
+msgstr "Druhý e-mail"
+
+#. Author URI of the plugin
+msgid "https://wpeverest.com"
+msgstr "https://wpeverest.com"
+
+#. Plugin URI of the plugin
+msgid "https://wpeverest.com/plugins/user-registration"
+msgstr "https://wpeverest.com/plugins/user-registration"
+
+#: templates/myaccount/form-edit-password.php:51
+#: templates/myaccount/form-reset-password.php:32
+msgid "New password"
+msgstr "Nové heslo"
+
+#: includes/admin/settings/class-ur-settings-general.php:557
+#: includes/admin/settings/class-ur-settings-general.php:563
+#: templates/myaccount/form-login.php:43
+msgid "Lost your password?"
+msgstr "Zapoměl(a) jste heslo?"
+
+#: includes/admin/settings/class-ur-settings-general.php:527
+#: includes/admin/settings/class-ur-settings-general.php:533
+#: includes/functions-ur-core.php:704 templates/myaccount/form-login.php:40
+msgid "Password"
+msgstr "Heslo"
+
+#: includes/admin/settings/class-ur-settings-general.php:547
+#: includes/admin/settings/class-ur-settings-general.php:553
+#: templates/form-login-registration.php:31
+#: templates/myaccount/form-login.php:42
+msgid "Login"
+msgstr "Přihlásit se"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:358
+msgid "Password reset is not allowed for this user"
+msgstr "Resetování hesla není možné u tohoto uživatele"
+
+#: includes/functions-ur-template.php:501
+msgid "Choose an option"
+msgstr "Zvolte možnost"
+
+#. translators: %s - Link to logout.
+#. translators: 1: Link and username of user 2: Logout url
+#: includes/class-ur-ajax.php:187 includes/class-ur-shortcodes.php:191
+#: includes/functions-ur-account.php:111
+msgid "Logout"
+msgstr "Odhlásit se"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:401
+msgid "Password and confirm password not matched"
+msgstr "Heslo s potvrzujícím se neshodují"
+
+#: includes/functions-ur-core.php:815
+msgid "Options"
+msgstr "Možnosti"
+
+#: includes/form/class-ur-form-field-country.php:211
+msgid "Portugal"
+msgstr "Portugalsko"
+
+#: includes/form/class-ur-form-field-country.php:210
+msgid "Poland"
+msgstr "Polsko"
+
+#: includes/form/class-ur-form-field-country.php:209
+msgid "Pitcairn"
+msgstr "Pitcairnovy ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:208
+msgid "Philippines"
+msgstr "Filipíny"
+
+#: includes/form/class-ur-form-field-country.php:207
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/form/class-ur-form-field-country.php:206
+msgid "Paraguay"
+msgstr "Paguay"
+
+#: includes/form/class-ur-form-field-country.php:205
+msgid "Papua New Guinea"
+msgstr "Papua Nová Guinea"
+
+#: includes/form/class-ur-form-field-country.php:204
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/form/class-ur-form-field-country.php:203
+msgid "Palestinian Territory"
+msgstr "Palestína"
+
+#: includes/form/class-ur-form-field-country.php:202
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: includes/form/class-ur-form-field-country.php:201
+msgid "Oman"
+msgstr "Omán"
+
+#: includes/form/class-ur-form-field-country.php:200
+msgid "Norway"
+msgstr "Norsko"
+
+#: includes/form/class-ur-form-field-country.php:199
+msgid "North Korea"
+msgstr "Severní Korea"
+
+#: includes/form/class-ur-form-field-country.php:198
+msgid "Northern Mariana Islands"
+msgstr "Severní Mariany"
+
+#: includes/form/class-ur-form-field-country.php:197
+msgid "Norfolk Island"
+msgstr "Ostrov Norfolk"
+
+#: includes/form/class-ur-form-field-country.php:196
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/form/class-ur-form-field-country.php:195
+msgid "Nigeria"
+msgstr "Nigérie"
+
+#: includes/form/class-ur-form-field-country.php:194
+msgid "Niger"
+msgstr "Niger"
+
+#: includes/form/class-ur-form-field-country.php:193
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: includes/form/class-ur-form-field-country.php:192
+msgid "New Zealand"
+msgstr "Nový Zéland"
+
+#: includes/form/class-ur-form-field-country.php:191
+msgid "New Caledonia"
+msgstr "Nová Kaledonie"
+
+#: includes/form/class-ur-form-field-country.php:190
+msgid "Netherlands"
+msgstr "Nizozemsko"
+
+#: includes/form/class-ur-form-field-country.php:189
+msgid "Nepal"
+msgstr "Nepál"
+
+#: includes/form/class-ur-form-field-country.php:188
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/form/class-ur-form-field-country.php:187
+msgid "Namibia"
+msgstr "Namíbie"
+
+#: includes/form/class-ur-form-field-country.php:186
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: includes/form/class-ur-form-field-country.php:185
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: includes/form/class-ur-form-field-country.php:184
+msgid "Morocco"
+msgstr "Maroko"
+
+#: includes/form/class-ur-form-field-country.php:183
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/form/class-ur-form-field-country.php:182
+msgid "Montenegro"
+msgstr "Černá hora"
+
+#: includes/form/class-ur-form-field-country.php:181
+msgid "Mongolia"
+msgstr "Mongolsko"
+
+#: includes/form/class-ur-form-field-country.php:180
+msgid "Monaco"
+msgstr "Monako"
+
+#: includes/form/class-ur-form-field-country.php:179
+msgid "Moldova"
+msgstr "Moldávie"
+
+#: includes/form/class-ur-form-field-country.php:178
+msgid "Micronesia"
+msgstr "Mikronésie"
+
+#: includes/form/class-ur-form-field-country.php:177
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: includes/form/class-ur-form-field-country.php:176
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: includes/form/class-ur-form-field-country.php:175
+msgid "Mauritius"
+msgstr "Marutius"
+
+#: includes/form/class-ur-form-field-country.php:174
+msgid "Mauritania"
+msgstr "Mauretánie"
+
+#: includes/form/class-ur-form-field-country.php:173
+msgid "Martinique"
+msgstr "Martinik"
+
+#: includes/form/class-ur-form-field-country.php:172
+msgid "Marshall Islands"
+msgstr "Marshallovy ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:171
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/form/class-ur-form-field-country.php:170
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/form/class-ur-form-field-country.php:169
+msgid "Maldives"
+msgstr "Maledivy"
+
+#: includes/form/class-ur-form-field-country.php:168
+msgid "Malaysia"
+msgstr "Malajsie"
+
+#: includes/form/class-ur-form-field-country.php:167
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/form/class-ur-form-field-country.php:166
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: includes/form/class-ur-form-field-country.php:165
+msgid "Macedonia"
+msgstr "Makedonie"
+
+#: includes/form/class-ur-form-field-country.php:164
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., Čína"
+
+#: includes/form/class-ur-form-field-country.php:163
+msgid "Luxembourg"
+msgstr "Luxembursko"
+
+#: includes/form/class-ur-form-field-country.php:162
+msgid "Lithuania"
+msgstr "Litva"
+
+#: includes/form/class-ur-form-field-country.php:161
+msgid "Liechtenstein"
+msgstr "Lichenštejnsko"
+
+#: includes/form/class-ur-form-field-country.php:160
+msgid "Libya"
+msgstr "Líbie"
+
+#: includes/form/class-ur-form-field-country.php:159
+msgid "Liberia"
+msgstr "Libérie"
+
+#: includes/form/class-ur-form-field-country.php:157
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: includes/form/class-ur-form-field-country.php:156
+msgid "Latvia"
+msgstr "Lotyšsko"
+
+#: includes/form/class-ur-form-field-country.php:155
+msgid "Laos"
+msgstr "Laos"
+
+#: includes/form/class-ur-form-field-country.php:154
+msgid "Kyrgyzstan"
+msgstr "Kyrgistán"
+
+#: includes/form/class-ur-form-field-country.php:153
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+#: includes/form/class-ur-form-field-country.php:152
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/form/class-ur-form-field-country.php:151
+msgid "Kenya"
+msgstr "Keňa"
+
+#: includes/form/class-ur-form-field-country.php:150
+msgid "Kazakhstan"
+msgstr "Kazakstán"
+
+#: includes/form/class-ur-form-field-country.php:149
+msgid "Jordan"
+msgstr "Jordánsko"
+
+#: includes/form/class-ur-form-field-country.php:148
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/form/class-ur-form-field-country.php:147
+msgid "Japan"
+msgstr "Japonsko"
+
+#: includes/form/class-ur-form-field-country.php:146
+msgid "Jamaica"
+msgstr "Jamajka"
+
+#: includes/form/class-ur-form-field-country.php:145
+msgid "Ivory Coast"
+msgstr "Pobřeží slonoviny"
+
+#: includes/form/class-ur-form-field-country.php:144
+msgid "Italy"
+msgstr "Itálie"
+
+#: includes/form/class-ur-form-field-country.php:143
+msgid "Israel"
+msgstr "Izrael"
+
+#: includes/form/class-ur-form-field-country.php:142
+msgid "Isle of Man"
+msgstr "Ostrov Man"
+
+#: includes/form/class-ur-form-field-country.php:141
+msgid "Ireland"
+msgstr "Irsko"
+
+#: includes/form/class-ur-form-field-country.php:140
+msgid "Iraq"
+msgstr "Irák"
+
+#: includes/form/class-ur-form-field-country.php:139
+msgid "Iran"
+msgstr "Irán"
+
+#: includes/form/class-ur-form-field-country.php:138
+msgid "Indonesia"
+msgstr "Indonésie"
+
+#: includes/form/class-ur-form-field-country.php:137
+msgid "India"
+msgstr "Indie"
+
+#: includes/form/class-ur-form-field-country.php:136
+msgid "Iceland"
+msgstr "Grónsko"
+
+#: includes/form/class-ur-form-field-country.php:135
+msgid "Hungary"
+msgstr "Maďarsko"
+
+#: includes/form/class-ur-form-field-country.php:134
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/form/class-ur-form-field-country.php:133
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/form/class-ur-form-field-country.php:83
+msgid "Christmas Island"
+msgstr "Velikonoční ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:82
+msgid "China"
+msgstr "Čína"
+
+#: includes/form/class-ur-form-field-country.php:81
+msgid "Chile"
+msgstr "Čile"
+
+#: includes/form/class-ur-form-field-country.php:80
+msgid "Chad"
+msgstr "Chad"
+
+#: includes/class-ur-post-types.php:59
+msgid "No registrations found"
+msgstr "Nenalezena žádná registrace"
+
+#: includes/class-ur-post-types.php:55
+msgid "New registration"
+msgstr "Nová registrace"
+
+#: includes/class-ur-install.php:638
+msgid "View User Registration settings"
+msgstr "Zobrazit nastavení User Registration"
+
+#: includes/class-ur-frontend-scripts.php:395
+msgid "Password with confirm password not matched."
+msgstr "Heslo s potvrzujícím se neshodují"
+
+#: includes/class-ur-form-handler.php:571
+msgid "Passwords do not match."
+msgstr "Hesla se neshodují."
+
+#: includes/class-ur-form-handler.php:567
+msgid "Please enter your password."
+msgstr "Prosím, vložte své heslo."
+
+#: includes/class-ur-form-handler.php:320
+msgid "New passwords do not match."
+msgstr "Nové hesla se neshodují."
+
+#: includes/class-ur-form-handler.php:317
+msgid "Please re-enter your password."
+msgstr "Prosím, vložte své heslo znovu."
+
+#: includes/class-ur-form-handler.php:308
+msgid "Please fill out all password fields."
+msgstr "Prosím, vyplňte všechna pole s heslem."
+
+#: includes/class-ur-ajax.php:716 includes/class-ur-ajax.php:722
+msgid "post data not set"
+msgstr "datum příspěvku nebylo nastaveno"
+
+#: includes/admin/views/html-notice-install.php:15
+msgid "Install User Registration Pages"
+msgstr "Nainstalovat User Registration Pages"
+
+#: includes/admin/settings/class-ur-settings-general.php:121
+msgid "My account page"
+msgstr "Stránka Můj účet"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:96
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:40
+msgid "No user registration found."
+msgstr "Nenalezena žádná registrace."
+
+#: includes/admin/class-ur-admin-notices.php:123 user-registration.php:77
+#: user-registration.php:86
+msgid "Cheatin&#8217; huh?"
+msgstr "Ztratil jsem se, prosím obnovte stránku."
+
+#: includes/admin/class-ur-admin-menus.php:546
+#: includes/admin/settings/class-ur-settings-general.php:195
+#: includes/class-ur-query.php:78
+msgid "Lost password"
+msgstr "Ztracené heslo"
+
+#: includes/admin/class-ur-admin-menus.php:384
+msgid "User Registration settings"
+msgstr "Nastavení User Registration"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-ur-admin-registrations-table-list.php:161
+#: includes/admin/class-ur-admin.php:123
+#: includes/admin/functions-ur-admin.php:119
+#: includes/class-ur-form-block.php:53 includes/class-ur-privacy.php:31
+msgid "User Registration"
+msgstr "User Registration"
+
+#: includes/admin/class-ur-admin-assets.php:402
+msgctxt "user registration admin"
+msgid "Drag your first form item here."
+msgstr "Vložte první pole do formuláře."
+
+#: includes/admin/class-ur-admin-assets.php:400
+msgctxt "user registration admin"
+msgid "Multiple field key "
+msgstr "Vícenásobný klíč pole"
+
+#: includes/admin/class-ur-admin-assets.php:399
+msgctxt "user registration admin"
+msgid "Invalid field name. Please do not use space, empty or special character, you can use underscore."
+msgstr "Špatný název pole. Nepoužívejte mezery, prázdné nebo speciální znaky, můžete použít podtržítko."
+
+#: includes/admin/class-ur-admin-assets.php:398
+msgctxt "user registration admin"
+msgid "Empty field label."
+msgstr "Prázdný popis pole."
+
+#: includes/admin/class-ur-admin-assets.php:397
+msgctxt "user registration admin"
+msgid "Duplicate field name."
+msgstr "Duplikovat název pole."
+
+#: includes/admin/class-ur-admin-assets.php:396
+msgctxt "user registration admin"
+msgid "Previous save action on going."
+msgstr "Už se něco ukládá, vyčkejte."
+
+#: includes/admin/class-ur-admin-assets.php:395
+msgctxt "user registration admin"
+msgid "Empty form name."
+msgstr "Prázdný název formuláře."
+
+#: includes/admin/class-ur-admin-assets.php:392
+msgctxt "user registration admin"
+msgid "Error"
+msgstr "Chyba"
+
+#: includes/admin/class-ur-admin-assets.php:223
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Nahrávám více výsledků&hellip;"
+
+#: includes/admin/class-ur-admin-assets.php:218
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Vložte %qty% nebo více znaků"
+
+#: includes/admin/class-ur-admin-assets.php:217
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Vložte 1 nebo více znaků"
+
+#: includes/admin/class-ur-admin-assets.php:216
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Nahrávání selhalo"
+
+#: includes/admin/class-ur-admin-assets.php:215
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Nic nenalezeno"
+
+#: templates/myaccount/form-edit-password.php:62
+msgid "Confirm new password"
+msgstr "Potvrdit nové heslo"
+
+#: includes/functions-ur-account.php:108
+msgid "Dashboard"
+msgstr "Nástěnka"
+
+#: includes/form/class-ur-form-field-country.php:95
+msgid "Czech Republic"
+msgstr "Česká republika"
+
+#: includes/form/class-ur-form-field-country.php:94
+msgid "Cyprus"
+msgstr "Kypr"
+
+#: includes/form/class-ur-form-field-country.php:92
+msgid "Cuba"
+msgstr "Kuba"
+
+#: includes/form/class-ur-form-field-country.php:91
+msgid "Croatia"
+msgstr "Chorvatsko"
+
+#: includes/form/class-ur-form-field-country.php:90
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/form/class-ur-form-field-country.php:89
+msgid "Cook Islands"
+msgstr "Cookovy ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:88
+msgid "Congo (Kinshasa)"
+msgstr "Kongo (Kinshasa)"
+
+#: includes/form/class-ur-form-field-country.php:87
+msgid "Congo (Brazzaville)"
+msgstr "Kongo (Brazzaville)"
+
+#: includes/form/class-ur-form-field-country.php:86
+msgid "Comoros"
+msgstr "Komorské ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:85
+msgid "Colombia"
+msgstr "Kolumbie"
+
+#: includes/form/class-ur-form-field-country.php:84
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosové ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:79
+msgid "Central African Republic"
+msgstr "Středoafrická republika"
+
+#: includes/form/class-ur-form-field-country.php:78
+msgid "Cayman Islands"
+msgstr "Kajmanské ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:77
+msgid "Cape Verde"
+msgstr "Kapverdy"
+
+#: includes/form/class-ur-form-field-country.php:76
+msgid "Canada"
+msgstr "Kanada"
+
+#: includes/form/class-ur-form-field-country.php:75
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: includes/form/class-ur-form-field-country.php:74
+msgid "Cambodia"
+msgstr "Kambodža"
+
+#: includes/form/class-ur-form-field-country.php:73
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/form/class-ur-form-field-country.php:72
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/form/class-ur-form-field-country.php:71
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+#: includes/form/class-ur-form-field-country.php:70
+msgid "Brunei"
+msgstr "Brunei"
+
+#: includes/form/class-ur-form-field-country.php:69
+msgid "British Virgin Islands"
+msgstr "Britské Panenské ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:68
+msgid "British Indian Ocean Territory"
+msgstr "Britské indickoocenánské území "
+
+#: includes/form/class-ur-form-field-country.php:67
+msgid "Brazil"
+msgstr "Brazílie"
+
+#: includes/form/class-ur-form-field-country.php:66
+msgid "Bouvet Island"
+msgstr "Ostrov Bouvet"
+
+#: includes/form/class-ur-form-field-country.php:65
+msgid "Botswana"
+msgstr "Botswana"
+
+#: includes/form/class-ur-form-field-country.php:64
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna a Herzegovina"
+
+#: includes/form/class-ur-form-field-country.php:63
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Svatý Eustach a Saba"
+
+#: includes/form/class-ur-form-field-country.php:62
+msgid "Bolivia"
+msgstr "Bolívie"
+
+#: includes/form/class-ur-form-field-country.php:61
+msgid "Bhutan"
+msgstr "Bhután"
+
+#: includes/form/class-ur-form-field-country.php:60
+msgid "Bermuda"
+msgstr "Bermudy"
+
+#: includes/form/class-ur-form-field-country.php:59
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/form/class-ur-form-field-country.php:58
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/form/class-ur-form-field-country.php:57
+msgid "Belau"
+msgstr "Belau"
+
+#: includes/form/class-ur-form-field-country.php:56
+msgid "Belgium"
+msgstr "Belgie"
+
+#: includes/form/class-ur-form-field-country.php:55
+msgid "Belarus"
+msgstr "Bělorusko"
+
+#: includes/form/class-ur-form-field-country.php:54
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/form/class-ur-form-field-country.php:53
+msgid "Bangladesh"
+msgstr "Bangladéš"
+
+#: includes/form/class-ur-form-field-country.php:52
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: includes/form/class-ur-form-field-country.php:51
+msgid "Bahamas"
+msgstr "Bahami"
+
+#: includes/form/class-ur-form-field-country.php:50
+msgid "Azerbaijan"
+msgstr "Ázerbajdžán"
+
+#: includes/form/class-ur-form-field-country.php:49
+msgid "Austria"
+msgstr "Rakousko"
+
+#: includes/form/class-ur-form-field-country.php:48
+msgid "Australia"
+msgstr "Austrálie"
+
+#: includes/form/class-ur-form-field-country.php:47
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/form/class-ur-form-field-country.php:46
+msgid "Armenia"
+msgstr "Arménie"
+
+#: includes/form/class-ur-form-field-country.php:45
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/form/class-ur-form-field-country.php:44
+msgid "Antigua and Barbuda"
+msgstr "Antigua a Barbuda"
+
+#: includes/form/class-ur-form-field-country.php:43
+msgid "Antarctica"
+msgstr "Antarktida"
+
+#: includes/form/class-ur-form-field-country.php:42
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/form/class-ur-form-field-country.php:41
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/form/class-ur-form-field-country.php:40
+msgid "Andorra"
+msgstr "Andora"
+
+#: includes/form/class-ur-form-field-country.php:39
+msgid "American Samoa"
+msgstr "Americká Samoa"
+
+#: includes/form/class-ur-form-field-country.php:38
+msgid "Algeria"
+msgstr "Alžírsko"
+
+#: includes/form/class-ur-form-field-country.php:37
+msgid "Albania"
+msgstr "Albánie"
+
+#: includes/form/class-ur-form-field-country.php:35
+msgid "Afghanistan"
+msgstr "Afgánistán"
+
+#: includes/class-ur-post-types.php:51
+msgid "Add registration"
+msgstr "Přidat registraci"
+
+#. translators: %s - Field Label
+#: includes/class-ur-form-handler.php:188
+#: includes/frontend/class-ur-frontend-form-handler.php:473
+msgid "%s is a required field."
+msgstr "%s je poviné pole."
+
+#: includes/abstracts/abstract-ur-list-table.php:532
+msgid "%s ago"
+msgstr "před %s"
+
+#: includes/admin/class-ur-admin-menus.php:588
+msgid "Add to menu"
+msgstr "Přidat do menu"
+
+#: includes/admin/class-ur-admin-menus.php:476
+msgid "Create Form"
+msgstr "Vytvořit formulář"
+
+#: templates/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr "E-mail pro obnovení hesla byl odeslán."
+
+#: templates/myaccount/form-lost-password.php:29
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Zapomněli jste heslo? Zadejte své uživatelské jméno nebo e-mailovou adresu. Zašleme Vám odkaz na vytvoření nového hesla."
+
+#: includes/form/class-ur-form-field-user-email.php:59
+msgid "Invalid email address."
+msgstr "Neplatná e-mailová adresa."
+
+#. translators: %s - Field Label
+#: includes/class-ur-form-handler.php:211
+msgid "%s is not a valid email address."
+msgstr "%s není platná e-mailová adresa."
+
+#: includes/form/class-ur-form-field-country.php:36
+msgid "&#197;land Islands"
+msgstr "Alandské ostrovy"
+
+#: includes/admin/class-ur-admin-assets.php:394
+msgctxt "user registration admin"
+msgid "At least one field needs to be selected."
+msgstr "Je potřeba vybrat alespoň jedno pole."
+
+#: templates/myaccount/form-reset-password.php:29
+msgid "Enter a new password below."
+msgstr "Vložte nové heslo."
+
+#: includes/libraries/wp-background-process.php:430
+msgid "Every %d minutes"
+msgstr "Každých %d minut"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:399
+msgid "Empty confirm password"
+msgstr "Ověřovací heslo nevyplněno"
+
+#: includes/form/class-ur-form-field-user-pass.php:57
+msgid "Empty password."
+msgstr "Heslo nevyplněno."
+
+#: includes/form/class-ur-form-field-country.php:132
+msgid "Heard Island and McDonald Islands"
+msgstr "Heardův ostrov a McDonaldovy ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:131
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/form/class-ur-form-field-country.php:130
+msgid "Guyana"
+msgstr "Guyana"
+
+#: includes/form/class-ur-form-field-country.php:129
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: includes/form/class-ur-form-field-country.php:128
+msgid "Guinea"
+msgstr "Guinea"
+
+#: includes/form/class-ur-form-field-country.php:127
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/form/class-ur-form-field-country.php:126
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/form/class-ur-form-field-country.php:125
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/form/class-ur-form-field-country.php:124
+msgid "Guadeloupe"
+msgstr "Gaudeloupe"
+
+#: includes/form/class-ur-form-field-country.php:123
+msgid "Grenada"
+msgstr "Grenada"
+
+#: includes/form/class-ur-form-field-country.php:122
+msgid "Greenland"
+msgstr "Grónsko"
+
+#: includes/form/class-ur-form-field-country.php:121
+msgid "Greece"
+msgstr "Řecko"
+
+#: includes/form/class-ur-form-field-country.php:120
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/form/class-ur-form-field-country.php:119
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/form/class-ur-form-field-country.php:118
+msgid "Germany"
+msgstr "Německo"
+
+#: includes/form/class-ur-form-field-country.php:117
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/form/class-ur-form-field-country.php:116
+msgid "Gambia"
+msgstr "Gambie"
+
+#: includes/form/class-ur-form-field-country.php:115
+msgid "Gabon"
+msgstr "Gabon"
+
+#: includes/form/class-ur-form-field-country.php:114
+msgid "French Southern Territories"
+msgstr "Francouzská jižní území"
+
+#: includes/form/class-ur-form-field-country.php:113
+msgid "French Polynesia"
+msgstr "Francouzská Polynésie"
+
+#: includes/form/class-ur-form-field-country.php:112
+msgid "French Guiana"
+msgstr "Francouzská Guiana"
+
+#: includes/form/class-ur-form-field-country.php:111
+msgid "France"
+msgstr "Francie"
+
+#: includes/form/class-ur-form-field-country.php:110
+msgid "Finland"
+msgstr "Finsko"
+
+#: includes/form/class-ur-form-field-country.php:109
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/form/class-ur-form-field-country.php:108
+msgid "Faroe Islands"
+msgstr "Ostrovy Faroe"
+
+#: includes/form/class-ur-form-field-country.php:107
+msgid "Falkland Islands"
+msgstr "Falkandské ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:106
+msgid "Ethiopia"
+msgstr "Ethiopie"
+
+#: includes/form/class-ur-form-field-country.php:105
+msgid "Estonia"
+msgstr "Estónsko"
+
+#: includes/form/class-ur-form-field-country.php:104
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: includes/form/class-ur-form-field-country.php:103
+msgid "Equatorial Guinea"
+msgstr "Rovníhová Guinea"
+
+#: includes/form/class-ur-form-field-country.php:102
+msgid "El Salvador"
+msgstr "Salvador"
+
+#: includes/form/class-ur-form-field-country.php:101
+msgid "Egypt"
+msgstr "Egypt"
+
+#: includes/form/class-ur-form-field-country.php:100
+msgid "Ecuador"
+msgstr "Ekvádor"
+
+#: includes/form/class-ur-form-field-country.php:99
+msgid "Dominican Republic"
+msgstr "Dominikánská republika"
+
+#: includes/form/class-ur-form-field-country.php:98
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/form/class-ur-form-field-country.php:97
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: includes/form/class-ur-form-field-country.php:96
+msgid "Denmark"
+msgstr "Dánsko"
+
+#: includes/form/class-ur-form-field-country.php:93
+msgid "Cura&ccedil;ao"
+msgstr "Cura&ccedil;ao"
+
+#: includes/class-ur-post-types.php:54
+msgid "Edit registration"
+msgstr "Upravit registraci"
+
+#: includes/class-ur-install.php:655
+msgid "Free support"
+msgstr "Podpora zdarma"
+
+#: includes/class-ur-install.php:654
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/admin/views/html-notice-custom.php:14
+#: includes/admin/views/html-notice-registration.php:14
+#: includes/admin/views/html-notice-updated.php:14
+msgid "Dismiss"
+msgstr "Odmítnout"
+
+#: includes/admin/settings/class-ur-settings-general.php:179
+msgid "Edit profile"
+msgstr "Upravit profil"
+
+#: includes/admin/class-ur-admin-registrations-table-list.php:100
+#: includes/class-ur-post-types.php:53
+msgid "Edit"
+msgstr "Upravit"
+
+#: includes/admin/class-ur-admin-menus.php:771
+msgid "Empty form data"
+msgstr "Prázdné datum formuláře"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:322
+msgid "Enter a username or email address."
+msgstr "Vložte uživatelské jméno nebo e-mail."
+
+#: includes/class-ur-ajax.php:299
+#: includes/form/class-ur-form-field-user-email.php:68
+msgid "Email already exists."
+msgstr "E-mail již existuje."
+
+#. Author of the plugin
+msgid "WPEverest"
+msgstr "WPEverest"
+
+#: templates/myaccount/form-reset-password.php:63
+msgid "Save"
+msgstr "Uložit"
+
+#: templates/myaccount/form-reset-password.php:43
+msgid "Re-enter new password"
+msgstr "Vložte znovu nové heslo"
+
+#: templates/myaccount/form-lost-password.php:42
+msgid "Reset password"
+msgstr "Resetovat heslo"
+
+#: includes/admin/settings/class-ur-settings-general.php:537
+#: includes/admin/settings/class-ur-settings-general.php:543
+#: templates/myaccount/form-login.php:41
+msgid "Remember me"
+msgstr "Pamatuj si mě"
+
+#: templates/myaccount/form-edit-password.php:82
+#: templates/myaccount/form-edit-profile.php:383
+#: templates/myaccount/form-edit-profile.php:388
+msgid "Save changes"
+msgstr "Uložit změny"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:190
+msgid "Required form field not found."
+msgstr "Požadované pole formuláře nenalezeno."
+
+#: includes/form/class-ur-form-field-country.php:283
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/form/class-ur-form-field-country.php:282
+msgid "Zambia"
+msgstr "Zambie"
+
+#: includes/form/class-ur-form-field-country.php:281
+msgid "Yemen"
+msgstr "Jemen"
+
+#: includes/form/class-ur-form-field-country.php:280
+msgid "Samoa"
+msgstr "Samoa"
+
+#: includes/form/class-ur-form-field-country.php:279
+msgid "Western Sahara"
+msgstr "Západní sahara"
+
+#: includes/form/class-ur-form-field-country.php:278
+msgid "Wallis and Futuna"
+msgstr "Wallis a Futuna"
+
+#: includes/form/class-ur-form-field-country.php:277
+msgid "Vietnam"
+msgstr "Větnam"
+
+#: includes/form/class-ur-form-field-country.php:276
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/form/class-ur-form-field-country.php:275
+msgid "Vatican"
+msgstr "Vatikán"
+
+#: includes/form/class-ur-form-field-country.php:274
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/form/class-ur-form-field-country.php:273
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: includes/form/class-ur-form-field-country.php:272
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/form/class-ur-form-field-country.php:271
+msgid "United States (US) Virgin Islands"
+msgstr "Spojené státy (US) Panenské ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:270
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Spojené státy (US) Menší odlehlé ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:269
+msgid "United States (US)"
+msgstr "Spojené státy (US)"
+
+#: includes/form/class-ur-form-field-country.php:268
+msgid "United Kingdom (UK)"
+msgstr "Spojené království (UK)"
+
+#: includes/form/class-ur-form-field-country.php:267
+msgid "United Arab Emirates"
+msgstr "Spojené arabské emiráty"
+
+#: includes/form/class-ur-form-field-country.php:266
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+#: includes/form/class-ur-form-field-country.php:265
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/form/class-ur-form-field-country.php:264
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/form/class-ur-form-field-country.php:263
+msgid "Turks and Caicos Islands"
+msgstr "ostrovy Turks a Caicos"
+
+#: includes/form/class-ur-form-field-country.php:262
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: includes/form/class-ur-form-field-country.php:261
+msgid "Turkey"
+msgstr "Turecko"
+
+#: includes/form/class-ur-form-field-country.php:260
+msgid "Tunisia"
+msgstr "Tunisko"
+
+#: includes/form/class-ur-form-field-country.php:259
+msgid "Trinidad and Tobago"
+msgstr "Trinidad a Tobago"
+
+#: includes/form/class-ur-form-field-country.php:258
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/form/class-ur-form-field-country.php:257
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/form/class-ur-form-field-country.php:256
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/form/class-ur-form-field-country.php:255
+msgid "Timor-Leste"
+msgstr "Východní Timor"
+
+#: includes/form/class-ur-form-field-country.php:254
+msgid "Thailand"
+msgstr "Thajsko"
+
+#: includes/form/class-ur-form-field-country.php:253
+msgid "Tanzania"
+msgstr "Tanzánie"
+
+#: includes/form/class-ur-form-field-country.php:252
+msgid "Tajikistan"
+msgstr "Tajikistán"
+
+#: includes/form/class-ur-form-field-country.php:251
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: includes/form/class-ur-form-field-country.php:250
+msgid "Syria"
+msgstr "Sýrie"
+
+#: includes/form/class-ur-form-field-country.php:249
+msgid "Switzerland"
+msgstr "Švýcarsko"
+
+#: includes/form/class-ur-form-field-country.php:248
+msgid "Sweden"
+msgstr "Švédsko"
+
+#: includes/form/class-ur-form-field-country.php:247
+msgid "Swaziland"
+msgstr "Svazijsko"
+
+#: includes/form/class-ur-form-field-country.php:246
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard a Jan Mayen"
+
+#: includes/form/class-ur-form-field-country.php:245
+msgid "Suriname"
+msgstr "Surinam"
+
+#: includes/form/class-ur-form-field-country.php:244
+msgid "Sudan"
+msgstr "Sudán"
+
+#: includes/form/class-ur-form-field-country.php:243
+msgid "Sri Lanka"
+msgstr "Srí Lanka"
+
+#: includes/form/class-ur-form-field-country.php:242
+msgid "Spain"
+msgstr "Španělsko"
+
+#: includes/form/class-ur-form-field-country.php:241
+msgid "South Sudan"
+msgstr "Jižní Sudán"
+
+#: includes/form/class-ur-form-field-country.php:240
+msgid "South Korea"
+msgstr "Jižní Korea"
+
+#: includes/form/class-ur-form-field-country.php:239
+msgid "South Georgia/Sandwich Islands"
+msgstr "Jižní Georgia/Jižní Sandwichovy ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:238
+msgid "South Africa"
+msgstr "Jižní Afrika"
+
+#: includes/form/class-ur-form-field-country.php:237
+msgid "Somalia"
+msgstr "Somálsko"
+
+#: includes/form/class-ur-form-field-country.php:236
+msgid "Solomon Islands"
+msgstr "Solomonovi ostrovy"
+
+#: includes/form/class-ur-form-field-country.php:235
+msgid "Slovenia"
+msgstr "Slovinsko"
+
+#: includes/form/class-ur-form-field-country.php:234
+msgid "Slovakia"
+msgstr "Slovensko"
+
+#: includes/form/class-ur-form-field-country.php:233
+msgid "Singapore"
+msgstr "Singapore"
+
+#: includes/form/class-ur-form-field-country.php:232
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: includes/form/class-ur-form-field-country.php:231
+msgid "Seychelles"
+msgstr "Seychely"
+
+#: includes/form/class-ur-form-field-country.php:230
+msgid "Serbia"
+msgstr "Srbsko"
+
+#: includes/form/class-ur-form-field-country.php:229
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/form/class-ur-form-field-country.php:228
+msgid "Saudi Arabia"
+msgstr "Saudská Arábie"
+
+#: includes/form/class-ur-form-field-country.php:227
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Svatý Tomáš a Princův ostrov"
+
+#: includes/form/class-ur-form-field-country.php:226
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/form/class-ur-form-field-country.php:225
+msgid "Saint Vincent and the Grenadines"
+msgstr "Svatý Vincenc a Grenadiny"
+
+#: includes/form/class-ur-form-field-country.php:224
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre a Miquelon"
+
+#: includes/form/class-ur-form-field-country.php:223
+msgid "Saint Martin (Dutch part)"
+msgstr "Svatý Martin (dánská část)"
+
+#: includes/form/class-ur-form-field-country.php:222
+msgid "Saint Martin (French part)"
+msgstr "Svatý Martin (francouzská část)"
+
+#: includes/form/class-ur-form-field-country.php:221
+msgid "Saint Lucia"
+msgstr "Svatá Lucie"
+
+#: includes/form/class-ur-form-field-country.php:220
+msgid "Saint Kitts and Nevis"
+msgstr "Svatý Kryštof a Nevis"
+
+#: includes/form/class-ur-form-field-country.php:219
+msgid "Saint Helena"
+msgstr "Svatá Helena"
+
+#: includes/form/class-ur-form-field-country.php:218
+msgid "Saint Barth&eacute;lemy"
+msgstr "Svatý Bartoloměj"
+
+#: includes/form/class-ur-form-field-country.php:217
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: includes/form/class-ur-form-field-country.php:216
+msgid "Russia"
+msgstr "Rusko"
+
+#: includes/form/class-ur-form-field-country.php:215
+msgid "Romania"
+msgstr "Rumunsko"
+
+#: includes/form/class-ur-form-field-country.php:213
+msgid "Qatar"
+msgstr "Katar"
+
+#: includes/form/class-ur-form-field-country.php:212
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#: includes/class-ur-query.php:75 includes/functions-ur-account.php:109
+msgid "Profile Details"
+msgstr "Detaily profilu"
+
+#: includes/class-ur-post-types.php:57
+msgid "View registration"
+msgstr "Zobrazit registraci"
+
+#: includes/class-ur-post-types.php:56
+msgid "View registrations"
+msgstr "Zobrazit registrace"
+
+#: includes/class-ur-post-types.php:50
+msgctxt "Admin menu name"
+msgid "Registrations"
+msgstr "Registrace"
+
+#: includes/class-ur-post-types.php:49
+msgid "Registration"
+msgstr "Registrace"
+
+#: includes/class-ur-post-types.php:48
+msgid "Registrations"
+msgstr "Registrace"
+
+#: includes/class-ur-form-handler.php:323
+msgid "Your current password is incorrect."
+msgstr "Vaše současné heslo je nesprávné."
+
+#: includes/class-ur-ajax.php:352 includes/class-ur-form-handler.php:257
+msgid "User profile updated successfully."
+msgstr "Aktualizace profilu uživatele proběhla úspěšně."
+
+#: includes/admin/views/html-notice-update.php:15
+msgid "Run the updater"
+msgstr "Spustit aktualizaci"
+
+#: includes/admin/views/html-notice-install.php:15
+msgid "Skip setup"
+msgstr "Přeskočit nastavení"
+
+#: includes/admin/views/html-admin-settings.php:46
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: includes/admin/settings/class-ur-settings-general.php:203
+msgid "User logout"
+msgstr "Odhlášení uživatele"
+
+#: includes/admin/settings/class-ur-settings-general.php:196
+msgid "Endpoint for the \"My account &rarr; Lost password\" page."
+msgstr "Koncový bod pro stránku \"Můj účet &rarr; Ztracené heslo\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:180
+msgid "Endpoint for the \"My account &rarr; Edit profile\" page."
+msgstr "Koncový bod pro stránku \"Můj účet &rarr; Úprava profilu\"."
+
+#: includes/admin/settings/class-ur-settings-general.php:86
+msgid "This option lets you limit which roles you are willing to prevent dashboard access."
+msgstr "Toto nastavení vám umožní omezit přístup některé z rolí na nástěnku."
+
+#: includes/admin/settings/class-ur-settings-general.php:85
+msgid "Prevent dashboard access"
+msgstr "Zabránění přístupu na nástěnku"
+
+#: includes/abstracts/abstract-ur-list-table.php:536
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: includes/abstracts/abstract-ur-list-table.php:520
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/abstracts/abstract-ur-list-table.php:104
+#: includes/admin/class-ur-admin-registrations-table-list.php:105
+msgid "Restore"
+msgstr "Obnovit"
+
+#: includes/admin/class-ur-admin-settings.php:566
+msgid "Select a page&hellip;"
+msgstr "Vybrat stránku..."
+
+#: includes/admin/class-ur-admin-settings.php:80
+msgid "Your settings have been saved."
+msgstr "Vaše nastavení bylo uloženo."
+
+#: includes/admin/class-ur-admin-profile.php:54
+msgid "User Extra Information %s"
+msgstr "Extra informace o uživateli %s"
+
+#: includes/admin/class-ur-admin-assets.php:356
+msgid "Clone"
+msgstr "Klonovat"
+
+#. translators: %s - Link to logout
+#: includes/shortcodes/class-ur-shortcode-my-account.php:137
+msgid "Are you sure you want to log out?&nbsp;<a href=\"%s\">Confirm and log out</a>"
+msgstr "Opravdu se chcete odhlásit? &nbsp;<a href=\"%s\">Potvrďte odhlášení</a>"
+
+#: includes/class-ur-ajax.php:492 includes/class-ur-form-handler.php:368
+msgid "A user could not be found with this email address."
+msgstr "Uživatel s tímto e-mailem nebyl nalezen."
+
+#: includes/admin/settings/class-ur-settings-general.php:523
+#: templates/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr "Uživatelské jméno nebo e-mailová adresa"
+
+#: templates/myaccount/form-lost-password.php:32
+msgid "Username or email"
+msgstr "Uživatelské jméno nebo e-mail"
+
+#: includes/abstracts/abstract-ur-list-table.php:231
+#: includes/abstracts/abstract-ur-list-table.php:271
+#: includes/admin/class-ur-admin-export-users.php:51
+#: includes/admin/class-ur-admin-import-export-forms.php:51
+#: includes/admin/class-ur-admin-notices.php:119
+#: includes/admin/class-ur-admin-settings.php:69
+#: includes/admin/class-ur-admin-status.php:169
+#: includes/class-ur-email-confirmation.php:184
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Akce se nepovedla. Obnovte stránku a zkuste to znovu."
+
+#: includes/functions-ur-core.php:758 includes/functions-ur-core.php:760
+msgid "Placeholder"
+msgstr "Zástupný text"
+
+#: includes/frontend/class-ur-frontend-form-handler.php:184
+msgid "Duplicate field key in form, please contact site administrator."
+msgstr "Duplicitní klíč pole ve formuláři, prosím kontaktujte administrátora stránka."
+
+#: includes/form/class-ur-form-field-country.php:158
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: includes/class-ur-form-handler.php:311
+msgid "Please enter your current password."
+msgstr "Prosím vložte vaše aktuální heslo."
+
+#: includes/class-ur-ajax.php:739
+msgid "Could not save form. Invalid field name. Please check all field name"
+msgstr "Formulář nelze uložit. Chybný název pole. Prosím zkontrolujte si názvy polí"
+
+#: includes/admin/settings/class-ur-settings-general.php:204
+msgid "Endpoint for the triggering logout. You can add this to your menus via a custom link: yoursite.com/?user-logout=true"
+msgstr "Koncový bod pro přepínač odhlášení. Přidat jej můžete do menu přes vlastní odkaz: yoursite.com/?user-logout=true"
+
+#: includes/admin/settings/class-ur-settings-general.php:176
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr "Koncové body jsou připojeny k URL adresám vašich stránek za účelem zpracování konkrétních akcí na stránkách účtů. Měly by být jedinečné a mohou být ponechány prázdné, pro deaktivaci daného koncového bodu."
+
+#: includes/admin/class-ur-admin-assets.php:222
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Můžete vybrat pouze %qty% položek"
+
+#: includes/admin/class-ur-admin-assets.php:221
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Můžete vybrat pouze 1 položku"
+
+#: includes/form/class-ur-form-field-description.php:36
+#: includes/form/class-ur-form-field-description.php:41
+msgid "User Bio"
+msgstr "Životopis uživatele"
+
+#: includes/form/class-ur-form-field-country.php:214
+msgid "Reunion"
+msgstr "Réunion"
+
+#: includes/class-ur-install.php:316
+msgctxt "Page slug"
+msgid "registration"
+msgstr "registrace"
+
+#: includes/admin/views/html-notice-install.php:14
+msgid "<strong>Welcome to User Registration</strong> &#8211; You&lsquo;re almost ready to create registration :)"
+msgstr "<strong>Vítejte v registraci uživatelů</strong> &#8211; Ještě kousek a můžete si vytvořit registrační formulář :)"
+
+#: templates/myaccount/lost-password-confirmation.php:27
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr "E-mail pro obnovení hesla byl odeslán na e-mailovou adresu vašeho účtu, ale může několik minut trvat, než se objeví ve vaší schránce. Počkejte prosím alespoň 10 minut před dalším pokusem o reset hesla."
+
+#: includes/class-ur-install.php:307
+msgctxt "Page slug"
+msgid "my-account"
+msgstr "muj-ucet"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:76
+msgid "Your password has been reset successfully."
+msgstr "Heslo úspěšně resetováno."
+
+#: includes/functions-ur-notice.php:29 includes/functions-ur-notice.php:61
+#: includes/functions-ur-notice.php:81 includes/functions-ur-notice.php:107
+#: includes/functions-ur-notice.php:121 includes/functions-ur-notice.php:135
+#: includes/functions-ur-notice.php:190
+msgid "This function should not be called before user_registration_init."
+msgstr "Funkce nemůže být zavolána před user_registration_init."
+
+#: includes/class-ur-post-types.php:61
+msgid "Parent registration"
+msgstr "Rodičovská registrace"
+
+#: includes/class-ur-install.php:654
+msgid "View User Registration documentation"
+msgstr "Zobrazit dokumentaci User Registration"
+
+#: includes/admin/views/html-notice-updating.php:14
+msgid "Taking a while? Click here to run it now."
+msgstr "Chvíli to trvá? Klepnutím sem spustíte okamžitě."
+
+#: includes/admin/views/html-notice-updating.php:14
+msgid "Your database is being updated in the background."
+msgstr "Vaše databáze se aktualizuje na pozadí."
+
+#: includes/admin/views/html-notice-updated.php:16
+msgid "User Registration data update complete. Thank you for updating to the latest version!"
+msgstr "Aktualizace dat User Registration dokončena. Děkujeme za aktualizaci na nejnovější verzi."
+
+#: includes/admin/views/html-notice-update.php:19
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr "Důrazně doporučujeme zálohovat databázi před pokračováním. Opravdu chcete nyní spustit aktualizaci?"
+
+#: includes/admin/views/html-notice-update.php:14
+msgid "We need to update your site's database to the latest version."
+msgstr "Musíme aktualizovat databázi vašich stránek na nejnovější verzi."
+
+#: includes/admin/views/html-notice-update.php:14
+#: includes/admin/views/html-notice-updating.php:14
+msgid "User Registration Data Update"
+msgstr "Aktualizace dat User Registration"
+
+#: includes/admin/class-ur-admin-settings.php:142
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Provedené změny budou ztraceny, pokud opustíte tuto stránku."
+
+#: includes/admin/class-ur-admin-menus.php:522
+msgid "User Registration endpoints"
+msgstr "Koncové body User Registration"
+
+#: includes/shortcodes/class-ur-shortcode-my-account.php:343
+#: includes/shortcodes/class-ur-shortcode-my-account.php:348
+msgid "Invalid username or email."
+msgstr "Neplatné uživatelské jméno nebo e-mail"
+
+#: includes/abstracts/abstract-ur-list-table.php:260
+#: includes/abstracts/abstract-ur-list-table.php:269
+msgid "You do not have permission to delete posts!"
+msgstr "Nemáte práva na smazání formulářů!"
+
+#: includes/abstracts/abstract-ur-list-table.php:240
+msgid "You do not have permission to trash posts!"
+msgstr "Nemáte práva na přesunuté formulářů do koše!"

@@ -1,0 +1,97 @@
+<style type="text/css">
+
+#sidebar
+{
+    float: left;
+    padding: 20px 14px 0 0;
+    width: 236px;
+}
+
+.box
+{
+    border: 1px solid #CCCCCC;
+    color: #0061B0;
+    margin-bottom: 7px;
+    padding: 7px;
+}
+</style>
+
+<div id="sidebar">
+
+<div class="box" style="text-align: center;">
+<iframe id="news_iframe" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 220px; height:20px;" src="../news.php"></iframe>
+</div>
+
+<div class="box" style="text-align: center;">
+<iframe id="post_iframe" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 220px; height:20px;" src="../news_post.php"></iframe>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+function setIframeHeight1()
+{
+  if( document.getElementById("news_iframe").contentDocument!=null )
+  { 
+    if( document.getElementById("news_iframe").contentDocument.getElementById('onlyCol')==null )
+    {
+      setTimeout( 'setIframeHeight1()', 500 );
+    }
+    else
+    {
+      var h = document.getElementById("news_iframe").contentDocument.getElementById('onlyCol');
+      var w = h.offsetHeight;
+      document.getElementById("news_iframe").style.height = w+'px';
+    }
+  }
+  else
+  {
+    if( document.getElementById("news_iframe").contentWindow.document.getElementById("onlyCol")==null )
+    {
+      setTimeout( 'setIframeHeight1()', 500 );
+    }
+    else
+    {
+      var h = document.getElementById("news_iframe").contentWindow.document.getElementById("onlyCol");
+      var w = h.offsetHeight;
+      document.getElementById("news_iframe").style.height = w+'px';
+    }
+  }
+}
+
+function setIframeHeight2()
+{
+  if( document.getElementById("post_iframe").contentDocument!=null )
+  { 
+    if( document.getElementById("post_iframe").contentDocument.getElementById('onlyCol')==null )
+    {
+      setTimeout( 'setIframeHeight2()', 500 );
+    }
+    else
+    {
+      var h = document.getElementById("post_iframe").contentDocument.getElementById('onlyCol');
+      var w = h.offsetHeight;
+      document.getElementById("post_iframe").style.height = w+'px';
+    }
+  }
+  else
+  {
+    if( document.getElementById("post_iframe").contentWindow.document.getElementById("onlyCol")==null )
+    {
+      setTimeout( 'setIframeHeight2()', 500 );
+    }
+    else
+    {
+      var h = document.getElementById("post_iframe").contentWindow.document.getElementById("onlyCol");
+      var w = h.offsetHeight;
+      document.getElementById("post_iframe").style.height = w+'px';
+    }
+  }
+}
+
+setTimeout( 'setIframeHeight1()', 100 );
+setTimeout( 'setIframeHeight2()', 100 );
+
+</script>

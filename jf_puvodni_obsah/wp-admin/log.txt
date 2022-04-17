@@ -1,0 +1,1 @@
+23.07.2012 08:03:16 - SELECT id,nazev FROM skoly JOIN skoly_meta sm ON sm.id_skoly=skoly.id  WHERE faze='zpracovana' AND DATEDIFF (NOW(),datumZverejneni)>363 AND DATEDIFF (NOW(),datumZverejneni)<366 AND certifikovana='1'<br />

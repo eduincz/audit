@@ -1,0 +1,92 @@
+<!-- IF SCRIPT_NAME eq 'index' -->
+ <div id='online'>
+   <div style="background: #C5B496;">
+   <span style="margin-top: -2px; margin-left: -5px; margin-right: -5px;" class="corners-top"><span>&nbsp;</span></span>
+   </div>
+ <!-- IF S_DISPLAY_ONLINE_LIST -->
+  <div class="box-head">
+	<!-- IF U_VIEWONLINE --><h3><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a></h3><!-- ELSE --><h3>{L_WHO_IS_ONLINE}</h3><!-- ENDIF -->
+  </div>
+  <div class="box-content">
+	<p>{TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br />{RECORD_USERS}<br /> <br />{LOGGED_IN_USER_LIST}
+	<!-- IF LEGEND --><br /><em>{L_LEGEND}: {LEGEND}</em><!-- ENDIF --></p>
+  </div>
+ <!-- ENDIF -->  
+   <div style="background: #C5B496;">
+   <span style="margin-top: 0; margin-left: -5px; margin-right: -5px;" class="corners-bottom"><span>&nbsp;</span></span>
+   </div>
+ </div>
+<!-- ENDIF -->
+
+	</div>
+ 
+<div id="pravySloupec">
+</div>
+
+<div id="page-footer">
+<!-- IF SCRIPT_NAME != 'index' -->
+ <div id='online'>
+   <div style="background: #C5B496;">
+   <span style="margin-top: -2px; margin-left: -5px; margin-right: -5px;" class="corners-top"><span>&nbsp;</span></span>
+   </div>
+ <!-- IF S_DISPLAY_ONLINE_LIST -->
+  <div class="box-head">
+	<!-- IF U_VIEWONLINE --><h3><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a></h3><!-- ELSE --><h3>{L_WHO_IS_ONLINE}</h3><!-- ENDIF -->
+  </div>
+  <div class="box-content">
+	<p>{TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br />{RECORD_USERS}<br /> <br />{LOGGED_IN_USER_LIST}
+	<!-- IF LEGEND --><br /><em>{L_LEGEND}: {LEGEND}</em><!-- ENDIF --></p>
+  </div>
+ <!-- ENDIF -->  
+   <div style="background: #C5B496;">
+   <span style="margin-top: 0; margin-left: -5px; margin-right: -5px;" class="corners-bottom"><span>&nbsp;</span></span>
+   </div>
+ </div>
+<!-- ENDIF -->
+  
+  <div id="footer">
+		<div id="colophon">
+
+			<div id="site-info">
+				<div>Copyright 2011 Rodiče vítáni</div>
+				<div><a href="#">Nápověda a pravidla</a></div>
+			</div><!-- #site-info -->
+
+			<div id="footer-menu">
+
+				<ul>
+					<li><a href="#">O projektu</a></li>
+					<li class="space">&nbsp;</li>
+					<li><a href="#">Partneři</a></li>
+					<li class="space">&nbsp;</li>
+					<li><a href="#">Odkazy</a></li>
+
+					<li class="space">&nbsp;</li>
+					<li><a href="#">Kontakt</a></li>
+				</ul>
+
+				<form method="get" action="http://rodicevitani.cz/" class="search-box">
+				<div>
+				<input type="text" onblur="if(this.value=='')this.value='Hledej…';" onclick="if(this.value=='Hledej…')this.value='';" value="Hledej…" title="Hledat klíčová slova" maxlength="128" name="s" />
+				<input type="image" title="Vyhledat" src="http://rodicevitani.cz/wp-content/themes/rodicevitanicz/images/searchbtn.gif" />
+				</div>
+
+				</form>
+
+			</div><!-- #footer-menu -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+</div>
+
+</body>
+</html>

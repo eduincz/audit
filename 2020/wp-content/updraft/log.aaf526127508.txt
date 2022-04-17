@@ -1,0 +1,516 @@
+0000.000 (0) Opened log file at time: Tue, 20 Oct 2020 06:47:30 +0000 on https://audit.eduin.cz/wp
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.4.2 PHP: 7.3.21-1+0~20200807.66+debian9~1.gbp18a1c2 (uwsgi, Linux mx1.eduin.cz 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 10.1.45-MariaDB-0+deb9u1 WPLANG: cs_CZ Server: uWSGI safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 18.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 34481.7 MB
+0000.024 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.032 (0) Semaphore (fd, audit_options) being initialised
+0000.055 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.088 (0) Set semaphore last lock (fd) time to 2020-10-20 06:47:30
+0000.095 (0) Semaphore lock (fd) complete
+0000.126 (0) Backup run: resumption=0, nonce=aaf526127508, file_nonce=aaf526127508 begun at=1603176450 (0s ago), job type=backup
+0000.147 (0) Scheduling a resumption (1) after 300 seconds (1603176750) in case this run gets aborted
+0000.181 (0) Checking if we have a zip executable available
+0000.189 (0) Testing: /usr/bin/zip
+0000.201 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.209 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.218 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.226 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.234 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.245 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.253 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.261 (0) Working binary zip found: /usr/bin/zip
+0000.277 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.286 (0) Creation of backups of directories: beginning
+0000.311 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.424 (0) Total entities for the zip file: 1274 directories, 6748 files (0 skipped as non-modified), 86.8 MB
+0000.461 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.473 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.483 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.496 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.507 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.516 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 6748 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.641 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: size is now: 1.30 MB
+0001.665 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 600 files added (on-disk size: 1324.1 KB)
+0001.679 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 700 files added (on-disk size: 1324.1 KB)
+0001.691 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 800 files added (on-disk size: 1324.1 KB)
+0001.707 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 900 files added (on-disk size: 1324.1 KB)
+0001.719 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1000 files added (on-disk size: 1324.1 KB)
+0001.727 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 6748 files batched, 501 (1002) added so far); re-opening (prior size: 1324.1 KB)
+0002.834 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: size is now: 2.00 MB
+0002.857 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1100 files added (on-disk size: 2034 KB)
+0002.868 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1200 files added (on-disk size: 2034 KB)
+0002.879 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1300 files added (on-disk size: 2034 KB)
+0002.891 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1400 files added (on-disk size: 2034 KB)
+0002.901 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1500 files added (on-disk size: 2034 KB)
+0002.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 6748 files batched, 501 (1503) added so far); re-opening (prior size: 2034 KB)
+0004.763 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: size is now: 6.20 MB
+0004.786 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1600 files added (on-disk size: 6352.6 KB)
+0004.799 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1700 files added (on-disk size: 6352.6 KB)
+0004.812 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1800 files added (on-disk size: 6352.6 KB)
+0004.824 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 1900 files added (on-disk size: 6352.6 KB)
+0004.837 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2000 files added (on-disk size: 6352.6 KB)
+0004.844 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 6748 files batched, 501 (2004) added so far); re-opening (prior size: 6352.6 KB)
+0006.194 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: size is now: 10.10 MB
+0006.218 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2100 files added (on-disk size: 10302 KB)
+0006.233 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2200 files added (on-disk size: 10302 KB)
+0006.245 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2300 files added (on-disk size: 10302 KB)
+0006.263 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2400 files added (on-disk size: 10302 KB)
+0006.282 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2500 files added (on-disk size: 10302 KB)
+0006.290 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 6748 files batched, 501 (2505) added so far); re-opening (prior size: 10302 KB)
+0006.541 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2600 files added (on-disk size: 11437 KB)
+0006.557 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2700 files added (on-disk size: 11437 KB)
+0006.585 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2800 files added (on-disk size: 11437 KB)
+0006.601 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 2900 files added (on-disk size: 11437 KB)
+0006.618 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3000 files added (on-disk size: 11437 KB)
+0006.630 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 6748 files batched, 501 (3006) added so far); re-opening (prior size: 11437 KB)
+0006.811 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3100 files added (on-disk size: 12309.6 KB)
+0006.822 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3200 files added (on-disk size: 12309.6 KB)
+0006.833 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3300 files added (on-disk size: 12309.6 KB)
+0006.844 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3400 files added (on-disk size: 12309.6 KB)
+0006.858 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3500 files added (on-disk size: 12309.6 KB)
+0006.867 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.9 MB, 6748 files batched, 501 (3507) added so far); re-opening (prior size: 12309.6 KB)
+0008.308 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: size is now: 17.60 MB
+0008.336 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3600 files added (on-disk size: 18019.6 KB)
+0008.347 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3700 files added (on-disk size: 18019.6 KB)
+0008.358 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3800 files added (on-disk size: 18019.6 KB)
+0008.374 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 3900 files added (on-disk size: 18019.6 KB)
+0008.385 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4000 files added (on-disk size: 18019.6 KB)
+0008.393 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 6748 files batched, 501 (4008) added so far); re-opening (prior size: 18019.6 KB)
+0009.099 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4100 files added (on-disk size: 18665.3 KB)
+0009.112 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4200 files added (on-disk size: 18665.3 KB)
+0009.129 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4300 files added (on-disk size: 18665.3 KB)
+0009.142 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4400 files added (on-disk size: 18665.3 KB)
+0009.154 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4500 files added (on-disk size: 18665.3 KB)
+0009.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 6748 files batched, 501 (4509) added so far); re-opening (prior size: 18665.3 KB)
+0010.539 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4600 files added (on-disk size: 19901.8 KB)
+0010.568 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4700 files added (on-disk size: 19901.8 KB)
+0010.581 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4800 files added (on-disk size: 19901.8 KB)
+0010.596 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 4900 files added (on-disk size: 19901.8 KB)
+0010.612 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5000 files added (on-disk size: 19901.8 KB)
+0010.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 6748 files batched, 501 (5010) added so far); re-opening (prior size: 19901.8 KB)
+0013.076 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5100 files added (on-disk size: 23756.1 KB)
+0013.087 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5200 files added (on-disk size: 23756.1 KB)
+0013.098 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5300 files added (on-disk size: 23756.1 KB)
+0013.109 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5400 files added (on-disk size: 23756.1 KB)
+0013.120 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5500 files added (on-disk size: 23756.1 KB)
+0013.128 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 6748 files batched, 501 (5511) added so far); re-opening (prior size: 23756.1 KB)
+0014.092 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5600 files added (on-disk size: 25033.9 KB)
+0014.104 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5700 files added (on-disk size: 25033.9 KB)
+0014.115 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5800 files added (on-disk size: 25033.9 KB)
+0014.126 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 5900 files added (on-disk size: 25033.9 KB)
+0014.138 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6000 files added (on-disk size: 25033.9 KB)
+0014.147 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 6748 files batched, 501 (6012) added so far); re-opening (prior size: 25033.9 KB)
+0015.274 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6100 files added (on-disk size: 26311 KB)
+0015.287 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6200 files added (on-disk size: 26311 KB)
+0015.299 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6300 files added (on-disk size: 26311 KB)
+0015.311 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6400 files added (on-disk size: 26311 KB)
+0015.328 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6500 files added (on-disk size: 26311 KB)
+0015.340 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 6748 files batched, 501 (6513) added so far); re-opening (prior size: 26311 KB)
+0018.178 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6600 files added (on-disk size: 29816.1 KB)
+0018.189 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip.tmp: 6700 files added (on-disk size: 29816.1 KB)
+0019.510 (0) Created plugins zip (0) - 31071.6 KB in 19.2 s (1619.1 KB/s) (sha1: 282a5c1320e50a1680ef58605439157c076b71c3, sha256: cc0b719c833b77c48b3489fbfba608deb486d88947980c86116322091099bcae)
+0019.526 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.542 (0) Total entities for the zip file: 14 directories, 105 files (0 skipped as non-modified), 2 MB
+0019.553 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.951 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-themes.zip.tmp: size is now: 0.90 MB
+0020.003 (0) Created themes zip (0) - 927.6 KB in 0.5 s (1973.4 KB/s) (sha1: a0ec8ce574317bb56570bdc048086fe5484e3105, sha256: 5910985bf52587c52c7c97aff876df36a4a016c7f7c3ca9e6493b660aa15d29d)
+0020.020 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.027 (0) Looking for candidates to backup in: /var/www/web6/wp/wp-content/uploads
+0020.036 (0) finding files: 2020: adding to list (1)
+0020.043 (0) finding files: 2019: adding to list (2)
+0020.051 (0) finding files: 2017: adding to list (3)
+0020.058 (0) finding files: ur-logs: adding to list (4)
+0020.066 (0) finding files: 2018: adding to list (5)
+0020.074 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.094 (0) Total entities for the zip file: 20 directories, 451 files (0 skipped as non-modified), 58.6 MB
+0020.106 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.117 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.125 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 451 files batched, 239 (239) added so far); re-opening (prior size: 0 KB)
+0022.815 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: size is now: 25.10 MB
+0022.842 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 7999 KB/s)
+0022.858 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.2020859718323, normalised_time=3.2004176632931, max_time=22.849246025085, data points known=1, old_max_bytes=26214400, new_max_bytes=112293957)
+0022.878 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: 300 files added (on-disk size: 25669.2 KB)
+0022.890 (0) Zip: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: 400 files added (on-disk size: 25669.2 KB)
+0024.980 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip.tmp: size is now: 58.60 MB
+0025.700 (0) Created uploads zip (0) - 59982.8 KB in 5.6 s (10675.6 KB/s) (sha1: 675ac4564dc62bd0c85983f620da59f86df85268, sha256: 72b8afd3c2f9f6bbcbcd86547fc64c08ac5662683bad7fd1e5dcc6d6d5d01c39)
+0025.716 (0) Beginning backup of other directories found in the content directory (index: 0)
+0025.725 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0025.733 (0) Looking for candidates to backup in: /var/www/web6/wp/wp-content
+0025.742 (0) finding files: index.php: adding to list (1)
+0025.751 (0) finding files: upgrade: skipping: excluded by options
+0025.758 (0) finding files: updraft: skipping: this is the updraft directory
+0025.766 (0) finding files: uploads: skipping: this is the uploads directory
+0025.774 (0) finding files: plugins: skipping: this is the plugins directory
+0025.782 (0) finding files: themes: skipping: this is the themes directory
+0025.789 (0) finding files: languages: adding to list (2)
+0025.808 (0) Total entities for the zip file: 3 directories, 62 files (0 skipped as non-modified), 3.5 MB
+0026.209 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-others.zip.tmp: size is now: 1.00 MB
+0026.273 (0) Created others zip (0) - 1067.5 KB in 0.5 s (2242.9 KB/s) (sha1: ce4409b0a738410d46da9985873ab6686afcfdc2, sha256: 9ddeb7a1eec613b2d74de855e5f8dedeaf44dd6f61a9b7bd1eb5bdf277803d87)
+0027.207 (0) Saving backup status to database (elements: 8)
+0028.457 (0) Beginning creation of database dump (WordPress DB)
+0028.496 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0028.530 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0028.561 (0) Binary mysqldump: error (code: 2)
+0028.594 (0) Table audit_options: Total expected rows (approximate): 427
+0028.657 (0) Table audit_options: Rows added in this batch (next record: 226138): 433 in 0.05 seconds
+0028.689 (0) Table audit_options: finishing file(s) (2, 187.9 KB)
+0028.709 (0) Table audit_users: Total expected rows (approximate): 23
+0028.719 (0) Table audit_users: Rows added in this batch (next record: 28): 23 in 0.00 seconds
+0028.745 (0) Table audit_users: finishing file(s) (2, 2.2 KB)
+0028.762 (0) Table audit_usermeta: Total expected rows (approximate): 395
+0028.775 (0) Table audit_usermeta: Rows added in this batch (next record: 496): 411 in 0.00 seconds
+0028.803 (0) Table audit_usermeta: finishing file(s) (2, 6.3 KB)
+0028.821 (0) Table audit_commentmeta: Total expected rows (approximate): 0
+0028.829 (0) Table audit_commentmeta: Rows added in this batch (next record: 71): 1 in 0.00 seconds
+0028.854 (0) Table audit_commentmeta: finishing file(s) (2, 0.4 KB)
+0028.870 (0) Table audit_comments: Total expected rows (approximate): 59
+0028.882 (0) Table audit_comments: Rows added in this batch (next record: 71): 59 in 0.00 seconds
+0028.909 (0) Table audit_comments: finishing file(s) (2, 26.5 KB)
+0028.927 (0) Table audit_links: Total expected rows (approximate): 0
+0028.936 (0) Table audit_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0028.969 (0) Table audit_links: finishing file(s) (2, 0.5 KB)
+0028.986 (0) Table audit_postmeta: Total expected rows (approximate): 1706
+0029.029 (0) Table audit_postmeta: Rows added in this batch (next record: 2678): 1839 in 0.03 seconds
+0029.056 (0) Table audit_postmeta: finishing file(s) (2, 127 KB)
+0029.074 (0) Table audit_posts: Total expected rows (approximate): 816
+0029.336 (0) Table audit_posts: Rows added in this batch (next record: 1182): 826 in 0.25 seconds
+0029.364 (0) Table audit_posts: finishing file(s) (2, 982.8 KB)
+0029.380 (0) Table audit_term_relationships: Total expected rows (approximate): 8
+0029.388 (0) Table audit_term_relationships: Rows added in this batch (next record: 4): 8 in 0.00 seconds
+0029.412 (0) Table audit_term_relationships: finishing file(s) (2, 0.4 KB)
+0029.429 (0) Table audit_term_taxonomy: Total expected rows (approximate): 4
+0029.441 (0) Table audit_term_taxonomy: Rows added in this batch (next record: 4): 4 in 0.00 seconds
+0029.468 (0) Table audit_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0029.497 (0) Table audit_termmeta: Total expected rows (approximate): 3
+0029.511 (0) Table audit_termmeta: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0029.535 (0) Table audit_termmeta: finishing file(s) (2, 0.4 KB)
+0029.556 (0) Table audit_terms: Total expected rows (approximate): 4
+0029.571 (0) Table audit_terms: Rows added in this batch (next record: 4): 4 in 0.00 seconds
+0029.594 (0) Table audit_terms: finishing file(s) (2, 0.5 KB)
+0029.612 (0) Table audit_yoast_seo_links: Total expected rows (approximate): 330
+0029.625 (0) Table audit_yoast_seo_links: Rows added in this batch (next record: 2514): 330 in 0.00 seconds
+0029.652 (0) Table audit_yoast_seo_links: finishing file(s) (2, 6.3 KB)
+0029.671 (0) Table audit_yoast_seo_meta: Total expected rows (approximate): 110
+0029.680 (0) Table audit_yoast_seo_meta: Rows added in this batch (next record: 1166): 110 in 0.00 seconds
+0029.705 (0) Table audit_yoast_seo_meta: finishing file(s) (2, 0.7 KB)
+0029.722 (0) Table audit_user_registration_sessions: Total expected rows (approximate): 2
+0029.731 (0) Table audit_user_registration_sessions: Rows added in this batch (next record: 1000): 2 in 0.00 seconds
+0029.758 (0) Table audit_user_registration_sessions: finishing file(s) (2, 0.5 KB)
+0029.782 (0) Table audit_yoast_indexable: Total expected rows (approximate): 141
+0029.798 (0) Table audit_yoast_indexable: Rows added in this batch (next record: 147): 146 in 0.01 seconds
+0029.824 (0) Table audit_yoast_indexable: finishing file(s) (2, 16.8 KB)
+0029.840 (0) Table audit_yoast_indexable_hierarchy: Total expected rows (approximate): 14
+0029.849 (0) Table audit_yoast_indexable_hierarchy: Rows added in this batch (next record: 67): 14 in 0.00 seconds
+0029.887 (0) Table audit_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0029.910 (0) Table audit_yoast_migrations: Total expected rows (approximate): 14
+0029.919 (0) Table audit_yoast_migrations: Rows added in this batch (next record: 14): 14 in 0.00 seconds
+0029.944 (0) Table audit_yoast_migrations: finishing file(s) (2, 0.5 KB)
+0029.960 (0) Table audit_yoast_primary_term: Total expected rows (approximate): 0
+0029.968 (0) Table audit_yoast_primary_term: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0029.994 (0) Table audit_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0030.002 (0) Skipping table (lacks our prefix (audit_)): cislo_meta
+0030.010 (0) Skipping table (lacks our prefix (audit_)): civicrm_acl
+0030.017 (0) Skipping table (lacks our prefix (audit_)): civicrm_acl_cache
+0030.025 (0) Skipping table (lacks our prefix (audit_)): civicrm_acl_contact_cache
+0030.032 (0) Skipping table (lacks our prefix (audit_)): civicrm_acl_entity_role
+0030.039 (0) Skipping table (lacks our prefix (audit_)): civicrm_action_log
+0030.048 (0) Skipping table (lacks our prefix (audit_)): civicrm_action_mapping
+0030.057 (0) Skipping table (lacks our prefix (audit_)): civicrm_action_schedule
+0030.065 (0) Skipping table (lacks our prefix (audit_)): civicrm_activity
+0030.073 (0) Skipping table (lacks our prefix (audit_)): civicrm_activity_assignment
+0030.085 (0) Skipping table (lacks our prefix (audit_)): civicrm_activity_target
+0030.095 (0) Skipping table (lacks our prefix (audit_)): civicrm_address
+0030.103 (0) Skipping table (lacks our prefix (audit_)): civicrm_address_format
+0030.111 (0) Skipping table (lacks our prefix (audit_)): civicrm_batch
+0030.120 (0) Skipping table (lacks our prefix (audit_)): civicrm_cache
+0030.127 (0) Skipping table (lacks our prefix (audit_)): civicrm_campaign
+0030.135 (0) Skipping table (lacks our prefix (audit_)): civicrm_campaign_group
+0030.143 (0) Skipping table (lacks our prefix (audit_)): civicrm_case
+0030.152 (0) Skipping table (lacks our prefix (audit_)): civicrm_case_activity
+0030.159 (0) Skipping table (lacks our prefix (audit_)): civicrm_case_contact
+0030.166 (0) Skipping table (lacks our prefix (audit_)): civicrm_component
+0030.175 (0) Skipping table (lacks our prefix (audit_)): civicrm_contact
+0030.186 (0) Skipping table (lacks our prefix (audit_)): civicrm_contact_type
+0030.196 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution
+0030.204 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_page
+0030.214 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_product
+0030.222 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_recur
+0030.230 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_soft
+0030.238 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_type
+0030.246 (0) Skipping table (lacks our prefix (audit_)): civicrm_contribution_widget
+0030.254 (0) Skipping table (lacks our prefix (audit_)): civicrm_country
+0030.262 (0) Skipping table (lacks our prefix (audit_)): civicrm_county
+0030.270 (0) Skipping table (lacks our prefix (audit_)): civicrm_currency
+0030.278 (0) Skipping table (lacks our prefix (audit_)): civicrm_custom_field
+0030.288 (0) Skipping table (lacks our prefix (audit_)): civicrm_custom_group
+0030.295 (0) Skipping table (lacks our prefix (audit_)): civicrm_dashboard
+0030.304 (0) Skipping table (lacks our prefix (audit_)): civicrm_dashboard_contact
+0030.311 (0) Skipping table (lacks our prefix (audit_)): civicrm_dedupe_exception
+0030.320 (0) Skipping table (lacks our prefix (audit_)): civicrm_dedupe_rule
+0030.328 (0) Skipping table (lacks our prefix (audit_)): civicrm_dedupe_rule_group
+0030.336 (0) Skipping table (lacks our prefix (audit_)): civicrm_discount
+0030.344 (0) Skipping table (lacks our prefix (audit_)): civicrm_domain
+0030.352 (0) Skipping table (lacks our prefix (audit_)): civicrm_email
+0030.361 (0) Skipping table (lacks our prefix (audit_)): civicrm_entity_batch
+0030.369 (0) Skipping table (lacks our prefix (audit_)): civicrm_entity_file
+0030.377 (0) Skipping table (lacks our prefix (audit_)): civicrm_entity_financial_trxn
+0030.384 (0) Skipping table (lacks our prefix (audit_)): civicrm_entity_tag
+0030.392 (0) Skipping table (lacks our prefix (audit_)): civicrm_event
+0030.400 (0) Skipping table (lacks our prefix (audit_)): civicrm_event_carts
+0030.408 (0) Skipping table (lacks our prefix (audit_)): civicrm_events_in_carts
+0030.416 (0) Skipping table (lacks our prefix (audit_)): civicrm_file
+0030.424 (0) Skipping table (lacks our prefix (audit_)): civicrm_financial_account
+0030.433 (0) Skipping table (lacks our prefix (audit_)): civicrm_financial_trxn
+0030.441 (0) Skipping table (lacks our prefix (audit_)): civicrm_grant
+0030.449 (0) Skipping table (lacks our prefix (audit_)): civicrm_group
+0030.457 (0) Skipping table (lacks our prefix (audit_)): civicrm_group_contact
+0030.465 (0) Skipping table (lacks our prefix (audit_)): civicrm_group_contact_cache
+0030.476 (0) Skipping table (lacks our prefix (audit_)): civicrm_group_nesting
+0030.493 (0) Skipping table (lacks our prefix (audit_)): civicrm_group_organization
+0030.508 (0) Skipping table (lacks our prefix (audit_)): civicrm_im
+0030.516 (0) Skipping table (lacks our prefix (audit_)): civicrm_job
+0030.525 (0) Skipping table (lacks our prefix (audit_)): civicrm_job_log
+0030.533 (0) Skipping table (lacks our prefix (audit_)): civicrm_line_item
+0030.543 (0) Skipping table (lacks our prefix (audit_)): civicrm_loc_block
+0030.552 (0) Skipping table (lacks our prefix (audit_)): civicrm_location_type
+0030.561 (0) Skipping table (lacks our prefix (audit_)): civicrm_log
+0030.571 (0) Skipping table (lacks our prefix (audit_)): civicrm_mail_settings
+0030.582 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing
+0030.590 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_bounce_pattern
+0030.598 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_bounce_type
+0030.606 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_component
+0030.614 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_bounce
+0030.627 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_confirm
+0030.636 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_delivered
+0030.645 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_forward
+0030.655 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_opened
+0030.662 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_queue
+0030.671 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_reply
+0030.679 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_subscribe
+0030.687 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_trackable_url_open
+0030.694 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_event_unsubscribe
+0030.704 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_group
+0030.712 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_job
+0030.720 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_recipients
+0030.728 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_spool
+0030.736 (0) Skipping table (lacks our prefix (audit_)): civicrm_mailing_trackable_url
+0030.744 (0) Skipping table (lacks our prefix (audit_)): civicrm_mapping
+0030.752 (0) Skipping table (lacks our prefix (audit_)): civicrm_mapping_field
+0030.760 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership
+0030.768 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership_block
+0030.776 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership_log
+0030.784 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership_payment
+0030.792 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership_status
+0030.800 (0) Skipping table (lacks our prefix (audit_)): civicrm_membership_type
+0030.814 (0) Skipping table (lacks our prefix (audit_)): civicrm_menu
+0030.824 (0) Skipping table (lacks our prefix (audit_)): civicrm_msg_template
+0030.833 (0) Skipping table (lacks our prefix (audit_)): civicrm_navigation
+0030.842 (0) Skipping table (lacks our prefix (audit_)): civicrm_note
+0030.850 (0) Skipping table (lacks our prefix (audit_)): civicrm_openid
+0030.861 (0) Skipping table (lacks our prefix (audit_)): civicrm_option_group
+0030.869 (0) Skipping table (lacks our prefix (audit_)): civicrm_option_value
+0030.878 (0) Skipping table (lacks our prefix (audit_)): civicrm_participant
+0030.886 (0) Skipping table (lacks our prefix (audit_)): civicrm_participant_payment
+0030.895 (0) Skipping table (lacks our prefix (audit_)): civicrm_participant_status_type
+0030.903 (0) Skipping table (lacks our prefix (audit_)): civicrm_payment_processor
+0030.911 (0) Skipping table (lacks our prefix (audit_)): civicrm_payment_processor_type
+0030.919 (0) Skipping table (lacks our prefix (audit_)): civicrm_pcp
+0030.929 (0) Skipping table (lacks our prefix (audit_)): civicrm_pcp_block
+0030.938 (0) Skipping table (lacks our prefix (audit_)): civicrm_persistent
+0030.949 (0) Skipping table (lacks our prefix (audit_)): civicrm_phone
+0030.957 (0) Skipping table (lacks our prefix (audit_)): civicrm_pledge
+0030.965 (0) Skipping table (lacks our prefix (audit_)): civicrm_pledge_block
+0030.976 (0) Skipping table (lacks our prefix (audit_)): civicrm_pledge_payment
+0030.984 (0) Skipping table (lacks our prefix (audit_)): civicrm_preferences_date
+0030.992 (0) Skipping table (lacks our prefix (audit_)): civicrm_premiums
+0031.000 (0) Skipping table (lacks our prefix (audit_)): civicrm_premiums_product
+0031.007 (0) Skipping table (lacks our prefix (audit_)): civicrm_prevnext_cache
+0031.014 (0) Skipping table (lacks our prefix (audit_)): civicrm_price_field
+0031.022 (0) Skipping table (lacks our prefix (audit_)): civicrm_price_field_value
+0031.038 (0) Skipping table (lacks our prefix (audit_)): civicrm_price_set
+0031.048 (0) Skipping table (lacks our prefix (audit_)): civicrm_price_set_entity
+0031.056 (0) Skipping table (lacks our prefix (audit_)): civicrm_product
+0031.067 (0) Skipping table (lacks our prefix (audit_)): civicrm_project
+0031.074 (0) Skipping table (lacks our prefix (audit_)): civicrm_relationship
+0031.082 (0) Skipping table (lacks our prefix (audit_)): civicrm_relationship_type
+0031.090 (0) Skipping table (lacks our prefix (audit_)): civicrm_report_instance
+0031.098 (0) Skipping table (lacks our prefix (audit_)): civicrm_saved_search
+0031.108 (0) Skipping table (lacks our prefix (audit_)): civicrm_setting
+0031.117 (0) Skipping table (lacks our prefix (audit_)): civicrm_state_province
+0031.125 (0) Skipping table (lacks our prefix (audit_)): civicrm_subscription_history
+0031.132 (0) Skipping table (lacks our prefix (audit_)): civicrm_survey
+0031.140 (0) Skipping table (lacks our prefix (audit_)): civicrm_tag
+0031.155 (0) Skipping table (lacks our prefix (audit_)): civicrm_task
+0031.163 (0) Skipping table (lacks our prefix (audit_)): civicrm_task_status
+0031.178 (0) Skipping table (lacks our prefix (audit_)): civicrm_tell_friend
+0031.193 (0) Skipping table (lacks our prefix (audit_)): civicrm_timezone
+0031.209 (0) Skipping table (lacks our prefix (audit_)): civicrm_uf_field
+0031.217 (0) Skipping table (lacks our prefix (audit_)): civicrm_uf_group
+0031.224 (0) Skipping table (lacks our prefix (audit_)): civicrm_uf_join
+0031.232 (0) Skipping table (lacks our prefix (audit_)): civicrm_uf_match
+0031.240 (0) Skipping table (lacks our prefix (audit_)): civicrm_website
+0031.249 (0) Skipping table (lacks our prefix (audit_)): civicrm_worldregion
+0031.256 (0) Skipping table (lacks our prefix (audit_)): komentare_dotaznik
+0031.263 (0) Skipping table (lacks our prefix (audit_)): komentare_dotaznik_materska
+0031.272 (0) Skipping table (lacks our prefix (audit_)): odpovedi_dotaznik
+0031.280 (0) Skipping table (lacks our prefix (audit_)): odpovedi_dotaznik_archiv
+0031.298 (0) Skipping table (lacks our prefix (audit_)): phpbb_acl_groups
+0031.305 (0) Skipping table (lacks our prefix (audit_)): phpbb_acl_options
+0031.312 (0) Skipping table (lacks our prefix (audit_)): phpbb_acl_roles
+0031.320 (0) Skipping table (lacks our prefix (audit_)): phpbb_acl_roles_data
+0031.329 (0) Skipping table (lacks our prefix (audit_)): phpbb_acl_users
+0031.336 (0) Skipping table (lacks our prefix (audit_)): phpbb_attachments
+0031.344 (0) Skipping table (lacks our prefix (audit_)): phpbb_banlist
+0031.353 (0) Skipping table (lacks our prefix (audit_)): phpbb_bbcodes
+0031.361 (0) Skipping table (lacks our prefix (audit_)): phpbb_bookmarks
+0031.372 (0) Skipping table (lacks our prefix (audit_)): phpbb_bots
+0031.379 (0) Skipping table (lacks our prefix (audit_)): phpbb_captcha_answers
+0031.386 (0) Skipping table (lacks our prefix (audit_)): phpbb_captcha_questions
+0031.395 (0) Skipping table (lacks our prefix (audit_)): phpbb_config
+0031.403 (0) Skipping table (lacks our prefix (audit_)): phpbb_confirm
+0031.411 (0) Skipping table (lacks our prefix (audit_)): phpbb_disallow
+0031.418 (0) Skipping table (lacks our prefix (audit_)): phpbb_drafts
+0031.426 (0) Skipping table (lacks our prefix (audit_)): phpbb_extension_groups
+0031.435 (0) Skipping table (lacks our prefix (audit_)): phpbb_extensions
+0031.443 (0) Skipping table (lacks our prefix (audit_)): phpbb_forums
+0031.451 (0) Skipping table (lacks our prefix (audit_)): phpbb_forums_access
+0031.459 (0) Skipping table (lacks our prefix (audit_)): phpbb_forums_track
+0031.468 (0) Skipping table (lacks our prefix (audit_)): phpbb_forums_watch
+0031.477 (0) Skipping table (lacks our prefix (audit_)): phpbb_groups
+0031.496 (0) Skipping table (lacks our prefix (audit_)): phpbb_icons
+0031.511 (0) Skipping table (lacks our prefix (audit_)): phpbb_lang
+0031.519 (0) Skipping table (lacks our prefix (audit_)): phpbb_log
+0031.528 (0) Skipping table (lacks our prefix (audit_)): phpbb_login_attempts
+0031.536 (0) Skipping table (lacks our prefix (audit_)): phpbb_moderator_cache
+0031.544 (0) Skipping table (lacks our prefix (audit_)): phpbb_modules
+0031.553 (0) Skipping table (lacks our prefix (audit_)): phpbb_poll_options
+0031.562 (0) Skipping table (lacks our prefix (audit_)): phpbb_poll_votes
+0031.570 (0) Skipping table (lacks our prefix (audit_)): phpbb_posts
+0031.580 (0) Skipping table (lacks our prefix (audit_)): phpbb_privmsgs
+0031.588 (0) Skipping table (lacks our prefix (audit_)): phpbb_privmsgs_folder
+0031.597 (0) Skipping table (lacks our prefix (audit_)): phpbb_privmsgs_rules
+0031.605 (0) Skipping table (lacks our prefix (audit_)): phpbb_privmsgs_to
+0031.614 (0) Skipping table (lacks our prefix (audit_)): phpbb_profile_fields
+0031.622 (0) Skipping table (lacks our prefix (audit_)): phpbb_profile_fields_data
+0031.630 (0) Skipping table (lacks our prefix (audit_)): phpbb_profile_fields_lang
+0031.638 (0) Skipping table (lacks our prefix (audit_)): phpbb_profile_lang
+0031.646 (0) Skipping table (lacks our prefix (audit_)): phpbb_qa_confirm
+0031.707 (0) Skipping table (lacks our prefix (audit_)): phpbb_ranks
+0031.716 (0) Skipping table (lacks our prefix (audit_)): phpbb_reports
+0031.724 (0) Skipping table (lacks our prefix (audit_)): phpbb_reports_reasons
+0031.732 (0) Skipping table (lacks our prefix (audit_)): phpbb_search_results
+0031.741 (0) Skipping table (lacks our prefix (audit_)): phpbb_search_wordlist
+0031.749 (0) Skipping table (lacks our prefix (audit_)): phpbb_search_wordmatch
+0031.757 (0) Skipping table (lacks our prefix (audit_)): phpbb_sessions
+0031.765 (0) Skipping table (lacks our prefix (audit_)): phpbb_sessions_keys
+0031.775 (0) Skipping table (lacks our prefix (audit_)): phpbb_sitelist
+0031.783 (0) Skipping table (lacks our prefix (audit_)): phpbb_smilies
+0031.792 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles
+0031.800 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles_imageset
+0031.808 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles_imageset_data
+0031.818 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles_template
+0031.826 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles_template_data
+0031.835 (0) Skipping table (lacks our prefix (audit_)): phpbb_styles_theme
+0031.843 (0) Skipping table (lacks our prefix (audit_)): phpbb_topics
+0031.850 (0) Skipping table (lacks our prefix (audit_)): phpbb_topics_posted
+0031.859 (0) Skipping table (lacks our prefix (audit_)): phpbb_topics_track
+0031.868 (0) Skipping table (lacks our prefix (audit_)): phpbb_topics_watch
+0031.877 (0) Skipping table (lacks our prefix (audit_)): phpbb_user_group
+0031.885 (0) Skipping table (lacks our prefix (audit_)): phpbb_users
+0031.893 (0) Skipping table (lacks our prefix (audit_)): phpbb_warnings
+0031.901 (0) Skipping table (lacks our prefix (audit_)): phpbb_words
+0031.909 (0) Skipping table (lacks our prefix (audit_)): phpbb_zebra
+0031.917 (0) Skipping table (lacks our prefix (audit_)): skoly
+0031.924 (0) Skipping table (lacks our prefix (audit_)): skoly_archiv
+0031.934 (0) Skipping table (lacks our prefix (audit_)): skoly_meta
+0031.943 (0) Skipping table (lacks our prefix (audit_)): skoly_meta_archiv
+0031.951 (0) Skipping table (lacks our prefix (audit_)): vety_dotaznik
+0031.959 (0) Skipping table (lacks our prefix (audit_)): vety_dotaznik_materska
+0031.967 (0) Skipping table (lacks our prefix (audit_)): wp_cformsdata
+0031.974 (0) Skipping table (lacks our prefix (audit_)): wp_cformssubmissions
+0031.985 (0) Skipping table (lacks our prefix (audit_)): wp_commentmeta
+0031.992 (0) Skipping table (lacks our prefix (audit_)): wp_comments
+0032.001 (0) Skipping table (lacks our prefix (audit_)): wp_links
+0032.008 (0) Skipping table (lacks our prefix (audit_)): wp_ngg_album
+0032.017 (0) Skipping table (lacks our prefix (audit_)): wp_ngg_gallery
+0032.025 (0) Skipping table (lacks our prefix (audit_)): wp_ngg_pictures
+0032.037 (0) Skipping table (lacks our prefix (audit_)): wp_options
+0032.044 (0) Skipping table (lacks our prefix (audit_)): wp_postmeta
+0032.055 (0) Skipping table (lacks our prefix (audit_)): wp_posts
+0032.064 (0) Skipping table (lacks our prefix (audit_)): wp_term_relationships
+0032.074 (0) Skipping table (lacks our prefix (audit_)): wp_term_taxonomy
+0032.082 (0) Skipping table (lacks our prefix (audit_)): wp_terms
+0032.090 (0) Skipping table (lacks our prefix (audit_)): wp_usermeta
+0032.098 (0) Skipping table (lacks our prefix (audit_)): wp_users
+0032.107 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_options.table.tmpr226139.gz (1/253): adding to final database dump
+0032.153 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_options.table.gz (2/253): adding to final database dump
+0032.163 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_users.table.tmpr29.gz (3/253): adding to final database dump
+0032.171 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_users.table.gz (4/253): adding to final database dump
+0032.179 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_usermeta.table.tmpr497.gz (5/253): adding to final database dump
+0032.188 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_usermeta.table.gz (6/253): adding to final database dump
+0032.196 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_commentmeta.table.tmpr72.gz (7/253): adding to final database dump
+0032.205 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_commentmeta.table.gz (8/253): adding to final database dump
+0032.214 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_comments.table.tmpr72.gz (9/253): adding to final database dump
+0032.226 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_comments.table.gz (10/253): adding to final database dump
+0032.234 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_links.table.tmpr0.gz (11/253): adding to final database dump
+0032.241 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_links.table.gz (12/253): adding to final database dump
+0032.249 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_postmeta.table.tmpr2679.gz (13/253): adding to final database dump
+0032.288 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_postmeta.table.gz (14/253): adding to final database dump
+0032.300 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_posts.table.tmpr1183.gz (15/253): adding to final database dump
+0032.544 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_posts.table.gz (16/253): adding to final database dump
+0032.552 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_term_relationships.table.tmpr5.gz (17/253): adding to final database dump
+0032.559 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_term_relationships.table.gz (18/253): adding to final database dump
+0032.567 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_term_taxonomy.table.tmpr5.gz (19/253): adding to final database dump
+0032.574 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_term_taxonomy.table.gz (20/253): adding to final database dump
+0032.582 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_termmeta.table.tmpr4.gz (21/253): adding to final database dump
+0032.589 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_termmeta.table.gz (22/253): adding to final database dump
+0032.596 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_terms.table.tmpr5.gz (23/253): adding to final database dump
+0032.604 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_terms.table.gz (24/253): adding to final database dump
+0032.612 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_seo_links.table.tmpr2515.gz (25/253): adding to final database dump
+0032.621 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_seo_links.table.gz (26/253): adding to final database dump
+0032.631 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_seo_meta.table.tmpr1167.gz (27/253): adding to final database dump
+0032.638 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_seo_meta.table.gz (28/253): adding to final database dump
+0032.646 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_user_registration_sessions.table.tmpr1001.gz (29/253): adding to final database dump
+0032.653 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_user_registration_sessions.table.gz (30/253): adding to final database dump
+0032.661 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_indexable.table.tmpr148.gz (31/253): adding to final database dump
+0032.671 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_indexable.table.gz (32/253): adding to final database dump
+0032.680 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_indexable_hierarchy.table.tmpr68.gz (33/253): adding to final database dump
+0032.688 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_indexable_hierarchy.table.gz (34/253): adding to final database dump
+0032.696 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_migrations.table.tmpr15.gz (35/253): adding to final database dump
+0032.704 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_migrations.table.gz (36/253): adding to final database dump
+0032.711 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_primary_term.table.tmpr0.gz (37/253): adding to final database dump
+0032.718 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db-table-audit_yoast_primary_term.table.gz (38/253): adding to final database dump
+0032.731 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db.gz: finished writing out complete database file (1352 KB)
+0032.782 (0) Total database tables backed up: 19 (backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db.gz, size: 1391195, sha1: 81d72159b689a92dd67838fd174821889530a586, sha256: 9ca37b8e42c0e2cfd164d47b8ec5c43de6118910b60136c33fc01ff9702838ba)
+0032.816 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.823 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.831 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.838 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.847 (0) backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.855 (0) Saving backup history. Total backup size: 92.2 MB
+0032.870 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0032.893 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0032.901 (0) No remote despatch: user chose no remote backup service
+0032.908 (0) Recording as successfully uploaded: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-plugins.zip
+0032.925 (0) Recording as successfully uploaded: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-themes.zip
+0032.941 (0) Recording as successfully uploaded: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-uploads.zip
+0032.955 (0) Recording as successfully uploaded: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-others.zip
+0032.972 (0) Recording as successfully uploaded: backup_2020-10-20-0847_Audit_vzdlvacho_systmu_aaf526127508-db.gz
+0032.996 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.004 (0) Number of backup sets in history: 1; groups (db): 1
+0033.012 (0) Examining (for databases) backup set with group_id=0, nonce=aaf526127508, datestamp=1603176450 (Oct 20 2020 06:47:30)
+0033.020 (0) This backup set is the backup set just made, so will not be deleted.
+0033.020 (0) Number of backup sets in history: 1; groups (files): 1
+0033.028 (0) Examining (for files) backup set with nonce=aaf526127508, datestamp=1603176450 (Oct 20 2020 06:47:30)
+0033.028 (0) This backup set is the backup set just made, so will not be deleted.
+0033.036 (0) This backup set is the backup set just made, so will not be deleted.
+0033.036 (0) This backup set is the backup set just made, so will not be deleted.
+0033.036 (0) This backup set is the backup set just made, so will not be deleted.
+0033.036 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.044 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0033.060 (0) Resume backup (aaf526127508, 0): finish run
+0033.084 (0) Decremented the semaphore (fd) by 1
+0033.100 (0) Semaphore (fd) unlocked
+0033.108 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0033.131 (0) The backup apparently succeeded and is now complete
+0033.139 (0) No email will/can be sent - the user has not configured an email address.
+0033.147 (0) Záloha je zřejmě úspěšná a je hotová

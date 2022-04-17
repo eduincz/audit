@@ -1,0 +1,95 @@
+#mapa,#mapa input,#mapa textarea{
+      font-size: 0.75em;
+      line-height: 16px;
+
+     }
+
+#mapa img{max-width:5000px;}
+#mapa hr{margin-bottom:3px;}
+h3 span.odrazka{background: none repeat scroll 0 0 #73A534;  color: white; padding: 3px;}
+#prehledSkol > div{width:100%;font-size:0.7em;}
+#prehledSkol tr td{width:33%;border:1px solid #ececec;padding:5px;}
+#prehledSkol h3 {background: #0061B0;color: white; padding: 4px;margin:0;width:90%;}
+#detailSkolyWrap div{width:50%;float:left;min-height:10px;font-size:1em;}
+#detailSkolyWrap ul{background:#ececec;margin:3px; border: 1px solid #ACACAC;}
+#detailSkolyWrap ul li{margin-left:1px;}
+#detailSkolyWrap h4{margin:5px;color:#73A534;}
+#detailSkolyWrap #adresa span{color:#73A534;}
+#detailSkolyWrap,#detailSkolyWrap #adrPopisWrap{width:100%;  margin-bottom: 10px;float:left;}
+#detailSkolyWrap h3{margin:5px;color:#73A534;font-size:1.3em;font-weight:bold;}
+
+#regions{font-size: 0.9em;line-height:16px;}
+#regions tr td{padding: 6px 18px;}
+#regions a {cursor:pointer;}
+#regions br{margin-bottom: 10px;}
+
+#seznamSkolKraje{float:left;width:600px;}
+.ui-widget-content{position:relative;margin-bottom:30px;}
+
+#dotaznik .nextStep,#dotaznik .previousStep{border:1px solid #4a4a4a;background:white;padding:5px;margin-top:10px;cursor:pointer;display:block;width:275px;margin-left:5px;position:absolute;bottom:-20px;}
+#dotaznik .nextStep{right:0px;}
+#dotaznik .previousStep{left:0px;}
+#dotaznik .nextStep:hover{background-color:#73a534;}
+#dotaznik .previousStep:hover{background-color:#73a534;}
+#dotaznik input {margin-bottom:12px;}
+
+
+#tabulkaNominace {
+  border-width: 0px;
+  margin-top: 30px;
+}
+#tabulkaNominace td {
+  border-width: 0px !important;  
+}
+#tabulkaNominace th {
+  border-width: 0px;
+  vertical-align: middle;
+  width:170px;
+  padding: 2px 5px 2px 5px !important;
+}
+
+h3 span.odrazka {background: none repeat scroll 0 0 #73A534;color: white;padding: 3px;}
+#dotaznik {font-size:0.9em;}
+#dotaznik input[type="text"],#dotaznik textarea, #dotaznik select{width:580px;}
+#dotaznik label{color:black; }
+#dotaznik #krok-3 label{font-weight:bold;}
+#dotaznik span.info{color:#888888;}
+
+#seznamSkol{width:800px;}
+#seznamSkol th{background:#73A534;color:white;padding:5px;}
+#seznamSkol th.akce{width:180px;}
+#seznamSkol td form{float:left;}
+#seznamSkol td{}
+#seznamSkol tr.licha{background:#ececec;}
+
+#regions table{width:600px;}
+
+div.detailSkolyWrap{background:#0061B0;padding:4px;float:left;}
+.detailSkolyWrap div{float:left;}
+.detailSkolyWrap div.skola{width:554px;}
+.detailSkolyWrap div.zobrazitNaMape{background:url('images/zobrazit.png') no-repeat;cursor:pointer; width:15px;height:20px;margin-left:5px;margin-right:5px;}
+
+.detailSkolyWrap span{float:left;display:block;text-align:center;width: 50px;padding-top:3px;padding-bottom:2px;background:#0061B0;}
+.detailSkolyWrap a{color:white;}
+.detailSkolyWrap h3 a{color:white;text-decoration:none;}
+.detailSkolyWrap a:hover{text-decoration:underline;}
+
+#searchWrap{position:relative;float:left;}
+#searchWrap #searchForm{float:left;} 
+#searchHint{background-color: white; display: none; float: left; z-index: 10;border:1px solid #dcdcdc;margin-top:-28px;}
+#searchHint ul{list-style-type:none;padding:0;margin:5px;}
+#searchHint li a{text-decoration:none;display:block;float:left;width:100%;}
+#searchHint li a:hover{background:#ececec;}
+#searchResult{width:600px;}
+#noSearchResult{border:2px solid #0061B0;padding:5px; width: 600px;float:left;}
+#searchResult h3{position:relative;}
+#searchResult h3 span {position:absolute;top:0;right:5px;display:block;cursor:pointer;}
+#hledanaSkola{border:2px solid #73A534;width:400px;}
+#povinne ul,#volitelne ul{list-style-type:none;}
+#povinne li, #volitelne li {background:url('images/nesplneno.png') no-repeat scroll 6px 2px;padding-left:30px;}
+#povinne .splnuje, #volitelne .splnuje {background:url('images/splneno.png') no-repeat scroll 6px 2px;}
+
+div#fbdetail{word-wrap: break-word;width: 90%;}
+.komentar_kriteria{position:relative;background:url('images/napoveda.png');width:25px;height:25px;display:block;float:right;}
+.komentar_text{display:none;font-size:0.8em;font-weight:normal;position:absolute;padding:5px;right:25px;top:0;background:white;border:1px solid green;width:450px;z-index:1000;}
+#dotaznik label.metakriteria{color:green;margin-top:5px;}

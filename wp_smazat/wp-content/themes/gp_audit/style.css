@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Audit
+ Description:  GeneratePress child theme
+ Template:     generatepress
+ Version:      0.1
+*/
+.breadcrumbs span {
+    display: inline-block;
+    padding: 0;
+    margin-top: -3px;
+	margin-bottom: 0;
+    vertical-align: middle;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

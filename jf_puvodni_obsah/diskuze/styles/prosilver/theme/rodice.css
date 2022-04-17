@@ -1,0 +1,441 @@
+body, input, textarea {
+    color: #666666;
+    font-size: 0.75em;
+    
+}
+body, input, textarea, .page-title span, .pingback a.url {
+    font-family: Georgia,"Bitstream Charter",serif;
+}
+
+#wrap{width:874px;margin-left:auto;margin-right:auto;}
+#headwrap{float:left;width:874px;}
+#page-header{float:left;width:874px;}
+#page-body {float: left;width: 874px;font-size:0.9em;}
+#page-footer {clear: both;float: left;width: 874px;margin-top: 30px;}
+#header{float:left;  padding: 20px 0 0;}
+
+#sidebar-logo {
+    float: left;
+    text-align: center;
+    width: 223px;
+}
+#hmenu .search-box div {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/hmenu-red_search-box.gif");
+    width: 172px;
+margin:0;
+}
+
+#hmenu .search-box input[type="image"],#footer-menu .search-box  input[type="image"]{
+    left: 151px;
+}
+#footer-menu form{margin:0px;}
+.search-box input[type="image"] {
+   
+    position: absolute;
+    top: 0;
+}
+.search-box div {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    position: relative;
+    width: 191px;
+    margin:0;
+}
+#hmenu .search-box {margin:0;}
+#hmenu {
+    xfloat: right;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#hmenu ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hmenu li.item1 {
+    background-color: #0061B0;
+}
+#hmenu li.item2 {
+    background-color: #73A534
+}
+#hmenu li.item3 {
+    background-color: #ED1B24;
+}
+
+#hmenu li {
+    float: left;
+    height: 21px;
+    margin: 0;
+    padding: 3px 0 0;
+    width: 140px;
+}
+
+#hmenu li.space1 {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/hmenu-blue_hmenu-green.gif");
+}
+
+#hmenu li.space {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-bottom: medium none;
+    border-top: medium none;
+    height: 23px;
+    width: 29px;
+}
+
+#hmenu li.space2 {
+    background-color: white;
+    width: 3px;
+}
+
+
+#mainwrapper {
+    float: right;
+    width: 624px;
+}
+
+.search-box {
+    display: inline-block;
+    float: left;
+}
+
+#hmenu2.hmenu2-1 {
+    background-color: #0061B0;
+}
+
+#hmenu2 {
+    clear: right;
+    color: white;
+    height: 20px;
+    margin-top: 1px;
+    table-layout: fixed;
+    width: 449px;
+}
+#hmenu2 td {
+    text-align: center;
+    vertical-align: middle;
+}
+#hmenu2 td a {
+    color: white;
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.search-box input[type="text"] {
+    background-color: white;
+    border-left: medium none;
+    border-right: medium none;
+    box-shadow: none;
+    height: 21px;
+    left: 30px;
+    margin: 0;
+    padding: 1px 0 0 0;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+
+input[type="text"], textarea {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    padding: 2px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+#sidebar-logo {
+    text-align: center;
+}
+
+#sidebar-logo div {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/logo.gif");
+    display: inline-block;
+    height: 166px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+#sidebar-logo span {
+    cursor: pointer;
+    display: block;
+    height: 166px;
+}
+#hmenu2.hmenu2-1 td.space {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/hmenu2-end-blue.gif");
+}
+#hmenu2.hmenu2-2 td.space {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/hmenu2-end-green.gif");
+}
+
+#hmenu2 td.space {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 21px;
+}
+
+#hmenu2.hmenu2-1 {
+    background-color: #0061B0;
+}
+#hmenu2.hmenu2-2 {
+    background-color: #C5B496;
+}
+
+#footer {
+    margin-bottom: 20px;
+    clear: both;
+    width: 100%;
+}
+
+#colophon {
+    border-top: 1px solid #C8C8C8;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 7px 0;
+}
+
+div.menu, #colophon, #branding, #wrapper {
+    margin: 0 auto;
+    width: 874px;
+}
+
+#site-info {
+    float: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 239px;
+}
+#site-info div {
+    margin: 0px 0 0;
+    padding: 0;
+}
+
+#footer-menu {
+    float: right;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#footer-menu ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-menu li {
+    background-color: #969696;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    float: left;
+    height: 20px;
+    margin: 0;
+    padding: 2px 0 0;
+    width: 86px;
+}
+
+#footer-menu li.space {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/footer-menu_footer-menu.gif");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-bottom: medium none;
+    border-top: medium none;
+    height: 22px;
+    width: 29px;
+}
+#footer-menu .search-box div {
+    background-image: url("/wp-content/themes/rodicevitanicz/images/spaces/footer-menu_search-box.gif");
+}
+
+#hmenu li a {
+    color: white;
+    text-decoration: none;
+}
+#hmenu li a:hover {
+    font-weight:bold;
+}
+#hmenu2 td a:hover {
+    font-weight:bold;
+}
+
+#header h2{
+    color: #0061B0;
+    float: right;
+    font-size: 3em;
+    margin-top: 50px;
+    }
+    
+#levySloupec {width:223px;min-height:100px;float:left;}
+#pravySloupec {width:205px;/*min-height:100px;*/float:left;margin-left:10px;}
+#page-body{width:650px;clear:none;}
+#navigace{float:left;width:650px;}
+#userbox{float:left;width:635px;background:#ececec; padding: 5px;min-height:100px;}
+#navigace ul.linklist {position:absolute;padding-bottom:15px;bottom:10;left:0;}
+li.header dd {    font-size: 0.75em;margin-left:2px;}
+#headContentWrap{float:left;width:650px;height:170px;position:relative;}
+#userbox .linklist{height:30px;width:100%;}
+.forabg,.forumbg {background: #C5B496; width:100%;}
+
+#registrace,#nejnovejsiPrispevky,#aktuality{padding:5px;border:2px solid #C5B496;margin-bottom:10px;float:left; width: 90%;}
+#registrace{width:27%;float:left; min-height:95px;background-color:#ffffff;border:1px solid #C5B496;}
+#registrace ul{list-style-type:none;}
+/*#registrace li{text-align:right;}*/
+
+#uvitani{float:left; width:71%; color:black; font-size:0.85em;}
+#uvitani p{margin:6px;}
+
+#page-body ul.linklist a {
+  font-size: 10px;
+  line-height: 10px;              
+}
+
+#nejnovejsiPrispevky{ 
+  padding: 0; 
+  width: 210px;
+  border-bottom: none; 
+}
+
+#aktuality{ 
+  padding: 0; 
+  width: 210px;
+  border-bottom: none; 
+}
+
+#onlyAktuality{
+  xdisplay: block;
+  xfloat: left; 
+  xpadding: 7px; 
+  xwidth: 214px;
+  xborder: 1px solid #CCCCCC;
+  margin: 0; 
+}
+
+#online{
+    padding:0;
+    border:5px solid #C5B496;
+    border-top: 2px solid #C5B496;
+    border-bottom: none;
+    margin-bottom:10px;
+    float:left;
+    width: 100%;
+    background-image: url("{T_THEME_PATH}/images/gradient.gif");
+}
+#loginLogout{}
+
+#newtopics ul {
+    margin-left: 0;
+}
+#newposts ul {
+    margin-left: 0;
+}
+#newtopics ul li {
+    list-style-type: none;
+    margin-left: 0;
+}
+#newposts ul li {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 5px;
+    border-top: 1px solid #C5B496;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+#onlynewposts ul li {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 5px;
+    border-top: 1px solid #CCCCCC;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+.page_navigation, .alt_page_navigation {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 205px;
+}
+.page_navigation a, .alt_page_navigation a {
+    background-color: #C5B496;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+.content blockquote{background-color:#ffffff;border:1px dashed #C5B496;}
+.socialPanel{width:100%;height:50px;border:1px solid black;}
+
+a.forumtitle{font-size:1.1em;}
+#page-body h2{font-size:1.8em; padding-left:5px; padding-top: 20px; padding-bottom: 10px;}
+#page-body.fullsize{width:inherit;width:100%;}
+
+.wr-newposts{
+  padding:5px;
+  padding-bottom: 3px;
+  padding-top: 1px; 
+  xborder-bottom: 1px solid #C5B496;
+  background-color: #C5B496;
+}
+
+#levySloupec
+{
+  margin-top: 29px;
+}
+
+.box-head h3
+{
+  color: #FFFFFF;
+  padding-left: 4px;
+  padding-top: 2px;
+}
+
+.box-head h3 a
+{
+  color: #FFFFFF;
+}
+
+.box-head
+{
+  color: #FFFFFF;
+  background: #C5B496;
+  height: 20px;
+}
+
+.box-content
+{
+  color: #4C5D77;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #00608F;
+  padding: 5px;
+  xbackground-image: url("{T_THEME_PATH}/images/gradient.gif");
+}
+
+#subject 
+{
+  font-size: 1.4em;      
+}
+    
+.onlywr-newposts h3
+{
+  font-size: 18px;
+  font-family: Georgia,"Bitstream Charter",serif;
+  color	#0061B0;
+  font-weight: normal;
+  margin-bottom: 5px;  
+}     
+     
